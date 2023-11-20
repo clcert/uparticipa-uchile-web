@@ -1,0 +1,82 @@
+// Simple Viewer
+.viewer-page
+  .simple-viewer-page
+  
+    .simple-viewer
+      background-color: hsla(229, 53%, 53%, 0.245)
+      border-radius: 10px
+      color: gray
+      margin-top: 20px
+      overflow-wrap: break-word
+      padding: 10px 20px 10px 20px
+      text-align: center
+
+    .simple-viewer-title
+      text-align: center
+
+  .advanced-viewer-page
+    .right-pulse-status-icon
+      padding: 10px 10px 0 0
+      color: hsl(141, 53%, 53%)
+      font-size: 1.5em
+
+    .wrong-pulse-status-icon
+      padding: 10px 10px 0 0
+      color: hsl(348, 100%, 61%)
+      font-size: 1.5em
+
+    .warning-pulse-status-icon
+      padding: 10px 10px 0 0
+      color: hsl(48, 100%, 67%)
+      font-size: 1.5em
+    
+    .viewer-search-button
+      margin-top: 24px
+      width: 100%
+
+    .pulse-table
+      width: 100%
+      overflow-wrap: break-word
+      table-layout: fixed
+
+    .pulse-title
+      color: $app-blue
+      font-size: large
+      text-align: center
+
+    .searcher-icon
+      padding: 0 5px
+
+    .pulse-item-title
+      color: $app-blue
+      font-weight: 600
+      width: 180px
+      padding: 10px 20px 10px 20px
+      text-align: right !important
+
+    .pulse-item
+      color: gray
+      font-family: 'Courier New', Courier, monospace
+      padding: 10px 20px 10px 20px
+      text-align: left
+
+    .full-width
+      width: 100%
+
+    @media screen and (max-width: 768px)
+      .pulse-item-title
+        font-weight: 600
+        width: 100px
+        padding: 10px
+
+      .pulse-item
+        padding: 10px
+
+  .verify-button
+    float: right
+    position: absolute
+    right: 20px
+    top: 40px
+
+    span
+      margin-left: 5px

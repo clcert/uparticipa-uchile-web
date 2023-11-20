@@ -1,0 +1,121 @@
+.application-verify
+	.fast-verification-file
+		text-decoration: underline
+		color: $app-blue
+		cursor: pointer
+
+	.fast-verification-status
+		margin: auto
+		margin-top: 20px
+
+	.current-content:empty
+		display: none
+
+	.verification-container
+		&.is-danger
+			background-color: #f14668
+			border-color: transparent
+			color: #fff
+
+		&.is-success
+			background-color: #00b894
+			border-color: transparent
+			color: #fff
+
+		&.is-warning
+			background-color: #ffdd57
+			border-color: transparent
+			color: #fff
+
+		&.is-link
+			background-color: #485fc7
+			border-color: transparent
+			color: #fff
+
+	.verification-icon
+	margin-right: 5px
+
+	.app-selection
+	display: block !important
+
+	.verification-input, .current-content
+	max-width: 80%
+	margin: auto
+
+	.full-width
+	width: 100%
+
+	.left-half 
+	width: 50%
+	padding-right: 10px
+
+	.right-half
+	width: 50%
+	padding-left: 10px
+
+	.steps
+		margin-top: 15px
+
+	.current-content
+		font-size: small
+		border-radius: 10px
+		padding: 10px 20px
+		background-color: #f3f3f3
+
+	.current-content
+		h2 
+			font-size: 1.1rem
+			margin-bottom: 10px
+		h3
+			font-size: 1rem
+			margin: 5px 0
+		
+		.shuffled-items
+			display: flex
+			flex-wrap: wrap
+			justify-content: left
+
+		.shuffled-item
+			background-color: var(--bgcolor)
+			opacity: .75
+			border-radius: 5px
+			padding: 2px 4px
+			margin: 4px
+			color: black
+
+	.verification-container
+		padding: 20px
+		font-size: 1.5rem
+		border-style: solid
+		border-radius: 10px
+		max-width: 80%
+		margin: auto
+
+	.steps-content
+		margin: 2rem 1rem !important
+
+	
+	@media screen and (min-width: 769px)
+		width: 100%
+		
+		.file
+			max-width: 1000px
+			padding: 0
+			margin: 0 auto
+
+
+	@media screen and (max-width: 768px)
+		width: 100%
+		padding: 40px 10px
+
+		.verification-app-container
+			background-color: white
+			padding: 30px 0
+			border-radius: 10px
+
+	@media screen and (max-width: 600px)
+		.current-content, .verification-container, .verification-input
+			max-width: 95%
+
+		.step-title
+			font-size: 3vw !important

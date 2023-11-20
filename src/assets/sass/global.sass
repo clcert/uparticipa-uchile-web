@@ -1,0 +1,360 @@
+$font-family_1: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+$font-family_2: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+$font-family_3: montserrat, helvetica neue, Arial, sans-serif, -apple-system
+
+body 
+	margin: 0
+	font-family: $font-family_1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+code 
+	font-family: $font-family_2
+
+.spaced-fa-icon
+	padding: 0 10px
+
+.app-container-default
+	.app-button
+		margin: 5px 0
+		width: 100%
+
+.beacon-description-container
+	h2
+		font-size: larger
+		font-family: $font-family_3
+		font-weight: 500
+		color: $app-blue
+		margin-bottom: 10px
+		margin-top: 20px
+
+.apps-icon 
+	margin-right: 10px
+
+.bad-input 
+	background-color: $warning-yellow
+
+.block-scroll 
+	overflow: hidden !important
+	max-height: 100vh
+
+.body-center 
+	padding: 20px 0
+	min-height: 500px
+
+.box-content 
+	background-color: white
+	border-radius: 10px
+	padding: 20px
+	h1 
+		color: $app-blue
+		font-size: 1.5rem
+		font-weight: 600
+		text-align: center
+
+.columns 
+	margin: 0 !important
+
+.developing-warning 
+	background-color: $warning-yellow !important
+	max-width: 600px
+	text-align: center
+	font-weight: 600
+	color: gray !important
+	margin: auto
+
+.dropdown-trigger 
+	button 
+		color: white
+		background-color: $app-blue
+		border-radius: 20px
+		margin-left: 10px
+		&:focus 
+			background-color: $app-blue
+			border-color: white
+			border-radius: 20px
+			color: white
+			margin-left: 10px
+		
+		&:hover 
+			background-color: white
+			border-radius: 20px
+			color: $app-blue
+			margin-left: 10px
+
+.dropdown-item 
+	span 
+		color: $app-blue
+
+.increased-padding 
+	padding-left: 50px !important
+	padding-right: 50px !important
+
+.loading-icon 
+	height: 20px
+	width: 20px
+
+.loading-pulse 
+	height: 20px
+	width: 20px
+	left: 14.5px
+	top: 14.5px
+	position: absolute
+
+.logo-white 
+	width: 200px
+
+.mb30 
+	margin-bottom: 30px
+
+.main-container 
+	background-image: url("../images/cover-start.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4)
+	box-sizing: border-box
+	min-height: 75vh
+
+.footer 
+	min-height: 25vh
+
+.viewer-countdown 
+	align-items: center !important
+	display: flex
+	flex-direction: column
+
+.seed-description 
+	text-align: center
+	max-width: 500px
+	min-width: 200px
+	width: calc(100% - 150px)
+	h2 
+		font-size: 1.2rem
+		font-weight: 600
+		margin-bottom: 20px
+	
+	hr 
+		height: 1px
+		margin: .5rem 0
+
+.result-tooltip 
+	display: inline-block
+	position: relative
+	.tooltiptext 
+		background-color: $app-blue-difumined
+		border-radius: 6px
+		bottom: 100%
+		color: white
+		left: 50%
+		margin-left: -60px
+		padding: 5px 0
+		position: absolute
+		text-align: center
+		visibility: hidden
+		width: 120px
+		z-index: 2
+	
+	&:hover 
+		.tooltiptext 
+			visibility: visible
+
+.verification-code 
+	margin-right: 4px
+
+.input-container 
+	display: flex
+	justify-content: space-between
+
+.modal-title 
+	color: $app-blue !important
+
+.half-space 
+	width: 48%
+	margin: 20px 0 20px !important
+
+.app-title 
+	padding: 0 !important
+
+.custom-input 
+	border: solid
+	border-radius: 5px
+	border-width: 1px
+	>input 
+		background: none
+		border: none
+		box-shadow: none
+	
+	input 
+		&:focus 
+			background: none
+			border: none
+			box-shadow: none
+		
+	
+	>label 
+		position: absolute
+		bottom: 30px
+		padding: 0 10px 0 10px
+		left: 10px
+	
+
+.custom-input-default 
+	border-color: white
+	>input 
+		color: white
+	
+	>label 
+		background-color: $app-blue
+	
+
+.custom-input-light 
+	border-color: $app-blue
+	>input 
+		color: $app-blue
+	
+	>label 
+		background-color: white
+	
+
+.breadcrumb-current 
+	margin-left: 15px
+	color: gray
+
+.navbar-start 
+	.active 
+		background-color: #3a51bb
+	
+
+.navbar-item 
+	&:hover 
+		font-weight: 600
+		transition: all 0.5s
+	
+
+.app-container-default 
+	background-color: $app-blue
+	border-radius: 6px
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)
+	color: #4a4a4a
+	display: block
+	padding: 1.25rem
+	h1 
+		font-size: 1.8em
+		font-weight: 600
+		padding-bottom: 20px
+		text-align: center
+		color: white
+	
+	label 
+		color: white
+	
+
+.app-container-light 
+	background-color: white
+	border-color: $app-blue
+	border-style: solid
+	border-width: 2px
+	border-radius: 6px
+	display: block
+	height: 100%
+	padding: 1.25rem
+	h1 
+		font-size: 1.8em
+		font-weight: 600
+		padding-bottom: 20px
+		text-align: center
+		color: $app-blue
+	
+	label 
+		color: $app-blue
+	
+
+.app-container-default-full-height 
+	align-content: center
+	background-color: $app-blue
+	border-radius: 6px
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)
+	color: #4a4a4a
+	display: flex
+	flex-direction: column
+	height: 100%
+	justify-content: center
+	padding: 1.25rem
+
+.code-container-default 
+	color: white
+	font-size: 14px
+	margin: -10px 0 10px
+	text-align: center
+
+.code-container-light 
+	color: $app-blue
+	font-size: 14px
+	margin: -10px 0 10px
+	text-align: center
+
+.result-container-light 
+	background-color: $app-blue
+	color: white
+
+.result-container-default 
+	background-color: white
+	color: $app-blue
+
+.pulse-container-default 
+	color: white
+	a 
+		color: yellow
+	
+
+.pulse-container-light 
+	a 
+		color: $app-blue
+	
+
+.result-box 
+	border-radius: 6px
+	display: block
+	font-family: $font-family_3
+	font-size: 1.5em
+	line-height: 1em
+	margin: 1rem 0
+	padding: 1.25rem
+	text-align: center
+
+.field 
+	padding-top: 0 !important
+
+@media screen and (min-width: 771px) 
+	.app-title 
+		font-size: 1.6em !important
+	
+
+@media screen and (max-width: 770px)
+	.apps-pulse-status 
+		display: none 
+	
+	.app-title 
+		font-size: 1.4em !important 
+	
+	.apps-shortcut 
+		display: none !important 
+	
+	.increased-padding 
+		padding-left: 20px !important
+		padding-right: 20px !important 
+	
+	.notes-section 
+		margin: 30px -20px -20px -20px !important
+	
+
+@media screen and (max-width: 1023px) 
+	.navbar-start 
+		.active 
+			color: $app-blue
+			background-color: #fafafa
+		
+	
+	.footer-menu 
+		display: none !important
+	

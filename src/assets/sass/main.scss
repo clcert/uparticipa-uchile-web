@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+$app-blue: hsl(229, 56%, 52%);
+$app-blue-difumined: hsla(229, 53%, 53%, 0.803);
+$warning-yellow: hsl(48, 100%, 67%);
+
+$footer-background-color: $app-blue;
+$footer-padding: 1rem 1.5rem 1rem;
+$box-background-color: $app-blue;
+$link-hover: #00b7ff;
+
+$accordion-header-background-color: $app-blue;
+$accordion-header-color: white;
+
+$tabs-link-hover-border-bottom-color: $app-blue;
+$tabs-link-hover-color: $app-blue;
+
+$steps-completed-color: $app-blue;
+$steps-active-color: $app-blue;
+
+@import './elements/footer.sass';
+@import './elements/navbar.sass';
+@import './elements/circled_progress.sass';
+@import './elements/external_items.sass';
+@import './elements/markdown.sass';
+@import './elements/modal_qr.sass';
+@import './elements/viewer.sass';
+@import './elements/quote.sass';
+@import './elements/inputs.sass';
+
+@import './sections/apps.sass';
+@import './sections/apps/verification.sass';
+@import './sections/apps/numbers.sass';
+@import './sections/apps/shuffle.sass';
+@import './sections/apps/bingo.sass';
+@import './sections/verification.sass';
+@import './sections/about.sass';
+@import './sections/drand.sass';
+@import './sections/people.sass';
+@import './sections/beacon.sass';
+@import './sections/using.sass';
+@import './global.sass';

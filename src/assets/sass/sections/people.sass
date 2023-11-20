@@ -1,0 +1,96 @@
+.member-item
+  margin: 40px 40px 20px 40px
+  position: relative
+  text-align: center
+
+  img
+    border-style: solid
+    border-color: $app-blue
+    border-width: 5px
+    border-radius: 100px
+    height: 200px
+    width: 200px
+
+.member-info
+  text-align: center
+  width: 280px
+  margin-bottom: 40px
+
+  h2
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    color: $app-blue
+    font-size: 1.4rem
+
+  p
+    font-size: 1.1rem
+
+  a
+    font-size: 1.2rem
+    margin-top: 10px
+    padding: 5px
+
+.mobile-member
+  display: none
+
+.old-member
+  display: flex
+  margin-bottom: 20px
+
+  img
+    border-style: solid
+    border-color: #afafaf
+    border-radius: 50px
+    height: 100px
+    width: 100px
+
+  h2
+    font-size: large
+    font-weight: 400
+    margin-bottom: 10px
+
+.old-member-data
+  width: 230px
+  text-align: left
+  padding-left: 20px
+
+.old-members-introduction
+  text-align: center
+  background-color: #f3f3f3
+  padding: 20px
+  border-radius: 20px
+  margin-bottom: 20px
+
+  h2
+    font-size: 1.5rem
+    font-weight: 400
+
+@media screen and (max-width: 640px)
+  .desktop-member, .old-members-container
+    display: none
+
+  .mobile-member
+    display: flex
+    margin-bottom: 20px
+
+    img
+      border-style: solid
+      border-color: $app-blue
+      border-radius: 50px
+      height: 100px
+      width: 100px
+
+    h2
+      font-size: large
+      color: $app-blue
+      font-weight: 400
+      margin-bottom: 10px
+
+    a
+      font-size: 1.2rem
+      margin-top: 10px
+      padding-right: 10px
+
+  .mobile-member-data
+    width: 230px
+    text-align: left
+    padding-left: 20px

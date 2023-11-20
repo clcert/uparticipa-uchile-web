@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "date": "2023-11-03",
+      "summaryFile": "news/summary/hackaton_es.md",
+      "file": "news/pages/hackaton_es.md",
+      "image": "news/summary/img/hackaton_512px.jpg",
+      "lang": "es",
+      "route": "/news/hackaton",
+      "show": true
+    }
+  ]
+}
