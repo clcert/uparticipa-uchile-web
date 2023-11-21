@@ -1,6 +1,8 @@
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import EntryItem from './EntryItem';
 
+import { GlobalTranslationsContext } from '../../pages/Contexts';
+
 import loadingGif from '../../assets/images/loading.gif';
 
 const Entries = ({entriesFile, title}) => {

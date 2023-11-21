@@ -1,18 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { GlobalTextContext } from './pages/Contexts';
 
-import globalText from './text/global.json'
+import { I18nextProvider } from 'react-i18next';
+import i18next from 'i18next';
+
+import global_es from './translations/es/global.json';
+import people_es from './translations/es/people.json';
+
+import { ParticipaUChile } from './ParticipaUChile';
+
+import './assets/css/styles.css';
+
+const initLang = () => {
+  const storedLang = localStorage.getItem('lang')
+  if (!!storedLang) {
+    return storedLang
+  } else {
+    localStorage.setItem('lang', 'es');
+    return 'es'
+  }
+}
+
+i18next.init({
+  interpolation: {
+    escapeValue: false
+  },
+  lng: initLang(),
+  resources: {
+    es: {
+      global: global_es,
+      people: people_es,
+    }
+  }
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GlobalTextContext.Provider value={ globalText }>
-      <App />
-		</GlobalTextContext.Provider>
+    <I18nextProvider i18n={i18next} >
+      <ParticipaUChile />
+    </I18nextProvider>
   </React.StrictMode>
 );
 

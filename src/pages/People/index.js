@@ -1,20 +1,19 @@
 import React, { useContext } from 'react';
-import { GlobalTextContext } from '../Contexts';
+import { GlobalTranslationsContext } from '../Contexts';
+import { useTranslation } from 'react-i18next';
 
 import { peopleList } from '../../data/people';
 import { CurrentTeamMember, OldTeamMember } from './TeamMember';
 
-import peopleText from '../../text/people.json'
-
 const PeopleScreen = () => {
 
-  const [ tg ] = useContext(GlobalTextContext);
-  const [ t ] = peopleText;
+  const [ tg ] = useContext(GlobalTranslationsContext);
+  const [ t ] = useTranslation('people');
 
   return (
     <div className='body-center container'>
       <div className='box-content'>
-        <h1>{ tg('sites.people') }</h1>
+        <h1>{ tg('sites.equipo') }</h1>
         <hr />
         <div className='is-flex is-justify-content-space-around is-flex-wrap-wrap'>
         {

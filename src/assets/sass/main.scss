@@ -23,17 +23,10 @@ $steps-active-color: $app-blue;
 @import './elements/circled_progress.sass';
 @import './elements/external_items.sass';
 @import './elements/markdown.sass';
-@import './elements/modal_qr.sass';
 @import './elements/viewer.sass';
 @import './elements/quote.sass';
 @import './elements/inputs.sass';
 
-@import './sections/apps.sass';
-@import './sections/apps/verification.sass';
-@import './sections/apps/numbers.sass';
-@import './sections/apps/shuffle.sass';
-@import './sections/apps/bingo.sass';
-@import './sections/verification.sass';
 @import './sections/about.sass';
 @import './sections/drand.sass';
 @import './sections/people.sass';

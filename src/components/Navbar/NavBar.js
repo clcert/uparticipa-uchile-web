@@ -1,10 +1,10 @@
-import logoRandomUchile from '../../assets/images/logodark.svg'
+import logoParticipaUchile from '../../assets/images/logodark.svg'
 import NavBarSocial from './NavBarSocial';
 import { menuItems } from '../../data/menuItems';
 
 import { NavLink, Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { GlobalTextContext } from '../../pages/Contexts';
+import { GlobalTranslationsContext } from '../../pages/Contexts';
 
 
 const NavBar = () => {
@@ -14,18 +14,10 @@ const NavBar = () => {
     navBar.classList.toggle('is-active');
   }
 
-  console.log(GlobalTextContext)
-
-  const t = useContext(GlobalTextContext);
+  const [ t ] = useContext(GlobalTranslationsContext);
 
   return (
     <div className='container'>
-      <div className='has-text-centered navbar-banner nav-success'>
-        <p>
-          {/* TODO: automatize banner text */}
-          <b>{ t['navbar.banner.news'] }</b>: { t['navbar.banner.2.1-beta'] }.
-        </p>
-      </div>
       <div className='main'>
         
         <NavBarSocial/>
@@ -34,7 +26,7 @@ const NavBar = () => {
 
           <div className='navbar-brand'>
             <Link className='navbar-item' to='/'>
-              <img src={logoRandomUchile} width='112' height='28' alt='Random UChile Logo'/>
+              <img src={logoParticipaUchile} width='112' alt='Participa UChile Logo'/>
             </Link>
             <button onClick={showMobile} className='navbar-burger' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample'>
               <span aria-hidden='true'></span>
@@ -48,7 +40,7 @@ const NavBar = () => {
               {
                 menuItems.map( ({text, url}) => (
                   <NavLink className='navbar-item has-text-centered' to={url} key={'nav-'+text}>
-                    { t[`sites.${text}`] }
+                    { t(`sites.${text}`) }
                   </NavLink>
                 ))
               }

@@ -1,21 +1,21 @@
-import logo from './assets/images/logo.svg';
 import React, { useContext } from 'react';
+import { GlobalTranslationsContext } from './pages/Contexts';
 import {
   BrowserRouter as Router,
 	Routes,
 	Route,
-} from "react-router-dom";
+} from "react-router-dom";	
 
 // Data
 import { menuItems } from './data/menuItems';
 
 // Pages
 import Home from './pages/Home';
-import Video from './pages/Video';
-import FAQ from './pages/FAQ';
-import People from './pages/People';
-import PastElections from './pages/PastElections';
-import News from './pages/News';
+import VideoScreen from './pages/Video';
+import FAQScreen from './pages/FAQ';
+// import People from './pages/People';
+// import PastElections from './pages/PastElections';
+// import News from './pages/News';
 import NotFound from './pages/NotFound';
 
 // Components
@@ -31,6 +31,7 @@ import './assets/css/styles.css';
 
 export const App = () => {
 
+	const [ t ] = useContext(GlobalTranslationsContext);
 	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
 
 	return (
@@ -46,11 +47,12 @@ export const App = () => {
 					}
 					{ // News publications
 						newsEntries.map( (entry) => (
-							<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb />}/>} key={entry.route} />
+							<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb t={t} />}/>} key={entry.route} />
 						))
 					}
 					{/* Others */}
-					<Route exact path='/video' element={<Video />} />
+					<Route exact path='/faq' element={<FAQScreen />} />
+					<Route exact path='/video' element={<VideoScreen />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</div>

@@ -2,10 +2,6 @@ import React from 'react';
 import FooterLogo from './FooterLogo';
 
 import logoCLCERT from '../../assets/images/clcert-white.png';
-import logoNIST from '../../assets/images/nist.svg';
-import logoUChile from '../../assets/images/uchile.svg';
-import logoNicCL from '../../assets/images/nicchile.png';
-
 
 const Footer = () => {
 
