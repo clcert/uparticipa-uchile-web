@@ -23,7 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "sass": "^1.0.0"
+    "sass": "^1.0.0",
+    "bulma": "^0.9.4"
   },
   "scripts": {
     "start": "react-scripts start",

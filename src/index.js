@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import { ParticipaUChile } from './ParticipaUChile';
 
 import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
@@ -8,7 +9,6 @@ import i18next from 'i18next';
 import global_es from './translations/es/global.json';
 import people_es from './translations/es/people.json';
 
-import { ParticipaUChile } from './ParticipaUChile';
 
 import './assets/css/styles.css';
 
@@ -35,7 +35,9 @@ i18next.init({
   }
 })
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next} >
