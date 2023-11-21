@@ -1,0 +1,17 @@
+{
+    "page": {
+        "old-members": "Antiguos Colaboradores",
+        "old-members-introduction": "Quienes han dejado su huella en este proyecto ♥️."
+    },
+    "roles": {
+        "main-researcher": "Investigador Principal",
+        "i+d-engineer": "Ingeniero I+D",
+        "developer-engineer": "Ingeniero Desarrollador",
+        "network-engineer": "Ingeniero en Redes",
+        "security-engineer": "Ingeniero en Seguridad",
+        "ux-ui": "Diseñadora UX/UI",
+        "graduate-research": "Estudiante Investigador(a) (Magíster)",
+        "undergraduate-research": "Estudiante Investigador(a) (Pregrado)",
+        "undergraduate-assistant": "Estudiante Asistente (Pregrado)"
+    }
+}

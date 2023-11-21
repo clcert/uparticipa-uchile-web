@@ -1,35 +1,10 @@
-import React, { useContext } from 'react';
-import { GlobalTranslationsContext } from '../../pages/Contexts';
+import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const NavBarSocial = () => {
-
-  const [ , i18n ] = useContext(GlobalTranslationsContext);
-
-  const storedLang = localStorage.getItem('lang');
-
-  const toggleLanguage = () => {
-
-    switch (storedLang) {
-      case 'es':
-        localStorage.setItem('lang', 'en');
-        i18n.changeLanguage('en');
-        return
-
-      case 'en':
-        localStorage.setItem('lang', 'es');
-        i18n.changeLanguage('es');
-        return
-
-      default:
-        localStorage.setItem('lang', 'es');
-        i18n.changeLanguage('es');
-        return
-    }
-  }
 
   return (
     <div className='navbar-end social-items'>

@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { GlobalTextContext } from './pages/Contexts';
+
+import globalText from './text/global.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalTextContext.Provider value={ globalText }>
+      <App />
+		</GlobalTextContext.Provider>
   </React.StrictMode>
 );
 

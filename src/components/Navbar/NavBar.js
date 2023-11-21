@@ -4,7 +4,7 @@ import { menuItems } from '../../data/menuItems';
 
 import { NavLink, Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { GlobalTranslationsContext } from '../../pages/Contexts';
+import { GlobalTextContext } from '../../pages/Contexts';
 
 
 const NavBar = () => {
@@ -14,14 +14,16 @@ const NavBar = () => {
     navBar.classList.toggle('is-active');
   }
 
-  const [ t ] = useContext(GlobalTranslationsContext);
+  console.log(GlobalTextContext)
+
+  const t = useContext(GlobalTextContext);
 
   return (
     <div className='container'>
       <div className='has-text-centered navbar-banner nav-success'>
         <p>
           {/* TODO: automatize banner text */}
-          <b>{ t('navbar.banner.news') }</b>: { t('navbar.banner.2.1-beta') }.
+          <b>{ t['navbar.banner.news'] }</b>: { t['navbar.banner.2.1-beta'] }.
         </p>
       </div>
       <div className='main'>
@@ -46,7 +48,7 @@ const NavBar = () => {
               {
                 menuItems.map( ({text, url}) => (
                   <NavLink className='navbar-item has-text-centered' to={url} key={'nav-'+text}>
-                    { t(`sites.${text}`) }
+                    { t[`sites.${text}`] }
                   </NavLink>
                 ))
               }

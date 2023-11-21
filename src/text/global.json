@@ -1,0 +1,65 @@
+{
+    "footer" : {
+        "clcert": {
+            "project": "Proyecto del",
+            "address": "Ubicado en Beauchef 851, Edificio Poniente, 2do Piso,",
+            "postal-code": "Código Postal 8370459.",
+            "email": "random(arroba)uchile.cl"
+        },
+        "nist": {
+            "preamble": "es un proyecto financiado por grants (ITL MSE Award #60NANB16D304 y #60NANB18D215) del",
+            "end": "de los Estados Unidos"
+        },
+        "nic": {
+            "preamble": "es un proyecto apoyado por",
+            "name": "NIC Chile",
+            "address": "Beauchef 851, Edificio Poniente, 2do Piso."
+        }
+    },
+    "home": {
+        "prng": {
+            "about": "¿Qué es esto?",
+            "code-msg": "Código de Verificación",
+            "error": "Error en los límites.",
+            "generate": "GENERAR",
+            "regenerate": "DE NUEVO",
+            "max": "y",
+            "min": "entre",
+            "others": "Otras Aplicaciones",
+            "press": "Presiona Generar",
+            "pulse": "Pulso",
+            "time-until": "Tiempo para la próxima semilla",
+            "title": "Número al Azar",
+            "tooltip": "Usa este código para verificar tus resultados."
+        },
+        "quote": "Aleatoriedad Publica, Transparente y Verificable"
+    },
+    "sites": {
+        "about": "Acerca De",
+        "apps": "Aplicaciones",
+        "how-it-works": "¿Cómo Funciona?",
+        "news": "Novedades",
+        "people": "Nosotros",
+        "projects": "Proyectos",
+        "using": "¿Cómo se usa?",
+        "appNames": {
+            "numbers": "Números Aleatorios",
+            "shuffle": "Revuelve una Lista",
+            "picker": "Sorteo",
+            "bingo": "Bingo"
+        }
+    },
+    "warning-developing": "Página en desarrollo.",
+    "navbar": {
+        "banner": {
+            "announcement": "Anuncio",
+            "news": "Novedades",
+            "2.1-beta": "versión 2.1-beta operativa",
+            "partial-operation": "Servicio en funcionamiento parcial, lamentamos los inconvenientes. Por favor reportar cualquier problema a random@uchile.cl.",
+            "beacon-not-available": "Nuestro faro de aleatoriedad presenta problemas, estamos trabajando para solucionarlos. Mientras tanto, usaremos el faro de NIST como fuente de aleatoriedad."
+        }
+    },
+    "buttons": {
+        "read-more": "Leer Más"
+    }
+}

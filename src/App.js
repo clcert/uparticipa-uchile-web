@@ -22,7 +22,6 @@ import NotFound from './pages/NotFound';
 import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
 import EntryPage from './components/MarkdownEntries/EntryPage';
-
 import NewsBreadcrumb from './pages/News/Breadcrumb';
 
 // Markdown entries JSON
@@ -34,7 +33,7 @@ export const App = () => {
 
 	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
 
-  return (
+	return (
 		<Router>
 			<div className='main-container'>
 				<NavBar />
@@ -51,12 +50,13 @@ export const App = () => {
 						))
 					}
 					{/* Others */}
+					<Route exact path='/video' element={<Video />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</div>
 			<Footer />
 		</Router>
-  )
+  	)
 }
 
 export default App;

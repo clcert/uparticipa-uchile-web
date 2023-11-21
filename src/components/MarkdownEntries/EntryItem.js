@@ -5,11 +5,11 @@ import remarkGfm from 'remark-gfm';
 import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import { GlobalTranslationsContext } from '../../pages/Contexts';
+import { GlobalTextContext } from '../../pages/Contexts';
 
 const EntryItem = ({item}) => {
 
-  const [t] = useContext(GlobalTranslationsContext);
+  const [t] = useContext(GlobalTextContext);
 
   return (
     <div className='entry-item'>

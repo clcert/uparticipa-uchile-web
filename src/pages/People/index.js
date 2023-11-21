@@ -1,13 +1,15 @@
 import React, { useContext } from 'react';
-import { GlobalTranslationsContext } from '../Contexts';
+import { GlobalTextContext } from '../Contexts';
 
 import { peopleList } from '../../data/people';
 import { CurrentTeamMember, OldTeamMember } from './TeamMember';
 
+import peopleText from '../../text/people.json'
+
 const PeopleScreen = () => {
 
-  const [ tg ] = useContext(GlobalTranslationsContext);
-  const [ t ] = useTranslation('people');
+  const [ tg ] = useContext(GlobalTextContext);
+  const [ t ] = peopleText;
 
   return (
     <div className='body-center container'>
