@@ -1,8 +1,16 @@
 @charset "utf-8";
 
-$app-main: #ffffff;
+// Colores bonitos
+$background-light: #ffffff;
+$light-blue: #93d5f6;
+$medium-blue: #0095d4;
+$dark-blue: #004a91;
 
-$app-blue: hsl(229, 56%, 52%);
+// bulma settings
+$light: $light-blue;
+$link: $dark-blue;
+
+$app-blue: #ffffff;
 $app-blue-difumined: hsla(229, 53%, 53%, 0.803);
 $warning-yellow: hsl(48, 100%, 67%);
 

@@ -22,7 +22,7 @@ const NavBar = () => {
         
         <NavBarSocial/>
         
-        <nav className='navbar is-link' role='navigation' aria-label='main navigation'>
+        <nav className='navbar is-white' role='navigation' aria-label='main navigation'>
 
           <div className='navbar-brand'>
             <Link className='navbar-item' to='/'>

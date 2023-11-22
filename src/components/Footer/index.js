@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterLogo from './FooterLogo';
 
-import logoCLCERT from '../../assets/images/clcert-white.png';
+import logoCLCERT from '../../assets/images/clcert.min.svg';
 
 const Footer = () => {
 
