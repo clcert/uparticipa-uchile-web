@@ -1,19 +1,15 @@
 import AHevia from '../assets/images/people/ahevia.jpg';
 import CGomez from '../assets/images/people/cgomez.jpg';
-import BOrtiz from '../assets/images/people/bortiz.jpg';
-import SMiranda from '../assets/images/people/smiranda.jpg';
-
-import CRojas from '../assets/images/people/crojas.jpg';
-import CCsori from '../assets/images/people/ccsori.jpg';
-import MVilches from '../assets/images/people/mvilches.jpg';
-import JRojas from '../assets/images/people/jrojas.jpg';
-import FPino from '../assets/images/people/fpino.jpg';
-import AGonzalez from '../assets/images/people/agonzalez.jpg';
+import CJaramillo from '../assets/images/people/cjaramillo.jpg'
+import FMacias from '../assets/images/people/fmacias.jpg'
+import ERiveros from '../assets/images/people/eriveros.jpg'
+import MApablaza from '../assets/images/people/mapablaza.jpg'
+import RDelafuente from '../assets/images/people/rdelafuente.jpg'
 
 export const peopleList = [
 	{
 		name: 'Alejandro Hevia',
-		role: 'main-researcher',
+		role: 'academic-coord',
 		picture: AHevia,
 		active: true,
 		contact: {
@@ -23,7 +19,7 @@ export const peopleList = [
 	},
 	{
 		name: 'Camilo Gómez',
-		role: 'i+d-engineer',
+		role: 'op-coord',
 		picture: CGomez,
 		active: true,
 		contact: {
@@ -32,59 +28,38 @@ export const peopleList = [
 		}
 	},
 	{
-		name: 'Bryan Ortiz',
-		role: 'developer-engineer',
-		picture: BOrtiz,
+		name: 'Cristobal Jaramillo',
+		role: 'i+d-engineer',
+		picture: CJaramillo,
 		active: true,
-		contact: {
-			mail: 'bortiz@dcc.uchile.cl'
-		}
+		contact: {}
 	},
 	{
-		name: 'Sergio Miranda',
-		role: 'network-engineer',
-		picture: SMiranda,
+		name: 'Fernanda Macías',
+		role: 'i+d-engineer-f',
+		picture: FMacias,
 		active: true,
-		contact: {
-			mail: 'sem@clcert.cl',
-			twitter: 'sem_cl'
-		}
-	},
-	// Previous Collaborators
-	{
-		name: 'Cristián Rojas',
-		role: 'security-engineer',
-		picture: CRojas,
-		active: false
+		contact: {}
 	},
 	{
-		name: 'María José Vilches',
-		role: 'ux-ui',
-		picture: MVilches,
-		active: false
+		name: 'Eduardo Riveros',
+		role: 'infrastructure-engineer',
+		picture: ERiveros,
+		active: true,
+		contact: {}
 	},
 	{
-		name: 'Constanza Csori',
-		role: 'graduate-research',
-		picture: CCsori,
-		active: false
+		name: 'Marta Apablaza',
+		role: 'journalist',
+		picture: MApablaza,
+		active: true,
+		contact: {}
 	},
 	{
-		name: 'Juan Rojas',
-		role: 'graduate-research',
-		picture: JRojas,
-		active: false
-	},
-	{
-		name: 'Franco Pino',
-		role: 'undergraduate-research',
-		picture: FPino,
-		active: false
-	},
-	{
-		name: 'Alejandro González',
-		role: 'undergraduate-assistant',
-		picture: AGonzalez,
-		active: false
+		name: 'Raúl de la Fuente',
+		role: 'undergraduate',
+		picture: RDelafuente,
+		active: true,
+		contact: {}
 	}
 ]

@@ -1,26 +1,25 @@
 @charset "utf-8";
 
 // Colores bonitos
-$background-light: #ffffff;
+$background-light: #d9e4ef;
 $light-blue: #93d5f6;
 $medium-blue: #0095d4;
 $dark-blue: #004a91;
 
 // bulma settings
-$light: $light-blue;
+$primary: $dark-blue;
+$light: $background-light;
+$background: $background-light;
 $link: $dark-blue;
 
-$app-blue: #ffffff;
+$app-blue: $background-light;
 $app-blue-difumined: hsla(229, 53%, 53%, 0.803);
-$warning-yellow: hsl(48, 100%, 67%);
+$warning-yellow: hsl(46, 20%, 13%);
 
-$footer-background-color: $app-blue;
+$box-background-color: $background-light;
+$footer-background-color: $background-light;
 $footer-padding: 1rem 1.5rem 1rem;
-$box-background-color: $app-blue;
 $link-hover: #00b7ff;
-
-$accordion-header-background-color: $app-blue;
-$accordion-header-color: white;
 
 $tabs-link-hover-border-bottom-color: $app-blue;
 $tabs-link-hover-color: $app-blue;

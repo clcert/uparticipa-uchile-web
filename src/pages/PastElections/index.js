@@ -2,7 +2,9 @@ import React from 'react';
 
 const PastElectionsScreen = () => {
 	return (
-		<div class="container">
+		<div className='body-center container'>
+			<div className='box-content'>
+			</div>
 		</div>
 	)
 }

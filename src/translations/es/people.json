@@ -4,14 +4,20 @@
         "old-members-introduction": "Quienes han dejado su huella en este proyecto ♥️."
     },
     "roles": {
+        "academic-coord": "Coordinador Académico",
+        "op-coord": "Coordinador Operativo",
         "main-researcher": "Investigador Principal",
-        "i+d-engineer": "Ingeniero I+D",
+        "i+d-engineer": "Ingeniero de Desarrollo e Investigación",
+        "i+d-engineer-f": "Ingeniera de Desarrollo e Investigación",
         "developer-engineer": "Ingeniero Desarrollador",
         "network-engineer": "Ingeniero en Redes",
         "security-engineer": "Ingeniero en Seguridad",
+        "infrastructure-engineer": "Ingeniero de Ciberseguridad e Infraestructura",
         "ux-ui": "Diseñadora UX/UI",
         "graduate-research": "Estudiante Investigador(a) (Magíster)",
+        "undergraduate": "Estudiante de Pregrado",
         "undergraduate-research": "Estudiante Investigador(a) (Pregrado)",
-        "undergraduate-assistant": "Estudiante Asistente (Pregrado)"
+        "undergraduate-assistant": "Estudiante Asistente (Pregrado)",
+        "journalist": "Periodista"
     }
 }

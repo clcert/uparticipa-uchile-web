@@ -3,7 +3,6 @@ $font-family_2: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospa
 $font-family_3: montserrat, helvetica neue, Arial, sans-serif, -apple-system
 
 body 
-	margin: 0
 	font-family: $font-family_1
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
@@ -43,17 +42,14 @@ code
 	min-height: 500px
 
 .box-content 
-	background-color: white
+	background-color: $background-light
 	border-radius: 10px
 	padding: 20px
 	h1 
-		color: $app-blue
+		color: $dark-blue
 		font-size: 1.5rem
 		font-weight: 600
 		text-align: center
-
-.columns 
-	margin: 0 !important
 
 .developing-warning 
 	background-color: $warning-yellow !important
@@ -158,9 +154,6 @@ code
 		.tooltiptext 
 			visibility: visible
 
-.verification-code 
-	margin-right: 4px
-
 .input-container 
 	display: flex
 	justify-content: space-between
@@ -175,65 +168,23 @@ code
 .app-title 
 	padding: 0 !important
 
-.custom-input 
-	border: solid
-	border-radius: 5px
-	border-width: 1px
-	>input 
-		background: none
-		border: none
-		box-shadow: none
-	
-	input 
-		&:focus 
-			background: none
-			border: none
-			box-shadow: none
-		
-	
-	>label 
-		position: absolute
-		bottom: 30px
-		padding: 0 10px 0 10px
-		left: 10px
-	
-
-.custom-input-default 
-	border-color: white
-	>input 
-		color: white
-	
-	>label 
-		background-color: $app-blue
-	
-
-.custom-input-light 
-	border-color: $app-blue
-	>input 
-		color: $app-blue
-	
-	>label 
-		background-color: white
-	
-
 .breadcrumb-current 
 	margin-left: 15px
-	color: gray
+	color: $medium-blue
 
 .navbar-start 
 	.active 
 		background-color: #ffffff
 	
-
 .navbar-item
-	color: #000000
+	color: $dark-blue
 	&:hover 
 		font-weight: 600
 		transition: all 0.5s
 	
 
 .app-container-default 
-	background-color: $app-blue
+	background-color: $background-light
 	border-radius: 6px
 	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)
 	color: #4a4a4a
@@ -252,7 +203,7 @@ code
 
 .app-container-light 
 	background-color: white
-	border-color: $app-blue
+	border-color: $dark-blue
 	border-style: solid
 	border-width: 2px
 	border-radius: 6px
@@ -264,15 +215,15 @@ code
 		font-weight: 600
 		padding-bottom: 20px
 		text-align: center
-		color: $app-blue
+		color: $dark-blue
 	
 	label 
-		color: $app-blue
+		color: $dark-blue
 	
 
 .app-container-default-full-height 
 	align-content: center
-	background-color: $app-blue
+	background-color: $background-light
 	border-radius: 6px
 	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)
 	color: #4a4a4a
@@ -289,42 +240,10 @@ code
 	text-align: center
 
 .code-container-light 
-	color: $app-blue
+	color: $background-light
 	font-size: 14px
 	margin: -10px 0 10px
 	text-align: center
-
-.result-container-light 
-	background-color: $app-blue
-	color: white
-
-.result-container-default 
-	background-color: white
-	color: $app-blue
-
-.pulse-container-default 
-	color: white
-	a 
-		color: yellow
-	
-
-.pulse-container-light 
-	a 
-		color: $app-blue
-	
-
-.result-box 
-	border-radius: 6px
-	display: block
-	font-family: $font-family_3
-	font-size: 1.5em
-	line-height: 1em
-	margin: 1rem 0
-	padding: 1.25rem
-	text-align: center
-
-.field 
-	padding-top: 0 !important
 
 @media screen and (min-width: 771px) 
 	.app-title 
@@ -353,7 +272,7 @@ code
 	.navbar-start 
 		.active 
 			color: #ffffff
-			background-color: #ffffff
+			background-color: $background-light
 		
 	
 	.footer-menu 

@@ -1,12 +1,44 @@
 {
   "entries": [
     {
-      "date": "2023-11-03",
+      "date": "2019-08-24",
       "summaryFile": "news/summary/hackaton_es.md",
       "file": "news/pages/hackaton_es.md",
       "image": "news/summary/img/hackaton_512px.jpg",
       "lang": "es",
       "route": "/news/hackaton",
+      "show": true
+    },
+    {
+      "date": "2020-08-11",
+      "summaryFile": "news/summary/drand_es.md",
+      "file": "news/pages/drand_es.md",
+      "image": "news/summary/img/drand.png",
+      "lang": "es",
+      "route": "/news/liga_entropia",
+      "show": true
+    },
+    {
+      "date": "2020-08-11",
+      "summaryFile": "news/summary/drand_en.md",
+      "image": "news/summary/img/drand.png",
+      "lang": "en",
+      "show": true
+    },
+    {
+      "date": "2020-01-31",
+      "summaryFile": "news/summary/vocales_es.md",
+      "file": "news/pages/vocales_es.md",
+      "image": "news/summary/img/vocales.jpg",
+      "lang": "es",
+      "route": "/news/vocales_de_mesa",
+      "show": true
+    },
+    {
+      "date": "2020-01-31",
+      "summaryFile": "news/summary/vocales_en.md",
+      "image": "news/summary/img/vocales.jpg",
+      "lang": "en",
       "show": true
     }
   ]
