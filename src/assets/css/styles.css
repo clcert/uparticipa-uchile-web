@@ -10550,17 +10550,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .markdown-page h1 {
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 28px;
 }
 
 .markdown-entry-items h1 {
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 28px;
 }
 .markdown-entry-items h2 {
   font-weight: 500 !important;
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 24px !important;
   text-align: left !important;
   margin: 20px 0 10px !important;
@@ -10568,18 +10568,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .markdown-page h2 {
   font-weight: 500 !important;
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 24px !important;
   text-align: left !important;
   margin: 50px 0 10px !important;
 }
 .markdown-page h3 {
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 20px;
   margin: 30px 0 10px !important;
 }
 .markdown-page h4 {
-  color: #d9e4ef;
+  color: #004a91;
   font-size: 18px;
   margin: 20px 0 10px !important;
 }

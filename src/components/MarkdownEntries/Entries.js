@@ -1,17 +1,14 @@
-import React, { useCallback, useContext, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import EntryItem from './EntryItem';
-
-import { GlobalTranslationsContext } from '../../pages/Contexts';
 
 import loadingGif from '../../assets/images/loading.gif';
 
 const Entries = ({entriesFile, title}) => {
 
-  const [ t ] = useContext(GlobalTranslationsContext);
   const [ markdownItems, setMarkdownItems ] = useState([])
   const [ loading, setLoading ] = useState(true);
 
-  const lang = localStorage.getItem('lang');
+  const lang = "es";
 
   const getMarkdown = async (pathStr) => {
     const filePath = require(`../../markdown/${pathStr}`);
@@ -21,9 +18,7 @@ const Entries = ({entriesFile, title}) => {
 
   const getEntries = useCallback( async () => {
     const { entries } = require('../../markdown/' + entriesFile);
-    const filteredEntries = entries.filter( (entry) => (
-      entry.lang === localStorage.getItem('lang') && entry.show
-    ))
+    const filteredEntries = entries.filter( (entry) => (entry.lang === lang) && (entry.show))
 
     let listEntries = []
 
@@ -40,6 +35,7 @@ const Entries = ({entriesFile, title}) => {
         'url': filteredEntries[i].route || undefined
       })
     }
+
     return listEntries.sort((a, b) => (a.date < b.date));
   }, [entriesFile]);
 
@@ -60,7 +56,7 @@ const Entries = ({entriesFile, title}) => {
   return (
     <div className='body-center container'>
       <div className='box-content'>
-        <h1>{ t(`sites.${title}`) }</h1>
+        <h1>Noticias</h1>
         <hr />
         {
           loading ?
@@ -71,7 +67,9 @@ const Entries = ({entriesFile, title}) => {
             <div className='markdown-entry-items'>
               {
                 markdownItems.map( (item) => (
-                  <EntryItem item={item} key={item.file} />
+                  <div>
+                    <EntryItem item={item} key={item.file} />
+                  </div>
                 ))
               }
             </div>

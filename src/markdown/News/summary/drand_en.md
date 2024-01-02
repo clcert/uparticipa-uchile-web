@@ -1,2 +1,0 @@
-## League of Entropy enters production stage
-The League of Entropy, an initiative in which Random UChile participates, enters the production stage, being the **first** beacon of distributed randomness to offer a public service on a global scale.

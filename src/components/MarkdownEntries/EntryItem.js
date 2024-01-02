@@ -1,15 +1,11 @@
-import React, { useContext } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import { GlobalTranslationsContext } from '../../pages/Contexts';
 
 const EntryItem = ({item}) => {
-
-  const [t] = useContext(GlobalTranslationsContext);
 
   return (
     <div className='entry-item'>
@@ -30,13 +26,13 @@ const EntryItem = ({item}) => {
                 item.url.includes('http') ?
                   <button className='button is-link' onClick={() => window.open(item.url)}>
                     <FontAwesomeIcon className='spaced-fa-icon' icon={faBarsStaggered} />
-                    { t('buttons.read-more') }
+                    Leer Más
                   </button>
                   :
                   <Link to={item.url}>
                     <button className='button is-link'>
                       <FontAwesomeIcon className='spaced-fa-icon' icon={faBarsStaggered} />
-                      { t('buttons.read-more') }
+                      Leer Más
                     </button>
                   </Link>
                 : ''
