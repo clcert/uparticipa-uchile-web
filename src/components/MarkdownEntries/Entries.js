@@ -18,7 +18,7 @@ const Entries = ({entriesFile, title}) => {
 
   const getEntries = useCallback( async () => {
     const { entries } = require('../../markdown/' + entriesFile);
-    const filteredEntries = entries.filter( (entry) => (entry.lang === lang) && (entry.show))
+    const filteredEntries = entries.filter( (entry) => (entry.show))
 
     let listEntries = []
 
@@ -54,27 +54,23 @@ const Entries = ({entriesFile, title}) => {
   }, [lang, getEntries])
 
   return (
-    <div className='body-center container'>
-      <div className='box-content'>
-        <h1>Noticias</h1>
-        <hr />
-        {
-          loading ?
-            <div className='loading-container has-text-centered'>
-              <img src={loadingGif} alt='loading...' />
-            </div>
-            :
-            <div className='markdown-entry-items'>
-              {
-                markdownItems.map( (item) => (
-                  <div>
-                    <EntryItem item={item} key={item.file} />
-                  </div>
-                ))
-              }
-            </div>
-        }
-      </div>
+    <div>
+      {
+        loading ?
+          <div className='container has-text-centered'>
+            <img src={loadingGif} alt='Cargando...' />
+          </div>
+          :
+          <div>
+            {
+              markdownItems.map( (item) => (
+                <div>
+                  <EntryItem item={item} key={item.file} />
+                </div>
+              ))
+            }
+          </div>
+      }
     </div>
   )
 }

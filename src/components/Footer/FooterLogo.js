@@ -1,10 +1,10 @@
 import React from 'react';
 
-const FooterLogo = ({picture, reference, alt, padding, text}) => {
+const FooterLogo = ({picture, reference, alt, padding}) => {
 
   return (
     <div className='footer-logo'>
-      <div className='footer-logo-img-container'>
+      <figure className='footer-logo-img-container'>
         <a href={reference} target='_blank' rel='noreferrer'>
           <img 
             src={picture} 
@@ -13,10 +13,7 @@ const FooterLogo = ({picture, reference, alt, padding, text}) => {
             className='footer-logo-img'
           />
         </a>
-      </div>
-      <div className='footer-logo-text'>
-        { text }
-      </div>
+      </figure>
     </div>
   )
 }

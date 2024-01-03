@@ -9,7 +9,7 @@ import RDelafuente from '../assets/images/people/rdelafuente.jpg'
 export const peopleList = [
 	{
 		name: 'Alejandro Hevia',
-		role: 'academic-coord',
+		role: 'Coordinador Académico',
 		picture: AHevia,
 		active: true,
 		contact: {
@@ -19,7 +19,7 @@ export const peopleList = [
 	},
 	{
 		name: 'Camilo Gómez',
-		role: 'op-coord',
+		role: 'Coordinador Operativo',
 		picture: CGomez,
 		active: true,
 		contact: {
@@ -29,35 +29,35 @@ export const peopleList = [
 	},
 	{
 		name: 'Cristobal Jaramillo',
-		role: 'i+d-engineer',
+		role: 'Ingeniero de Desarrollo e Investigación',
 		picture: CJaramillo,
 		active: true,
 		contact: {}
 	},
 	{
 		name: 'Fernanda Macías',
-		role: 'i+d-engineer-f',
+		role: 'Ingeniera de Desarrollo e Investigación',
 		picture: FMacias,
 		active: true,
 		contact: {}
 	},
 	{
 		name: 'Eduardo Riveros',
-		role: 'infrastructure-engineer',
+		role: 'Ingeniero de Ciberseguridad e Infraestructura',
 		picture: ERiveros,
 		active: true,
 		contact: {}
 	},
 	{
 		name: 'Marta Apablaza',
-		role: 'journalist',
+		role: 'Periodista',
 		picture: MApablaza,
 		active: true,
 		contact: {}
 	},
 	{
 		name: 'Raúl de la Fuente',
-		role: 'undergraduate',
+		role: 'Estudiante de Pregrado',
 		picture: RDelafuente,
 		active: true,
 		contact: {}

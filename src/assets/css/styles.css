@@ -10461,7 +10461,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   position: absolute;
   top: 40px;
   right: 30px;
-  border: 1px solid #d9e4ef;
+  border: 1px solid #004a91;
   border-radius: 10px;
   width: 160px;
   display: flex;
@@ -10881,6 +10881,15 @@ code {
 
 .dropdown-item span {
   color: #d9e4ef;
+}
+
+.is-equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.is-equal-height .card-footer {
+  margin-top: auto;
 }
 
 .increased-padding {

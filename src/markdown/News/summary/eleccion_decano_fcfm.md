@@ -1,0 +1,2 @@
+# Exitosa Ceremonia de escrutinio - Elecciones Decano/Decana 2022
+Por primera vez en la historia de la Casa de Bello, los académicos y académicas de diez facultades de la Universidad de Chile eligieron a sus Decano(a) por vía electrónica a través de Participa UChile.

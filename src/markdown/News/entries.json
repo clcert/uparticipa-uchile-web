@@ -1,31 +1,51 @@
 {
   "entries": [
     {
-      "date": "2019-08-24",
-      "summaryFile": "News/summary/hackaton_es.md",
-      "file": "News/pages/hackaton_es.md",
-      "image": "News/summary/img/hackaton_512px.jpg",
+      "date": "2022-04-12",
+      "summaryFile": "News/summary/comite_demre.md",
+      "file": "News/pages/comite_demre.md",
+      "image": "News/summary/img/comite_demre.png",
       "lang": "es",
-      "route": "/news/hackaton",
+      "route": "/news/comite_demre",
       "show": true
     },
     {
-      "date": "2020-08-11",
-      "summaryFile": "News/summary/drand_es.md",
-      "file": "News/pages/drand_es.md",
-      "image": "News/summary/img/drand.png",
+      "date": "2022-06-01",
+      "summaryFile": "News/summary/bits_ciencia_22.md",
+      "file": "News/pages/bits_ciencia_22.md",
+      "image": "News/summary/img/bits_ciencia_22.jpeg",
       "lang": "es",
-      "route": "/news/liga_entropia",
+      "route": "/news/bits_ciencia_22",
       "show": true
     },
     {
-      "date": "2020-01-31",
-      "summaryFile": "News/summary/vocales_es.md",
-      "file": "News/pages/vocales_es.md",
-      "image": "News/summary/img/vocales.jpg",
+      "date": "2022-06-02",
+      "summaryFile": "News/summary/eleccion_decano_fcfm.md",
+      "file": "News/pages/eleccion_decano_fcfm.md",
+      "image": "News/summary/img/eleccion_decano_fcfm.png",
       "lang": "es",
-      "route": "/news/vocales_de_mesa",
+      "route": "/news/eleccion_decano_fcfm",
       "show": true
+    },
+    {
+      "date": "2022-06-09",
+      "summaryFile": "News/summary/eleccion_directores_departamento_fcfm.md",
+      "file": "News/pages/eleccion_directores_departamento_fcfm.md",
+      "image": "News/summary/img/eleccion_directores_departamento_fcfm.png",
+      "lang": "es",
+      "route": "/news/eleccion_directores_departamento_fcfm",
+      "show": true
+  
+    },
+    {
+      "date": "2022-06-17",
+      "summaryFile": "News/summary/charla_votacion_electronica.md",
+      "file": "News/pages/charla_votacion_electronica.md",
+      "image": "News/summary/img/charla_votacion_electronica.jpeg",
+      "lang": "es",
+      "route": "/news/charla_votacion_electronica",
+      "show": true
+  
     }
   ]
 }

@@ -1,24 +1,41 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { peopleList } from '../../data/people';
-import { CurrentTeamMember } from './TeamMember';
+import { Person } from './People';
 
 const PeopleScreen = () => {
-
-  const [ t ] = useTranslation('people');
 
   return (
     <div className='body-center container'>
       <div className='box-content'>
-        <h1>Equipo de Trabajo</h1>
-        <hr />
-        <div className='is-flex is-justify-content-space-around is-flex-wrap-wrap'>
-        {
-          peopleList.filter((p) => p.active).map((p) => 
-            <CurrentTeamMember key={p.name} member={p} t={t}  />
-          )
-        }
+        <h1 className='title'>Equipo de Trabajo</h1>
+        <div className='tile is-ancestor is-vertical'>
+          <div className='tile'>
+              {
+                peopleList.slice(0, 4).map((p) =>
+                <>
+                  <div className='tile is-parent'>
+                    <div className='tile is-child'>
+                      <Person key={p.name} member={p} />
+                    </div>
+                  </div>
+                </>
+                )
+              }
+          </div>
+          <div className='tile is-9'>
+              {
+                peopleList.slice(4).map((p) =>
+                <>
+                  <div className='tile is-parent'>
+                    <div className='tile is-child'>
+                      <Person key={p.name} member={p} />
+                    </div>
+                  </div>
+                </>
+                )
+              }
+          </div>
         </div>
       </div>
     </div>

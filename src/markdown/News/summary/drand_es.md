@@ -1,2 +1,0 @@
-## Liga de la Entropía entra en etapa de producción
-La Liga de la Entropía, iniciativa donde participa **Random UChile**, entra en etapa de producción, siendo el **primer** faro de aleatoriedad distribuido en ofrecer un servicio público de escala mundial.

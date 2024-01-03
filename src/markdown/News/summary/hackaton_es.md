@@ -1,2 +1,0 @@
-## Convocatoria a Hackaton sobre Aleatoriedad Verificable
-La hackaton es un evento que busca nuevas aplicaciones que hagan uso de servicios que ofrezcan **aleatoriedad verificable** o números aleatorios verificables. A diferencia de la generación aleatoria común, un servicio de aleatoriedad verificable genera números aleatorios de manera que cualquier persona puede verificar que ese número no fue manipulado por el servicio generador, y es realmente aleatorio.

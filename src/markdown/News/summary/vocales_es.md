@@ -1,2 +1,0 @@
-## Transparencia en Selección de Vocales de Mesa
-Propuesta que integra Random UChile a la selección de vocales de mesa para mejorar la aleatoriedad del proceso además de aumentar la transparencia del mismo.
