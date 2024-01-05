@@ -3,11 +3,11 @@ import React from 'react'
 const NotFound = () => {
 
   return (
-    <div className='body-center container'>
-      <div className='box-content'>
-        <h1>404</h1>
+    <div className='box'>
+      <div className='box has-background-white'>
+        <h1 className='title has-text-centered has-text-primary'>404</h1>
         <hr />
-        <p className='has-text-centered'>Page Not Found</p>
+        <h2 className='subtitle has-text-centered'>Página no encontrada</h2>
       </div>
     </div>
   )

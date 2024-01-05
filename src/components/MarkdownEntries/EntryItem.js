@@ -30,18 +30,22 @@ const EntryItem = ({item}) => {
                 item.url !== undefined ? 
                   item.url.includes('http') ?
                   <button className='block button is-link' onClick={() => window.open(item.url)}>
-                      <FontAwesomeIcon className='spaced-fa-icon' icon={faBarsStaggered} />
+                    <span className='icon-text'>
+                      <span className='icon'>
+                        <FontAwesomeIcon className='' icon={faBarsStaggered} />
+                      </span>
+                      <span>Leer Más</span>
+                    </span>
+                  </button>
+                  :
+                  <Link to={item.url}>
+                    <button className='block button is-link'>
+                      <FontAwesomeIcon className='' icon={faBarsStaggered} />
                       Leer Más
                     </button>
-                    :
-                    <Link to={item.url}>
-                      <button className='block button is-link'>
-                        <FontAwesomeIcon className='spaced-fa-icon' icon={faBarsStaggered} />
-                        Leer Más
-                      </button>
-                    </Link>
-                  : ''
-                }
+                  </Link>
+                : ''
+              }
             </div>
           </div>
         </article>

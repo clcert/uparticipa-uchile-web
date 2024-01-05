@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
-import { GlobalTranslationsContext } from './pages/Contexts';
+import React from 'react';
 import {
   	BrowserRouter as Router,
 	Routes,
 	Route,
-} from "react-router-dom";	
+} from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 // Data
 import { menuItems } from './data/menuItems';
@@ -27,33 +27,40 @@ import NewsJSON from './markdown/News/entries.json';
 
 
 export const App = () => {
-
-	const [ t ] = useContext(GlobalTranslationsContext);
 	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
 
 	return (
 		<Router>
-			<div className='main-container'>
-				<NavBar />
-				<Routes>
-					<Route exact path='/' element={<Home/>} />
-					{ // Pages in Navbar
-						menuItems.map( ({url, component}) => (
-							<Route exact path={url} element={component} key={url} />
-						))
-					}
-					{ // News publications
-						newsEntries.map( (entry) => (
-							<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb t={t} />}/>} key={entry.route} />
-						))
-					}
-					{/* Others */}
-					<Route exact path='/video' element={<VideoScreen />} />
-					<Route exact path='/faq' element={<FAQScreen />} />
-					<Route path="*" element={<NotFound />} />
-				</Routes>
+			<div className='block main-container'>
+				<div className='container'>
+					<div className='block'>
+						<NavBar />
+					</div>
+					<div className='block'>
+						<Routes>
+							<Route exact path='/' element={<Home/>} />
+							{ // Pages in Navbar
+								menuItems.map( ({url, component}) => (
+									<Route exact path={url} element={component} key={url} />
+								))
+							}
+							{ // News publications
+								newsEntries.map( (entry) => (
+									<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb />}/>} key={entry.route} />
+								))
+							}
+							{/* Others */}
+							<Route exact path='/video' element={<VideoScreen />} />
+							<Route exact path='/faq' element={<FAQScreen />} />
+							<Route path="*" element={<NotFound />} />
+						</Routes>
+					</div>
+				</div>
+				<ScrollToTop smooth='true' color='#004a91'/>*
 			</div>
-			<Footer />
+			<div className='block'>
+				<Footer />
+			</div>
 		</Router>
   	)
 }

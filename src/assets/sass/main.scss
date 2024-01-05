@@ -30,13 +30,5 @@ $steps-active-color: $app-blue;
 @import '../../../node_modules/bulma/bulma.sass';
 
 @import './elements/footer.sass';
-@import './elements/navbar.sass';
-@import './elements/circled_progress.sass';
-@import './elements/external_items.sass';
 @import './elements/markdown.sass';
-@import './elements/viewer.sass';
-@import './elements/quote.sass';
-@import './elements/inputs.sass';
-
-@import './sections/people.sass';
 @import './global.sass';

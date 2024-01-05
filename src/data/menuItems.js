@@ -6,27 +6,27 @@ import VideoScreen from "../pages/Video";
 
 export const menuItems = [
     {
-        text: 'video',
+        text: 'Cómo Votar',
         url: '/video',
         component: <VideoScreen />
     },
     {
-        text: 'faq',
+        text: 'FAQ',
         url: '/faq',
         component: <FAQScreen />
     },
     {
-        text: 'equipo',
+        text: 'Equipo',
         url: '/equipo',
         component: <People />
     },
     {
-        text: 'elecciones',
+        text: 'Elecciones',
         url: '/elecciones',
         component: <PastElectionsScreen />
     },
     {
-        text: 'noticias',
+        text: 'Noticias',
         url: '/noticias',
         component: <News />
     },

@@ -1,15 +1,9 @@
-import { FacebookIcon,
-  FacebookShareButton,
-  FacebookMessengerIcon,
-  FacebookMessengerShareButton,
-  LinkedinIcon,
-  LinkedinShareButton,
-  TelegramIcon,
-  TelegramShareButton,
-  TwitterIcon,
-  TwitterShareButton,
-  WhatsappIcon,
-  WhatsappShareButton
+import { FacebookIcon, FacebookShareButton,
+  FacebookMessengerIcon, FacebookMessengerShareButton,
+  LinkedinIcon, LinkedinShareButton,
+  TelegramIcon, TelegramShareButton,
+  TwitterIcon, TwitterShareButton,
+  WhatsappIcon, WhatsappShareButton
 }  from 'react-share';
 import React, { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown';
@@ -33,30 +27,26 @@ const EntryPage = ({entry, breadcrumb}) => {
 
   const breadcrumbsList = [
     breadcrumb,
-    <div className='breadcrumb-current'>
-      <span>{text.split('\n')[0].substring(2)}</span>
-    </div>
+    <span className='breadcrumb-current'>{text.split('\n')[0].substring(2)}</span>
   ]
 
   return (
-    <div className='body-center container'>
-      <div className='box-content markdown-page'>
-        <nav className='level'>
-          <div className='level-left'>
-            <MainBreadcrumb breadCrumbsList={breadcrumbsList} />
-          </div>
-          <div className='level is-mobile'>
-            <FacebookShareButton className= 'level-item' children={<FacebookIcon size={32} round={true}></FacebookIcon>} url={window.location.href}></FacebookShareButton>
-            <TwitterShareButton className= 'level-item' children={<TwitterIcon size={32} round={true}></TwitterIcon>} url={window.location.href}></TwitterShareButton>
-            <LinkedinShareButton className= 'level-item' children={<LinkedinIcon size={32} round={true}></LinkedinIcon>} url={window.location.href}></LinkedinShareButton>
-            <WhatsappShareButton className= 'level-item' children={<WhatsappIcon size={32} round={true}></WhatsappIcon>} url={window.location.href}></WhatsappShareButton>
-            <FacebookMessengerShareButton className= 'level-item' children={<FacebookMessengerIcon size={32} round={true}></FacebookMessengerIcon>} url={window.location.href}></FacebookMessengerShareButton>
-            <TelegramShareButton className= 'level-item' children={<TelegramIcon size={32} round={true}></TelegramIcon>} url={window.location.href}></TelegramShareButton>
-          </div>
-        </nav>
-        <div className='box-content increased-padding'>
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{text}</ReactMarkdown>
+    <div className='box markdown-page'>
+      <nav className='level'>
+        <div className='level-left'>
+          <MainBreadcrumb breadCrumbsList={breadcrumbsList} />
         </div>
+        <div className='level is-mobile'>
+          <FacebookShareButton className= 'level-item' children={<FacebookIcon size={32} round={true}></FacebookIcon>} url={window.location.href}></FacebookShareButton>
+          <TwitterShareButton className= 'level-item' children={<TwitterIcon size={32} round={true}></TwitterIcon>} url={window.location.href}></TwitterShareButton>
+          <LinkedinShareButton className= 'level-item' children={<LinkedinIcon size={32} round={true}></LinkedinIcon>} url={window.location.href}></LinkedinShareButton>
+          <WhatsappShareButton className= 'level-item' children={<WhatsappIcon size={32} round={true}></WhatsappIcon>} url={window.location.href}></WhatsappShareButton>
+          <FacebookMessengerShareButton className= 'level-item' children={<FacebookMessengerIcon size={32} round={true}></FacebookMessengerIcon>} url={window.location.href}></FacebookMessengerShareButton>
+          <TelegramShareButton className= 'level-item' children={<TelegramIcon size={32} round={true}></TelegramIcon>} url={window.location.href}></TelegramShareButton>
+        </div>
+      </nav>
+      <div className='box has-background-white'>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{text}</ReactMarkdown>
       </div>
     </div>
   )

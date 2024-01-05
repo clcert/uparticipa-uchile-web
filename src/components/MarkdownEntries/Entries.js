@@ -64,9 +64,7 @@ const Entries = ({entriesFile, title}) => {
           <div>
             {
               markdownItems.map( (item) => (
-                <div>
-                  <EntryItem item={item} key={item.file} />
-                </div>
+                <EntryItem item={item} key={item.file} />
               ))
             }
           </div>

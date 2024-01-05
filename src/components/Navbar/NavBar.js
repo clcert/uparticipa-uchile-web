@@ -1,10 +1,11 @@
 import logoParticipaUchile from '../../assets/images/logo-square.svg'
-import NavBarSocial from './NavBarSocial';
 import { menuItems } from '../../data/menuItems';
 
 import { NavLink, Link } from 'react-router-dom';
-import { useContext } from 'react';
-import { GlobalTranslationsContext } from '../../pages/Contexts';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 
 const NavBar = () => {
@@ -14,19 +15,17 @@ const NavBar = () => {
     navBar.classList.toggle('is-active');
   }
 
-  const [ t ] = useContext(GlobalTranslationsContext);
-
   return (
     <div className='container'>
       <div className='main'>
-        
-        <NavBarSocial/>
         
         <nav className='navbar is-white' role='navigation' aria-label='main navigation'>
 
           <div className='navbar-brand'>
             <Link className='navbar-item' to='/'>
-              <img src={logoParticipaUchile} alt='Participa UChile Logo'/>
+              <figure className='image is-32x32'>
+                <img src={logoParticipaUchile} alt='Participa UChile Logo'/>
+              </figure>
             </Link>
             <button onClick={showMobile} className='navbar-burger' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample'>
               <span aria-hidden='true'></span>
@@ -40,12 +39,21 @@ const NavBar = () => {
               {
                 menuItems.map( ({text, url}) => (
                   <NavLink className='navbar-item has-text-centered' to={url} key={'nav-'+text}>
-                    { t(`sites.${text}`) }
+                    { `${text}` }
                   </NavLink>
                 ))
               }
             </div>
+            <div className="navbar-end">
+              <a className='navbar-item has-text-centered has-text-primary' href='https://twitter.com/participaUChile' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faTwitter} />  
+              </a>
+              <a className='navbar-item has-text-centered has-text-primary' href='mailto:participa@uchile.cl' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faEnvelope} />  
+              </a>
+            </div>
           </div>
+
         </nav>
       </div>
     </div>
