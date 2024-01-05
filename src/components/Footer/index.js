@@ -9,18 +9,16 @@ import logoCLCERT from '../../assets/images/clcert.min.svg';
 const Footer = () => {
 
   return (
-    <footer className='footer'>
-      <div className='has-text-centered'>
-        <p>
-          Participa UChile es un proyecto de <b>Prorrectoría U. de Chile</b>, desarrollado por el 
-          <a href='https://clcert.cl'> Lab. de Criptografía Aplicada y Ciberseguridad (CLCERT)</a>,
-          y patrocinado por la
-          <a href='https://vti.uchile.cl/'> Vicerrectoría de Tecnología de la Información</a>,
-          la <b>Vicerrectoría de Asuntos Económicos y Gestión Institucional</b>, y la
-          <a href='https://ingenieria.uchile.cl/'> Facultad de Ciencias Físicas y Matemáticas </a>
-          de la U. de Chile.
-        </p>
-      </div>
+    <footer className='footer has-text-centered'>
+      <p>
+        Participa UChile es un proyecto de <b>Prorrectoría U. de Chile</b>, desarrollado por el 
+        <a href='https://clcert.cl'> Lab. de Criptografía Aplicada y Ciberseguridad (CLCERT)</a>,
+        y patrocinado por la
+        <a href='https://vti.uchile.cl/'> Vicerrectoría de Tecnología de la Información</a>,
+        la <b>Vicerrectoría de Asuntos Económicos y Gestión Institucional</b>, y la
+        <a href='https://ingenieria.uchile.cl/'> Facultad de Ciencias Físicas y Matemáticas </a>
+        de la U. de Chile.
+      </p>
       <FooterLogo
         picture={logoUChile}
         reference={'https://uchile.cl/'}
@@ -45,10 +43,7 @@ const Footer = () => {
         alt={'Logo CLCERT'}
         padding={0}
       />
-
-      <div className='has-text-centered'>
-        <p>Participa UChile - 2024 - Universidad de Chile</p>
-      </div>
+      <p>Participa UChile - 2024 - Universidad de Chile</p>
     </footer>
   )
 }
