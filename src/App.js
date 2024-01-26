@@ -19,6 +19,7 @@ import NotFound from './pages/NotFound';
 import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
 import EntryPage from './components/MarkdownEntries/EntryPage';
+import ElectionsStats from './components/Home/Stats.jsx'
 
 import NewsBreadcrumb from './pages/News/Breadcrumb';
 
@@ -57,6 +58,9 @@ export const App = () => {
 					</div>
 				</div>
 				<ScrollToTop smooth='true' color='#004a91'/>*
+			</div>
+			<div className='block mb-0'>
+				<ElectionsStats />
 			</div>
 			<div className='block'>
 				<Footer />

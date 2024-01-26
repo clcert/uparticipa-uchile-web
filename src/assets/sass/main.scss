@@ -2,12 +2,17 @@
 
 // Colores bonitos
 $background-light: #d9e4ef;
-$light-blue: #93d5f6;
-$medium-blue: #0095d4;
-$dark-blue: #004a91;
+$grayish: #969696;
+$ultra-light-blue: #93d5f6;
+$light-blue: #6dcaf3;
+$medium-blue: #0096d6;
+$dark-blue: #004b93;
+
+$medium-complement: #d44000f5;
+$light-complement: #F3966D;
 
 // bulma settings
-$primary: $dark-blue;
+$primary: $medium-blue;
 $light: $background-light;
 $background: $background-light;
 $link: $dark-blue;
@@ -16,8 +21,11 @@ $app-blue: $background-light;
 $app-blue-difumined: hsla(229, 53%, 53%, 0.803);
 $warning-yellow: hsl(46, 20%, 13%);
 
+$navbar-background-color: $medium-complement;
+$navbar-item-color: white;
+
 $box-background-color: $background-light;
-$footer-background-color: $background-light;
+$footer-background-color: $medium-complement;
 $footer-padding: 1rem 1.5rem 1rem;
 $link-hover: #00b7ff;
 

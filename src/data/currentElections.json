@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "startTime": "2024-01-25 09:00",
+      "endTime": "2024-01-25 17:00",
+      "unit": "Facultad de Odontología",
+      "typeUnit": "Facultad",
+      "picture": "logos/logo-odontologia.svg",
+      "title": "",
+      "open": true,
+      "elections": [ 
+        {"name": "COMITÉ ACADÉMICO DEL DOCTORADO EN CIENCIAS ODONTOLÓGICAS",
+         "vote_link": "#",
+         "info_link": "#"}                  
+      ]
+    }
+  ]
+}
