@@ -22,7 +22,7 @@ function InfoVotacion({electionData}) {
   return (
     <div className="election-box mt-0">
       <div className="unit-logo">
-        <img src={process.env.PUBLIC_URL + electionData.picture} alt="Logo de Unidad Académica" />
+        <img src={electionData.picture} alt="Logo de Unidad Académica" />
       </div>
       <div className="election-title">
         <p className="has-text-weight-bold is-size-5 mb-0" style={{ "font-size": "16px" }}>{electionData.title}</p>

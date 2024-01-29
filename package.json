@@ -1,6 +1,7 @@
 {
   "name": "participa-uchile",
   "version": "0.1.0",
+  "homepage": "https://clcert.github.io/participa-uchile-new-home",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -26,9 +27,12 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bulma": "^0.9.4",
+    "gh-pages": "^6.1.1",
     "sass": "^1.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

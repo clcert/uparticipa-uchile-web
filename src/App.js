@@ -31,7 +31,7 @@ export const App = () => {
 	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
 
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className='block main-container'>
 				<div className='container'>
 					<div className='block'>
