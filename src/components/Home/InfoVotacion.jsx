@@ -1,3 +1,5 @@
+import Collapsible from 'react-collapsible';
+
 const getElectionDate = (startTime, endTime) => {
     const dateOptions = { 
       weekday: 'long',
@@ -14,57 +16,71 @@ const getElectionDate = (startTime, endTime) => {
       )
     }
   }
+
+const isOpen = (startTime, endTime) => {
+  const startDate = new Date(startTime);
+  const endDate = new Date(endTime);
+  const now = Date.now();
+
+  if (startDate < now && endDate > now) {
+    return true;
+  }
+  return false;
+}
   
 function InfoVotacion({electionData}) {
 
   const electionDate = getElectionDate(electionData.startTime, electionData.endTime);
+  const isElectionOpen = isOpen(electionData.startTime, electionData.endTime);
 
   return (
     <div className="election-box mt-0">
       <div className="unit-logo">
-        <img src={electionData.picture} alt="Logo de Unidad Académica" />
+        <img src={process.env.PUBLIC_URL + "/" + electionData.picture} alt="Logo de Unidad Académica" />
       </div>
       <div className="election-title">
         <p className="has-text-weight-bold is-size-5 mb-0" style={{ "font-size": "16px" }}>{electionData.title}</p>
       </div>
       <div className="mt-3">
-        <b className="is-size-5">FECHA</b>
+        <b className="is-size-5" style={{ color: "#d44000" }}>FECHA</b>
         <p style={{ "font-size": "18px" }}>
           { electionDate }
         </p>
       </div>
       <div className="election-detail mt-4">
-        <b className="is-size-5">ELECCIONES</b>
-        <ul className="elections-list pl-0">
-          {
-            electionData.elections.map((election, index) => (
-              <li key={index} className="is-size-6 mb-1 is-flex is-justify-content-space-between is-align-items-center">
-                <span style={{ "font-size": "20px", "textAlign": "center", "color": "#004b93", "fontWeight": "bold"}}>
-                  { election.name }
-                </span>
-                {
-                  electionData.open ?
-                  <div className="is-flex is-flex-direction-column is-align-items-center">
-                    <a href={ election.vote_link } target="_blank" style={{ "textDecoration": "none" }}>
-                      <button className={"button is-medium election-button-vote mt-2"} >VOTAR</button>
-                    </a>
-                    <a href={ election.info_link } target="_blank" style={{ "textDecoration": "none", "margin-top": "0.5em" }}>
-                      <button className={"button is-small election-button-info mt-2"} >PORTAL DE INFORMACIÓN</button>
-                    </a>
-                  </div>
-                  :
-                  <div className="is-flex is-flex-direction-column is-align-items-center">
-                    <button className={"button election-button election-button-vote mt-2"} disabled>VOTAR</button>
-                    <button className={"button election-button election-button-info mt-2"} disabled>PORTAL DE INFORMACIÓN</button>
-                  </div>
-                }
-              </li>
-            ))
-          }
-        </ul>
+        {/* <b className="is-size-5" style={{ color: "#d44000" }}>ELECCIONES</b> */}
+        <Collapsible trigger={"ELECCIONES ▼"} triggerWhenOpen={"ELECCIONES ▲"} className='is-size-5' triggerOpenedClassName='is-size-5' triggerStyle={{ color: "#d44000", fontWeight: "bold", cursor: "pointer" }}>
+          <ul className="elections-list pl-0">
+            {
+              electionData.elections.map((election, index) => (
+                <li key={index} className="is-size-6 mb-1 is-flex is-justify-content-space-between is-align-items-center">
+                  <span style={{ "font-size": "20px", "textAlign": "center", "color": "#004b93", "fontWeight": "bold"}}>
+                    { election.name }
+                  </span>
+                  {
+                    isElectionOpen ?
+                    <div className="is-flex is-flex-direction-column is-align-items-center">
+                      <a href={ election.vote_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>
+                        <button className={"button is-medium election-button-vote mt-2"} >VOTAR</button>
+                      </a>
+                      <a href={ election.info_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none", "margin-top": "0.5em" }}>
+                        <button className={"button is-small election-button-info mt-2"} >PORTAL DE INFORMACIÓN</button>
+                      </a>
+                    </div>
+                    :
+                    <div className="is-flex is-flex-direction-column is-align-items-center">
+                      <button className={"button election-button election-button-vote mt-2"} disabled>VOTAR</button>
+                      <button className={"button election-button election-button-info mt-2"} disabled>PORTAL DE INFORMACIÓN</button>
+                    </div>
+                  }
+                </li>
+              ))
+            }
+          </ul>
+        </Collapsible>
       </div>
       {
-        !electionData.open &&
+        !isElectionOpen &&
         <div className="election-closed mt-5">
           <p className="has-text-weight-bold is-size-5 mb-0">ELECCIÓN CERRADA</p>
         </div> 

@@ -1,0 +1,2 @@
+# Accede a la “elección de prueba” del sistema de votación electrónica remota de la Universidad de Chile
+El sistema de votación electrónica pone a disposición de la comunidad de la Casa de Bello, una votación de prueba. Esto con el objetivo de que diferentes facultades y organizaciones estudiantiles, de funcionarios y académicos prueben de manera la interfaz del sistema que es gratuito para la Universidad.

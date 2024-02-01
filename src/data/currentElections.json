@@ -9,9 +9,35 @@
       "title": "",
       "open": true,
       "elections": [ 
-        {"name": "COMITÉ ACADÉMICO DEL DOCTORADO EN CIENCIAS ODONTOLÓGICAS",
+        {"name": "TÍTULO DE LA ELECCIÓN #1",
          "vote_link": "#",
-         "info_link": "#"}                  
+         "info_link": "#"},
+        {"name": "TÍTULO DE LA ELECCIÓN #2",
+         "vote_link": "#",
+         "info_link": "#"},
+        {"name": "TÍTULO DE LA ELECCIÓN #3",
+         "vote_link": "#",
+         "info_link": "#"},
+        {"name": "TÍTULO DE LA ELECCIÓN #4",
+         "vote_link": "#",
+         "info_link": "#"},
+        {"name": "TÍTULO DE LA ELECCIÓN #5",
+         "vote_link": "#",
+         "info_link": "#"}
+      ]
+    },
+    {
+      "startTime": "2024-01-25 09:00",
+      "endTime": "2024-01-31 20:00",
+      "unit": "Otra Facultad de Odontología",
+      "typeUnit": "Facultad",
+      "picture": "logos/logo-odontologia.svg",
+      "title": "",
+      "open": true,
+      "elections": [ 
+        {"name": "TÍTULO DE LA ELECCIÓN #1",
+         "vote_link": "#",
+         "info_link": "#"}
       ]
     }
   ]

@@ -1,0 +1,2 @@
+# Participa UChile finaliza jornadas electorales de Comité Paritario de Higiene y Seguridad (CPHS)
+El martes 29 y miércoles 30 de agosto de 2023 el sistema de votación electrónica Participa UChile organizó una segunda jornada para la Dirección de Gestión y Desarrollo de Personas (DGDP) de la Universidad de Chile. Esta vez nueve unidades de la Casa de Bello eligieron su Comité Paritario de Higiene y Seguridad (CPHS).

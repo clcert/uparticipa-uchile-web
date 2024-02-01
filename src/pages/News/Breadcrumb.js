@@ -9,10 +9,10 @@ const NewsBreadcrumb = () => {
   return (
     <Link to="/noticias">
       <span className='icon-text'>
-        <span className="icon">
+        <span className="icon has-text-white">
           <FontAwesomeIcon icon={faNewspaper} />  
         </span>
-        <span>Noticias</span>
+        <span className='has-text-white has-text-weight-bold'>Noticias</span>
       </span>
     </Link>
   )

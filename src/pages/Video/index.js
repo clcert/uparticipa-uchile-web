@@ -4,12 +4,12 @@ const VideoScreen = () => {
 	return (
 		<div className='box is-light'>
 			<div className='block'>
-				<h1 className='title has-text-centered has-text-primary'>
+				<h1 className='title has-text-centered has-text-white'>
 					¿Cómo Votar Utilizando Participa UChile?
 				</h1>
 			</div>
 			<div className='block'>
-				<h2 className='subtitle'>
+				<h2 className='subtitle has-text-white'>
 					Revisa el vídeo a continuación para aprender a votar utilizando Participa
 					UChile:
 				</h2>

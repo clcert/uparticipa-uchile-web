@@ -1,0 +1,2 @@
+# Exitosa jornada electoral para AFUCH Servicios Centrales
+El miércoles 24 de enero de 2024, Participa UChile ejecutó una exitosa jornada electoral para elegir la Directiva AFUCH Servicios Centrales. Esta asociación está  compuesta por funcionarios socios de la Facultad de Arquitectura, Facultad de Ciencias, Facultad de Ciencias Sociales, Facultad de Filosofía, Programa de Bachillerato, Instituto de Estudios Internacionales, Escuela de Gobierno y Gestión Pública y los Servicios Centrales de la Universidad de Chile.

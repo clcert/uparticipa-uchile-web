@@ -37,12 +37,12 @@ const EntryPage = ({entry, breadcrumb}) => {
           <MainBreadcrumb breadCrumbsList={breadcrumbsList} />
         </div>
         <div className='level is-mobile'>
-          <FacebookShareButton className= 'level-item' children={<FacebookIcon size={32} round={true}></FacebookIcon>} url={window.location.href}></FacebookShareButton>
-          <TwitterShareButton className= 'level-item' children={<TwitterIcon size={32} round={true}></TwitterIcon>} url={window.location.href}></TwitterShareButton>
-          <LinkedinShareButton className= 'level-item' children={<LinkedinIcon size={32} round={true}></LinkedinIcon>} url={window.location.href}></LinkedinShareButton>
-          <WhatsappShareButton className= 'level-item' children={<WhatsappIcon size={32} round={true}></WhatsappIcon>} url={window.location.href}></WhatsappShareButton>
-          <FacebookMessengerShareButton className= 'level-item' children={<FacebookMessengerIcon size={32} round={true}></FacebookMessengerIcon>} url={window.location.href}></FacebookMessengerShareButton>
-          <TelegramShareButton className= 'level-item' children={<TelegramIcon size={32} round={true}></TelegramIcon>} url={window.location.href}></TelegramShareButton>
+          <FacebookShareButton className= 'level-item' children={<FacebookIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></FacebookIcon>} url={window.location.href}></FacebookShareButton>
+          <TwitterShareButton className= 'level-item' children={<TwitterIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></TwitterIcon>} url={window.location.href}></TwitterShareButton>
+          <LinkedinShareButton className= 'level-item' children={<LinkedinIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></LinkedinIcon>} url={window.location.href}></LinkedinShareButton>
+          <WhatsappShareButton className= 'level-item' children={<WhatsappIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></WhatsappIcon>} url={window.location.href}></WhatsappShareButton>
+          <FacebookMessengerShareButton className= 'level-item' children={<FacebookMessengerIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></FacebookMessengerIcon>} url={window.location.href}></FacebookMessengerShareButton>
+          <TelegramShareButton className= 'level-item' children={<TelegramIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></TelegramIcon>} url={window.location.href}></TelegramShareButton>
         </div>
       </nav>
       <div className='box has-background-white'>

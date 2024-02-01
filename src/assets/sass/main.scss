@@ -24,10 +24,11 @@ $warning-yellow: hsl(46, 20%, 13%);
 $navbar-background-color: $medium-complement;
 $navbar-item-color: white;
 
-$box-background-color: $background-light;
+$box-background-color: transparent;
 $footer-background-color: $medium-complement;
 $footer-padding: 1rem 1.5rem 1rem;
 $link-hover: #00b7ff;
+$navbar-item-hover-color: $medium-complement;
 
 $tabs-link-hover-border-bottom-color: $app-blue;
 $tabs-link-hover-color: $app-blue;

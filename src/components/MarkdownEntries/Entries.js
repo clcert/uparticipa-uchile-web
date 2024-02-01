@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import EntryItem from './EntryItem';
 
-import loadingGif from '../../assets/images/loading.gif';
+import loadingGif from '../../assets/images/loading.svg';
 
 const Entries = ({entriesFile, title}) => {
 

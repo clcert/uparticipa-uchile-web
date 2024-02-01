@@ -12,7 +12,7 @@ const EntryItem = ({item}) => {
         <article className='media'>
           
           { item.img !== undefined &&  
-            <figure className='media-left has-text-centered entry-img'>
+            <figure className='media-left has-text-centered entry-img mx-2'>
               <img src={item.img} alt='Imagen de la noticia' />
             </figure>
           }
@@ -22,7 +22,7 @@ const EntryItem = ({item}) => {
           </div>
 
           <div className='media-right'>
-            <div className='block has-text-centered'>
+            <div className='block has-text-centered entry-date'>
               <i>{item.date}</i>
             </div>
             <div className='block'>
@@ -39,9 +39,9 @@ const EntryItem = ({item}) => {
                   </button>
                   :
                   <Link to={item.url}>
-                    <button className='block button is-link'>
+                    <button className='block button news-read-more'>
                       <FontAwesomeIcon className='' icon={faBarsStaggered} />
-                      Leer Más
+                      &nbsp; Leer Más
                     </button>
                   </Link>
                 : ''
