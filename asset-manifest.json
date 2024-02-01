@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/participa-uchile-new-home/static/css/main.0f234c74.css",
-    "main.js": "/participa-uchile-new-home/static/js/main.d1fd854e.js",
+    "main.js": "/participa-uchile-new-home/static/js/main.23eb0f8e.js",
     "static/js/787.e773a642.chunk.js": "/participa-uchile-new-home/static/js/787.e773a642.chunk.js",
     "static/media/cover-start-7.jpg": "/participa-uchile-new-home/static/media/cover-start-7.11434ad974d77697fd4d.jpg",
     "static/media/eleccion_decano_fcfm.png": "/participa-uchile-new-home/static/media/eleccion_decano_fcfm.0010525cf9300ffced72.png",
@@ -21,7 +21,6 @@
     "static/media/bits_ciencia_22.jpeg": "/participa-uchile-new-home/static/media/bits_ciencia_22.45bdf2405da6085d011b.jpeg",
     "static/media/mapablaza.jpg": "/participa-uchile-new-home/static/media/mapablaza.6714e4e32a914e873f40.jpg",
     "static/media/elecciones_jun.png": "/participa-uchile-new-home/static/media/elecciones_jun.c2813acaa7d0b894a903.png",
-    "static/media/loading.gif": "/participa-uchile-new-home/static/media/loading.f53aa23fcdfc7bd67f43.gif",
     "static/media/eriveros.jpg": "/participa-uchile-new-home/static/media/eriveros.6ee816422070cec8479d.jpg",
     "static/media/primera_psifos.png": "/participa-uchile-new-home/static/media/primera_psifos.2c36cb5221ffa9624835.png",
     "static/media/comite_demre.png": "/participa-uchile-new-home/static/media/comite_demre.0582acdfc469bc51d0da.png",
@@ -35,15 +34,16 @@
     "static/media/eleccion_directores_departamento_fcfm.md": "/participa-uchile-new-home/static/media/eleccion_directores_departamento_fcfm.ef2e49f577e5ecef7a97.md",
     "static/media/README.md": "/participa-uchile-new-home/static/media/README.7311ec8844c1dc5d2630.md",
     "static/media/eleccion_decano_fcfm.md": "/participa-uchile-new-home/static/media/eleccion_decano_fcfm.700225f10adb4c7a5d00.md",
+    "static/media/loading.svg": "/participa-uchile-new-home/static/media/loading.b944e5d60ba91a278371c196c0d687e1.svg",
     "static/media/bits_ciencia_22.md": "/participa-uchile-new-home/static/media/bits_ciencia_22.3c89991f8b8e1044c3d7.md",
     "index.html": "/participa-uchile-new-home/index.html",
     "static/media/sample.md": "/participa-uchile-new-home/static/media/sample.39f4441ddd0fcf5387e7.md",
     "main.0f234c74.css.map": "/participa-uchile-new-home/static/css/main.0f234c74.css.map",
-    "main.d1fd854e.js.map": "/participa-uchile-new-home/static/js/main.d1fd854e.js.map",
+    "main.23eb0f8e.js.map": "/participa-uchile-new-home/static/js/main.23eb0f8e.js.map",
     "787.e773a642.chunk.js.map": "/participa-uchile-new-home/static/js/787.e773a642.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f234c74.css",
-    "static/js/main.d1fd854e.js"
+    "static/js/main.23eb0f8e.js"
   ]
 }
