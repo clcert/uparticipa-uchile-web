@@ -1,0 +1,2 @@
+# Participa UChile en Nano Charlas de UChile TV
+Participa UChile, sistema de votación electrónica remota, fue el protagonista de un nuevo capítulo de Nano Charlas, espacio de divulgación audiovisual de las ciencias de UChile TV. 

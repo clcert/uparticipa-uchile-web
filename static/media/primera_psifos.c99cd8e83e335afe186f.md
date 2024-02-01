@@ -1,0 +1,2 @@
+# Participa UChile realiza su primera elección con sistema Psifos Voting
+El sistema de votación electrónica Participa UChile celebró un hito durante la segunda semana de junio de 2023, al ejecutar por primera vez una votación dentro de la Casa de Bello con el sistema Psifos Voting, software desarrollado exclusivamente por los investigadores y el equipo de desarrollo de la Universidad de Chile (basado en el sistema Helios).
