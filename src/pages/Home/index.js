@@ -18,8 +18,8 @@ const Home = () => {
 				</div>
 			</div>
 			<div className='column'>
-				<div className='box mx-5'>
-					<div className='block mb-1 has-background-primary p-2' style={{ borderRadius: "10px 10px 0px 0px" }}>
+				<div className='box mx-5' style={{boxShadow: "none"}}>
+					<div className='block mb-1 p-2'>
 						<h1 className='is-size-4 title has-text-centered has-text-white'>EN CURSO</h1>
 					</div>
 					<div className='block'>
