@@ -10433,6 +10433,22 @@ code {
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .election-elements {
+    flex-direction: column;
+  }
+  .election-title {
+    text-align: center;
+  }
+  .election-buttons {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .election-button {
+    margin-right: 0 !important;
+    margin: 0.2rem;
+  }
+}
 .election-title {
   color: #004b93;
   text-align: center;
@@ -10452,10 +10468,7 @@ code {
 }
 
 .elections-list li {
-  border: 2px solid rgba(212, 64, 0, 0.9607843137);
-  border-radius: 10px;
-  flex-direction: column;
-  padding: 1rem;
+  padding: 0.5em 1em;
 }
 
 .election-closed {

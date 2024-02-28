@@ -54,24 +54,18 @@ function InfoVotacion({electionData}) {
           <ul className="elections-list pl-0">
             {
               electionData.elections.map((election, index) => (
-                <li key={index} className="is-size-6 mb-1" style={{
-                  backgroundColor: "white",
-                  borderTop: index > 0 ? "1px solid #004b93" : "none",
-                  borderBottom: "none",
-                  borderLeft: "none",
-                  borderRight: "none",
-                  borderRadius: 0,
-                  padding: "0.5em 1em",
+                <li key={index} className="is-size-6 is-background-white mb-1" style={{
+                  borderTop: index > 0 ? "1px solid #004b93" : "none"
                 }}>
-                  <div className="is-flex is-justify-content-space-between is-align-items-center">
-                    <div>
+                  <div className="election-elements is-flex is-justify-content-space-between is-align-items-center">
+                    <div className='election-title'>
                       <span style={{ "font-size": "18px", "textAlign": "left", "color": "#004b93", "fontWeight": "bold"}}>
                         { election.name }
                       </span>
                     </div>
                     {
                       isElectionOpen ?
-                      <div className="is-flex is-flex-direction-row is-justify-content-space-between">
+                      <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                         <a href={ election.vote_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>
                           <button className={"button is-medium election-button-vote mr-2"} >VOTAR</button>
                         </a>
@@ -88,7 +82,7 @@ function InfoVotacion({electionData}) {
                         </a>
                       </div>
                       :
-                      <div className="is-flex is-flex-direction-row is-justify-content-space-between">
+                      <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                         <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"} disabled>VOTAR</button>
                         <button 
                           className={"button election-button election-button-info"}
