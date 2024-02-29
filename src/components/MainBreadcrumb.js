@@ -6,7 +6,9 @@ const MainBreadcrumb = ({breadCrumbsList}) => {
       <ul>
         {
           breadCrumbsList.map( (element, i) => (
-            <li key={i}>{element}</li>
+            <li key={i} className={
+              i > 0 ? "is-hidden-mobile" : ""
+            }>{element}</li>
           ))
         }
       </ul>

@@ -36,7 +36,7 @@ const EntryPage = ({entry, breadcrumb}) => {
         <div className='level-left'>
           <MainBreadcrumb breadCrumbsList={breadcrumbsList} />
         </div>
-        <div className='level is-mobile'>
+        <div className='level is-mobile share-buttons'>
           <FacebookShareButton className= 'level-item' children={<FacebookIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></FacebookIcon>} url={window.location.href}></FacebookShareButton>
           <TwitterShareButton className= 'level-item' children={<TwitterIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></TwitterIcon>} url={window.location.href}></TwitterShareButton>
           <LinkedinShareButton className= 'level-item' children={<LinkedinIcon bgStyle={{ fill: "white" }} iconFillColor={'#d44000'} size={25} round={true}></LinkedinIcon>} url={window.location.href}></LinkedinShareButton>

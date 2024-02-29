@@ -8,8 +8,8 @@ $light-blue: #6dcaf3;
 $medium-blue: #0096d6;
 $dark-blue: #004b93;
 
-$medium-complement: #d44000f5;
-$light-complement: #F3966D;
+$medium-red: #d44000f5;
+$light-red: #F3966D;
 
 // bulma settings
 $primary: $medium-blue;
@@ -21,14 +21,14 @@ $app-blue: $background-light;
 $app-blue-difumined: hsla(229, 53%, 53%, 0.803);
 $warning-yellow: hsl(46, 20%, 13%);
 
-$navbar-background-color: $medium-complement;
+$navbar-background-color: $medium-blue;
 $navbar-item-color: white;
 
 $box-background-color: transparent;
-$footer-background-color: $medium-complement;
+$footer-background-color: $medium-blue;
 $footer-padding: 1rem 1.5rem 1rem;
 $link-hover: #00b7ff;
-$navbar-item-hover-color: $medium-complement;
+$navbar-item-hover-color: $dark-blue;
 
 $tabs-link-hover-border-bottom-color: $app-blue;
 $tabs-link-hover-color: $app-blue;

@@ -67,11 +67,11 @@ function InfoVotacion({electionData}) {
                       isElectionOpen ?
                       <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                         <a href={ election.vote_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>
-                          <button className={"button is-medium election-button-vote mr-2"} >VOTAR</button>
+                          <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"} >VOTAR</button>
                         </a>
-                        <a href={ election.info_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none", "margin-top": "0.5em" }}>
+                        <a href={ election.info_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>
                           <button 
-                            className={"button is-small election-button-info"}
+                            className={"button election-button election-button-info"}
                             style={{
                               fontSize: "0.7em",
                               height: "3.5em",

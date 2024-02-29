@@ -4454,7 +4454,7 @@ button.dropdown-item.is-active {
 }
 
 .navbar {
-  background-color: rgba(212, 64, 0, 0.9607843137);
+  background-color: #0096d6;
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
@@ -5148,7 +5148,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: hsl(0, 0%, 98%);
-  color: rgba(212, 64, 0, 0.9607843137);
+  color: #004b93;
 }
 
 .navbar-item {
@@ -5228,7 +5228,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     display: none;
   }
   .navbar-menu {
-    background-color: rgba(212, 64, 0, 0.9607843137);
+    background-color: #0096d6;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
   }
@@ -10278,7 +10278,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .footer {
-  background-color: rgba(212, 64, 0, 0.9607843137);
+  background-color: #0096d6;
   padding: 1rem 1.5rem 1rem;
 }
 
@@ -10317,7 +10317,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   border-radius: 10px;
   width: auto;
   max-height: 140px;
-  border: 2px solid rgba(212, 64, 0, 0.9607843137);
+  border: 2px solid #0096d6;
   padding: 2px;
 }
 
@@ -10366,6 +10366,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
   .media-content {
     text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .share-buttons {
+    margin-top: 1.5rem;
   }
 }
 @font-face {
@@ -10421,7 +10426,7 @@ code {
 }
 .election-box {
   background-color: white !important;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
   color: black;
   margin: 1rem auto;
   max-width: 1024px;
@@ -10442,13 +10447,16 @@ code {
   }
   .election-buttons {
     flex-direction: column !important;
-    align-items: center;
   }
   .election-button {
     margin-right: 0 !important;
     margin: 0.2rem;
   }
 }
+.election-buttons {
+  align-items: center;
+}
+
 .election-title {
   color: #004b93;
   text-align: center;
@@ -10460,11 +10468,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-}
-
-.unit-logo img {
-  padding: 10px;
+  padding: 0.5em;
 }
 
 .elections-list li {
@@ -10534,7 +10538,7 @@ code {
 }
 
 .floating-icon {
-  background-color: rgba(212, 64, 0, 0.9607843137);
+  background-color: #004b93;
   border: 2px solid #fff;
   border-radius: 10px;
   bottom: 20px;
