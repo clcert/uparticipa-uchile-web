@@ -1,0 +1,2 @@
+# Participa UChile realiza exitosas jornadas electorales para la Dirección de Gestión y Desarrollo de Personas - Comité Paritario de Higiene y Seguridad (CPHS) Semda Central y Casa Central
+El 25 de julio de 2023, Participa UChile ejecutó una jornada electoral para la Dirección de Gestión y Desarrollo de Personas (DGDP) de la Universidad de Chile, donde se eligió Comité Paritario de Higiene y Seguridad (CPHS) del Semda Central y de la Casa Central.

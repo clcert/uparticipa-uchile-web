@@ -1,0 +1,1 @@
+Durante junio de 2023, Participa UChile, iniciativa de investigación y desarrollo de elecciones electrónicas y remotas de la Universidad realizó tres exitosas jornadas electorales dentro de la institución. 

@@ -4,7 +4,6 @@ import {
 	Routes,
 	Route,
 } from "react-router-dom";
-import ScrollToTop from "react-scroll-to-top";
 
 // Data
 import { menuItems } from './data/menuItems';
@@ -19,6 +18,7 @@ import NotFound from './pages/NotFound';
 import NavBar from './components/Navbar/NavBar';
 import Footer from './components/Footer';
 import EntryPage from './components/MarkdownEntries/EntryPage';
+import ScrollButton from './components/ScrollButton';
 
 import NewsBreadcrumb from './pages/News/Breadcrumb';
 
@@ -30,7 +30,7 @@ export const App = () => {
 	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
 
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className='block main-container'>
 				<div className='container'>
 					<div className='block'>
@@ -56,8 +56,12 @@ export const App = () => {
 						</Routes>
 					</div>
 				</div>
-				<ScrollToTop smooth='true' color='#004a91'/>*
+				{/* <ScrollToTop smooth='true' color='#d44000'/>* */}
+				<ScrollButton />
 			</div>
+			{/* <div className='block mb-0'>
+				<ElectionsStats />
+			</div> */}
 			<div className='block'>
 				<Footer />
 			</div>

@@ -46,6 +46,159 @@
       "route": "/news/charla_votacion_electronica",
       "show": true
   
+    },
+    {
+      "date": "2022-07-08",
+      "summaryFile": "News/summary/uchile_tv.md",
+      "file": "News/pages/uchile_tv.md",
+      "image": "News/summary/img/uchile_tv.png",
+      "lang": "es",
+      "route": "/news/uchile_tv",
+      "show": true
+    },
+    {
+      "date": "2022-08-08",
+      "summaryFile": "News/summary/senado_universitario.md",
+      "file": "News/pages/senado_universitario.md",
+      "image": "News/summary/img/senado_universitario.jpg",
+      "lang": "es",
+      "route": "/news/senado_universitario",
+      "show": true
+    },
+    {
+      "date": "2022-08-16",
+      "summaryFile": "News/summary/senado_universitario_ceremonia.md",
+      "file": "News/pages/senado_universitario_ceremonia.md",
+      "image": "News/summary/img/senado_universitario_ceremonia.png",
+      "lang": "es",
+      "route": "/news/senado_universitario_ceremonia",
+      "show": true
+    },
+    {
+      "date": "2022-10-26",
+      "summaryFile": "News/summary/centro_estudiantes.md",
+      "file": "News/pages/centro_estudiantes.md",
+      "image": "News/summary/img/centro_estudiantes.png",
+      "lang": "es",
+      "route": "/news/centro_estudiantes",
+      "show": true
+    },
+    {
+      "date": "2022-11-29",
+      "summaryFile": "News/summary/eleccion_cadcc_2023.md",
+      "file": "News/pages/eleccion_cadcc_2023.md",
+      "image": "News/summary/img/eleccion_cadcc_2023.png",
+      "lang": "es",
+      "route": "/news/eleccion_cadcc_2023",
+      "show": true
+    },
+    {
+      "date": "2023-06-19",
+      "summaryFile": "News/summary/primera_psifos.md",
+      "file": "News/pages/primera_psifos.md",
+      "image": "News/summary/img/logo-short-color-fondo.png",
+      "lang": "es",
+      "route": "/news/primera_psifos",
+      "show": true
+    },
+    {
+      "date": "2023-06-30",
+      "summaryFile": "News/summary/elecciones_jun.md",
+      "file": "News/pages/elecciones_jun.md",
+      "image": "News/summary/img/elecciones_jun.png",
+      "lang": "es",
+      "route": "/news/elecciones_jun",
+      "show": true
+    },
+    {
+      "date": "2023-07-11",
+      "summaryFile": "News/summary/charla_7jul.md",
+      "file": "News/pages/charla_7jul.md",
+      "image": "News/summary/img/charla_7jul.png",
+      "lang": "es",
+      "route": "/news/charla_7jul",
+      "show": true
+    },
+    {
+      "date": "2023-07-17",
+      "summaryFile": "News/summary/eleccion_acauch_2023.md",
+      "file": "News/pages/eleccion_acauch_2023.md",
+      "image": "News/summary/img/eleccion_acauch_2023.png",
+      "lang": "es",
+      "route": "/news/eleccion_acauch_2023",
+      "show": true
+    },
+    {
+      "date": "2023-07-31",
+      "summaryFile": "News/summary/elecciones_jul.md",
+      "file": "News/pages/elecciones_jul.md",
+      "image": "News/summary/img/elecciones_jul.png",
+      "lang": "es",
+      "route": "/news/elecciones_jul",
+      "show": true
+    },
+    {
+      "date": "2023-08-04",
+      "summaryFile": "News/summary/cphs_01.md",
+      "file": "News/pages/cphs_01.md",
+      "image": "News/summary/img/cphs_01.png",
+      "lang": "es",
+      "route": "/news/cphs_01",
+      "show": true
+    },
+    {
+      "date": "2023-08-30",
+      "summaryFile": "News/summary/cphs_02.md",
+      "file": "News/pages/cphs_02.md",
+      "image": "News/summary/img/cphs_02.png",
+      "lang": "es",
+      "route": "/news/cphs_02",
+      "show": true
+    },
+    {
+      "date": "2023-09-01",
+      "summaryFile": "News/summary/elecciones_ago.md",
+      "file": "News/pages/elecciones_ago.md",
+      "image": "News/summary/img/elecciones_ago.png",
+      "lang": "es",
+      "route": "/news/elecciones_ago",
+      "show": true
+    },
+    {
+      "date": "2023-10-01",
+      "summaryFile": "News/summary/elecciones_sep.md",
+      "file": "News/pages/elecciones_sep.md",
+      "image": "News/summary/img/elecciones_sep.png",
+      "lang": "es",
+      "route": "/news/elecciones_sep",
+      "show": true
+    },
+    {
+      "date": "2023-11-03",
+      "summaryFile": "News/summary/eleccion_prueba.md",
+      "file": "News/pages/eleccion_prueba.md",
+      "image": "News/summary/img/eleccion_prueba.png",
+      "lang": "es",
+      "route": "/news/eleccion_prueba",
+      "show": true
+    },
+    {
+      "date": "2023-11-27",
+      "summaryFile": "News/summary/eleccion_cadcc_2024.md",
+      "file": "News/pages/eleccion_cadcc_2024.md",
+      "image": "News/summary/img/carton_20231123_cadcc.jpg",
+      "lang": "es",
+      "route": "/news/eleccion_cadcc_2024",
+      "show": true
+    },
+    {
+      "date": "2024-01-29",
+      "summaryFile": "News/summary/eleccion_afuchscen_2024.md",
+      "file": "News/pages/eleccion_afuchscen_2024.md",
+      "image": "News/summary/img/eleccion_afuchscen_2024.jpg",
+      "lang": "es",
+      "route": "/news/eleccion_afuchscen_2024",
+      "show": true
     }
   ]
 }

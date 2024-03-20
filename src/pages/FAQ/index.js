@@ -3,7 +3,7 @@ import React from 'react';
 const FAQScreen = () => {
 	return (
 		<div className='box'>
-			<h1 className="title has-text-centered has-text-primary">Preguntas Frecuentes (FAQ)</h1>
+			<h1 className="title has-text-centered has-text-white">Preguntas Frecuentes (FAQ)</h1>
 			<article className="message is-primary">
 				<div className="message-header">
 					<p>1. ¿Cómo se autentican los usuarios?</p>

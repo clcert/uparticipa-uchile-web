@@ -1,24 +1,31 @@
 import React from 'react';
+import InfoVotacion from "../../components/Home/InfoVotacion";
 import logoParticipaUchile from '../../assets/images/logolight.svg'
 
 const Home = () => {
+	const elections = require("../../data/currentElections.json");
+
 	return (
 		<div className='columns is-vcentered'>
-			<div className='column has-text-centered'>
+			<div className='column has-text-centered is-one-third is-hidden-touch'>
 				<div className='block'>
-					<p className='has-text-white is-size-1 has-text-weight-medium'>SISTEMA DE VOTACIÓN Y CONSULTAS</p>
+					<p className='has-text-white is-size-3 has-text-weight-bold'>
+						"SEGURIDAD, TRANSPARENCIA Y VERIFICACIÓN"
+					</p>
 				</div>
 				<div className='block'>
 					<img src={ logoParticipaUchile } width='300' alt='Participa UChile Logo' />
 				</div>
 			</div>
 			<div className='column'>
-				<div className='box'>
-					<div className='block'>
-						<h1 className='title has-text-centered has-text-primary'>Elección en Curso</h1>
+				<div className='box mx-5' style={{boxShadow: "none"}}>
+					<div className='block mb-1 p-2'>
+						<h1 className='is-size-4 title has-text-centered has-text-white'>EN CURSO</h1>
 					</div>
 					<div className='block'>
-						<p>Aquí pondría mi votación actual... <strong>¡Si tuviera una!</strong></p>
+						{elections.data.map((election, index) => (
+							<InfoVotacion electionData={election} key={index} />
+						))}
 					</div>
 				</div>
 			</div>

@@ -7,7 +7,7 @@ const PeopleScreen = () => {
 
   return (
 	<div className='box'>
-		<h1 className='title has-text-centered has-text-primary'>Equipo de Trabajo</h1>
+		<h1 className='title has-text-centered has-text-white'>Equipo de Trabajo</h1>
 		<div className='tile is-ancestor is-vertical'>
 			<div className='tile'>
 				{

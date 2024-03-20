@@ -6,7 +6,7 @@ import { electionList } from '../../data/pastelections';
 const PastElectionsScreen = () => {
 	return (
 		<div className='box'>
-			<h1 className='title has-text-centered has-text-primary'>
+			<h1 className='title has-text-centered has-text-white'>
 				Listado de Votaciones y Consultas
 			</h1>
 
