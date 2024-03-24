@@ -1,0 +1,21 @@
+FROM node:lts as build
+
+RUN apt install -y git
+
+COPY ./ /
+
+WORKDIR /
+
+ENV PATH /node_modules/.bin:$PATH
+
+RUN npm install
+
+ENV NODE_OPTIONS="--max-old-space-size=2048"
+
+RUN npm run build
+
+FROM caddy:alpine as app
+
+COPY --from=build /build /usr/share/caddy
+
+EXPOSE 80
