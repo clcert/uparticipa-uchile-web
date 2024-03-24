@@ -1,0 +1,23 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    labels:
+      caddy: psifos.labs.clcert.cl
+      caddy.reverse_proxy: "{{ upstreams 80 }}"
+    networks:
+      - caddy
+      - psifos-network
+
+networks:
+  caddy:
+    external: true
+  psifos-network:
+
+volumes:
+  caddy_config:
+  caddy_data:
