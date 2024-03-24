@@ -7,7 +7,7 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
     labels:
-      caddy: psifos.labs.clcert.cl
+      caddy: psifos-participa.labs.clcert.cl
       caddy.reverse_proxy: "{{ upstreams 80 }}"
     networks:
       - caddy
