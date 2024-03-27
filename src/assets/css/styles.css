@@ -10443,7 +10443,7 @@ code {
     flex-direction: column;
   }
   .election-title {
-    text-align: center;
+    text-align: center !important;
   }
   .election-buttons {
     flex-direction: column !important;
@@ -10452,6 +10452,10 @@ code {
     margin-right: 0 !important;
     margin: 0.2rem;
   }
+  .election-box {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 }
 .election-buttons {
   align-items: center;
@@ -10459,9 +10463,8 @@ code {
 
 .election-title {
   color: #004b93;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
-  margin-top: 15px;
 }
 
 .unit-logo {
@@ -10472,7 +10475,10 @@ code {
 }
 
 .elections-list li {
-  padding: 0.5em 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-left: 0.3em;
 }
 
 .election-closed {

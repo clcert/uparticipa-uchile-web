@@ -59,7 +59,7 @@ function InfoVotacion({electionData}) {
                 }}>
                   <div className="election-elements is-flex is-justify-content-space-between is-align-items-center">
                     <div className='election-title'>
-                      <span style={{ "font-size": "18px", "textAlign": "left", "color": "#004b93", "fontWeight": "bold"}}>
+                      <span style={{ "font-size": "18px", "color": "#004b93", "fontWeight": "bold"}}>
                         { election.name }
                       </span>
                     </div>
