@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/participa-uchile-new-home/static/css/main.0ba2f5da.css",
+    "main.css": "/participa-uchile-new-home/static/css/main.5af3982b.css",
     "main.js": "/participa-uchile-new-home/static/js/main.81d33e36.js",
     "static/js/787.e773a642.chunk.js": "/participa-uchile-new-home/static/js/787.e773a642.chunk.js",
     "static/media/cover-start-7.jpg": "/participa-uchile-new-home/static/media/cover-start-7.11434ad974d77697fd4d.jpg",
@@ -66,12 +66,12 @@
     "static/media/bits_ciencia_22.md": "/participa-uchile-new-home/static/media/bits_ciencia_22.3c89991f8b8e1044c3d7.md",
     "index.html": "/participa-uchile-new-home/index.html",
     "static/media/sample.md": "/participa-uchile-new-home/static/media/sample.39f4441ddd0fcf5387e7.md",
-    "main.0ba2f5da.css.map": "/participa-uchile-new-home/static/css/main.0ba2f5da.css.map",
+    "main.5af3982b.css.map": "/participa-uchile-new-home/static/css/main.5af3982b.css.map",
     "main.81d33e36.js.map": "/participa-uchile-new-home/static/js/main.81d33e36.js.map",
     "787.e773a642.chunk.js.map": "/participa-uchile-new-home/static/js/787.e773a642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba2f5da.css",
+    "static/css/main.5af3982b.css",
     "static/js/main.81d33e36.js"
   ]
 }
