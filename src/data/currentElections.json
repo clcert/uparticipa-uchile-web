@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "startTime": "2024-03-26 09:00",
-      "endTime": "2024-03-26 17:00",
-      "unit": "Facultad de Ciencias",
+      "startTime": "2024-04-11 09:00",
+      "endTime": "2024-04-11 17:00",
+      "unit": "Instituto de Estudios Avanzados en Educación",
       "typeUnit": "Facultad",
-      "picture": "logos/logo-ciencias.svg",
+      "picture": "logos/logo-ie.svg",
       "title": "",
       "open": true,
       "elections": [ 
-        {"name": "REPRESENTANTES ACADÉMICOS PARA EL CONSEJO DE FACULTAD",
+        {"name": "REPRESENTANTES ACADÉMICOS(AS) AL CONSEJO DE ESCUELA DE POSTGRADO",
          "vote_link": "#",
          "info_link": "#"}
       ]
