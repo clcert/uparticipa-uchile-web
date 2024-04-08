@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoScreen = () => {
 	return (
-		<div className='box is-light'>
+		<div className='pt-5'>
 			<div className='block'>
 				<h1 className='title has-text-centered has-text-white'>
 					¿Cómo Votar Utilizando Participa UChile?

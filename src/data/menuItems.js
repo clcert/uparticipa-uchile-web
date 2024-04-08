@@ -3,6 +3,7 @@ import News from "../pages/News";
 import PastElectionsScreen from "../pages/PastElections";
 import People from "../pages/People"
 import VideoScreen from "../pages/Video";
+import Demo from "../pages/Demo"
 
 export const menuItems = [
     {
@@ -30,4 +31,9 @@ export const menuItems = [
         url: '/noticias',
         component: <News />
     },
+    {
+        text: 'DEMO',
+        url: '/demo',
+        component: <Demo />
+    }
 ]

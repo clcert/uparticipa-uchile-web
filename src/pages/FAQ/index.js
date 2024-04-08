@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQScreen = () => {
 	return (
-		<div className='box'>
+		<div className='pt-5'>
 			<h1 className="title has-text-centered has-text-white">Preguntas Frecuentes (FAQ)</h1>
 			<article className="message is-primary">
 				<div className="message-header">

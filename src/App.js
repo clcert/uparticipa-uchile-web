@@ -12,6 +12,7 @@ import { menuItems } from './data/menuItems';
 import Home from './pages/Home';
 import VideoScreen from './pages/Video';
 import FAQScreen from './pages/FAQ';
+import DemoScreen from './pages/Demo';
 import NotFound from './pages/NotFound';
 
 // Components
@@ -52,6 +53,7 @@ export const App = () => {
 							{/* Others */}
 							<Route exact path='/video' element={<VideoScreen />} />
 							<Route exact path='/faq' element={<FAQScreen />} />
+							<Route exact path='/demo' element={<DemoScreen />} />
 							<Route path="*" element={<NotFound />} />
 						</Routes>
 					</div>
