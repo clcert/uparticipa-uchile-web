@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "startTime": "2024-04-11 09:00",
-      "endTime": "2024-04-11 17:00",
-      "unit": "Instituto de Estudios Avanzados en Educación",
+      "startTime": "2024-04-23 09:00",
+      "endTime": "2024-04-23 17:00",
+      "unit": "Senado Universitario",
       "typeUnit": "Facultad",
-      "picture": "logos/logo-ie.svg",
+      "picture": "logos/logo-senado.png",
       "title": "",
       "open": true,
       "elections": [ 
-        {"name": "REPRESENTANTES ACADÉMICOS(AS) AL CONSEJO DE ESCUELA DE POSTGRADO",
+        {"name": "REPRESENTANTES ACADÉMICOS(AS) FACULTAD DE CIENCIAS AGRONÓMICAS",
          "vote_link": "#",
          "info_link": "#"}
       ]

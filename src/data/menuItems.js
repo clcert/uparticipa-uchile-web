@@ -6,11 +6,11 @@ import VideoScreen from "../pages/Video";
 import Demo from "../pages/Demo"
 
 export const menuItems = [
-    {
-        text: 'Cómo Votar',
-        url: '/video',
-        component: <VideoScreen />
-    },
+    // {
+    //     text: 'Cómo Votar',
+    //     url: '/video',
+    //     component: <VideoScreen />
+    // },
     {
         text: 'FAQ',
         url: '/faq',
@@ -21,11 +21,11 @@ export const menuItems = [
         url: '/equipo',
         component: <People />
     },
-    {
-        text: 'Elecciones',
-        url: '/elecciones',
-        component: <PastElectionsScreen />
-    },
+    // {
+    //     text: 'Elecciones',
+    //     url: '/elecciones',
+    //     component: <PastElectionsScreen />
+    // },
     {
         text: 'Noticias',
         url: '/noticias',
