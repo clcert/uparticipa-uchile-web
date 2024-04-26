@@ -1,13 +1,13 @@
 @font-face
 	font-family: couture-bld
 	src: url(../fonts/couture-bld.otf)
-	
+
 $font-family_1: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
 $font-family_2: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
 $font-family_3: montserrat, helvetica neue, Arial, sans-serif, -apple-system
 $font-family_4: couture-bld
 
-body 
+body
 	font-family: $font-family_3
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
@@ -16,14 +16,14 @@ body
 	background-size: auto
 	box-shadow: inset 0 0 0 1000px #0006
 
-code 
+code
 	font-family: $font-family_2
 
 .is-equal-height
 	display: flex
 	flex-direction: column
 	height: 100%
-	
+
 .card-footer
 	margin-top: auto
 
@@ -36,13 +36,13 @@ code
 .footer
 	min-height: 25vh
 
-.breadcrumb-current 
+.breadcrumb-current
 	margin-left: 0.75em
 	color: white
 
-@media screen and (max-width: 1023px) 
-	.navbar-start 
-		.active 
+@media screen and (max-width: 1023px)
+	.navbar-start
+		.active
 			color: #ffffff
 			background-color: $background-light
 
@@ -54,11 +54,11 @@ code
 	max-width: 1024px
 	padding: 0 2rem 2rem 2rem !important
 
-@media screen and (max-width: 1023px) 
+@media screen and (max-width: 1023px)
 	.field.is-grouped
 		justify-content: center
 
-@media screen and (max-width: 768px) 	
+@media screen and (max-width: 768px)
 	.election-elements
 		flex-direction: column
 
@@ -68,14 +68,17 @@ code
 
 	.election-buttons
 		flex-direction: column !important
-		
+
 	.election-button
 		margin-right: 0 !important
 		margin: 0.2rem
 
 	.election-box
-		padding-left: 1rem  !important
+		padding-left: 1rem !important
 		padding-right: 1rem !important
+
+	.entry-body-img
+		width: 75vw !important
 
 .election-buttons
 	align-items: center
@@ -86,18 +89,17 @@ code
 	text-transform: uppercase
 	padding-right: 0.5rem
 
-.unit-logo 
+.unit-logo
 	display: flex
 	justify-content: center
 	align-items: center
 	padding: 0.5em
 	padding-top: 1em
-	
-.elections-list li 
+
+.elections-list li
 	padding-top: 0.5em
 	padding-bottom: 0.5em
 	padding-right: 1em
-	padding-left: 0.3em
 
 .election-closed
 	color: red
@@ -162,3 +164,14 @@ code
 	position: fixed
 	right: 30px
 	z-index: 99
+
+.entry-body-img
+	margin-left: auto
+	margin-right: auto
+	width: 50%
+	margin-top: 1em
+	margin-bottom: 1em
+	border: 2px solid $dark-blue
+
+.navbar-item-social:hover
+	background-color: $dark-blue !important

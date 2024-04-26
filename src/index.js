@@ -10,9 +10,9 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <React.StrictMode>
-    <ParticipaUChile />
-  </React.StrictMode>
+    <React.StrictMode>
+        <ParticipaUChile />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

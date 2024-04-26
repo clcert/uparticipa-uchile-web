@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  	BrowserRouter as Router,
+	BrowserRouter as Router,
 	Routes,
 	Route,
 } from "react-router-dom";
@@ -28,7 +28,7 @@ import NewsJSON from './markdown/News/entries.json';
 
 
 export const App = () => {
-	const newsEntries = NewsJSON.entries.filter( (entry) => entry.route !== undefined && entry.file !== undefined);
+	const newsEntries = NewsJSON.entries.filter((entry) => entry.route !== undefined && entry.file !== undefined);
 
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
@@ -39,15 +39,15 @@ export const App = () => {
 					</div>
 					<div className='block'>
 						<Routes>
-							<Route exact path='/' element={<Home/>} />
+							<Route exact path='/' element={<Home />} />
 							{ // Pages in Navbar
-								menuItems.map( ({url, component}) => (
+								menuItems.map(({ url, component }) => (
 									<Route exact path={url} element={component} key={url} />
 								))
 							}
 							{ // News publications
-								newsEntries.map( (entry) => (
-									<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb />}/>} key={entry.route} />
+								newsEntries.map((entry) => (
+									<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb />} />} key={entry.route} />
 								))
 							}
 							{/* Others */}
@@ -68,7 +68,7 @@ export const App = () => {
 				<Footer />
 			</div>
 		</Router>
-  	)
+	)
 }
 
 export default App;

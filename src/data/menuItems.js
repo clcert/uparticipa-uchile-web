@@ -1,8 +1,6 @@
 import FAQScreen from "../pages/FAQ"
 import News from "../pages/News";
-import PastElectionsScreen from "../pages/PastElections";
 import People from "../pages/People"
-import VideoScreen from "../pages/Video";
 import Demo from "../pages/Demo"
 
 export const menuItems = [
@@ -15,8 +13,7 @@ export const menuItems = [
         text: 'FAQ',
         url: '/faq',
         component: <FAQScreen />
-    },
-    {
+    }, {
         text: 'Equipo',
         url: '/equipo',
         component: <People />
@@ -30,8 +27,7 @@ export const menuItems = [
         text: 'Noticias',
         url: '/noticias',
         component: <News />
-    },
-    {
+    }, {
         text: 'DEMO',
         url: '/demo',
         component: <Demo />
