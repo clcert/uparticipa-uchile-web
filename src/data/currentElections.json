@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024-04-23 09:00",
-      "endTime": "2024-04-23 17:00",
-      "unit": "Senado Universitario",
+      "startTime": "2024-05-06 08:00",
+      "endTime": "2024-05-06 16:00",
+      "unit": "Facultad de Odontología",
       "typeUnit": "Facultad",
-      "picture": "logos/logo-senado.png",
+      "picture": "logos/logo-odontologia.svg",
       "title": "",
       "open": true,
       "elections": [ 
-        {"name": "REPRESENTANTES ACADÉMICOS(AS) FACULTAD DE CIENCIAS AGRONÓMICAS",
-         "vote_link": "#",
-         "info_link": "#"}
+        {"name": "REPRESENTANTES ACADÉMICOS(AS) ANTE EL CONSEJO DE LA ESCUELA DE GRADUADOS",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-acad-graduados-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-acad-graduados-2024/public-info"}
       ]
     }
   ]

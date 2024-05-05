@@ -1,7 +1,7 @@
 {
   "name": "participa-uchile",
   "version": "0.1.0",
-  "homepage": "https://clcert.github.io/participa-uchile-new-home",
+  "homepage": "https://participa.uchile.cl",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --cname participa.uchile.cl",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

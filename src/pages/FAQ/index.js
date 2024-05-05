@@ -23,7 +23,7 @@ const FAQScreen = () => {
 				<div className="message-body has-background-white has-text-black">
 					<div className='block'>
 						Participa UChile está orientado a elecciones de
-						<strong>bajo perfil en
+						<strong> bajo perfil en
 							un contexto universitario</strong>, como por ejemplo, elecciones de
 						directores de unidades académicas, consejeros, representantes de
 						funcionarios y elecciones estudiantiles locales.
@@ -33,9 +33,8 @@ const FAQScreen = () => {
 						Cuando la elección es de alto perfil, como por ejemplo, elecciones de
 						cargos públicos de nivel nacional (presidente y representantes, etc.),
 						la votación electrónica remota es aún un desafío con muchas
-						interrogantes y riesgos significativos. La
-						<a href="https://www.nationalacademies.org/our-work/the-future-of-voting-accessible-reliable-verifiable-technology" target="_blank" rel="noreferrer">
-							recomendación de la comunidad experta internacional</a>
+						interrogantes y riesgos significativos. La 
+						<a href="https://www.nationalacademies.org/our-work/the-future-of-voting-accessible-reliable-verifiable-technology" target="_blank" rel="noreferrer"> recomendación de la comunidad experta internacional </a>
 						para dicho
 						contexto es no utilizar votación remota pues no se conoce un sistema
 						hoy en día que garantice seguridad a un nivel adecuado. Participa
@@ -50,8 +49,7 @@ const FAQScreen = () => {
 				<div className="message-body has-background-white has-text-black">
 					<div className='block'>
 						Participa UChile es una adaptación del sistema
-						<a href="https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf" target="_blank" rel="noreferrer">
-							Helios Voting, propuesto por Ben Adida
+						<a href="https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf" target="_blank" rel="noreferrer"> Helios Voting, propuesto por Ben Adida
 							(2008)</a>. Helios ha sido utilizado por entidades como la International
 						Association for Cryptographic Research, y la U. de Louvain-Le Neuve
 						(Bélgica).
@@ -59,7 +57,7 @@ const FAQScreen = () => {
 
 					<div className='block'>
 						Participa UChile, tal como Helios, utiliza
-						<strong>algoritmos matemáticos
+						<strong> algoritmos matemáticos
 							para mejorar la seguridad del sistema</strong>. El sistema permite, por
 						ejemplo, garantizar el secreto del voto encriptando los votos con una clave
 						secreta dividida entre varios custodios. De hecho, el sistema nunca revela
