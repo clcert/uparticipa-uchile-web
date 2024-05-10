@@ -7,9 +7,17 @@ const getElectionDate = (startTime, endTime) => {
     const [dateInit, timeInit] = startTime.split(' ');
     const [dateEnd, timeEnd] = endTime.split(' ');
     if (dateInit === dateEnd) {
-        return new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
+        // return new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
+        const date = new Date(dateInit + " 00:00");
+        const localeDate = new Intl.DateTimeFormat('es-CL', dateOptions).format(date);
+        return localeDate + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
     } else {
-        return ('desde ' + new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeInit + ' h hasta ' + new Date(dateEnd + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeEnd + ' h')
+        // return ('desde ' + new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeInit + ' h hasta ' + new Date(dateEnd + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeEnd + ' h')
+        const date1 = new Date(dateInit + " 00:00");
+        const date2 = new Date(dateEnd + " 00:00");
+        const localeDate1 = new Intl.DateTimeFormat('es-CL', dateOptions).format(date1);
+        const localeDate2 = new Intl.DateTimeFormat('es-CL', dateOptions).format(date2);
+        return 'desde ' + localeDate1 + ', ' + timeInit + ' h, hasta ' + localeDate2 + ', ' + timeEnd + ' h'
     }
 }
 
@@ -24,10 +32,21 @@ const isOpen = (startTime, endTime) => {
     return false;
 }
 
+const isOver = (endTime) => {
+    const endDate = new Date(endTime);
+    const now = Date.now();
+
+    if (endDate < now) {
+        return true;
+    }
+    return false;
+}
+
 function InfoVotacion({ electionData }) {
 
     const electionDate = getElectionDate(electionData.startTime, electionData.endTime);
     const isElectionOpen = isOpen(electionData.startTime, electionData.endTime);
+    const isElectionOver = isOver(electionData.endTime)
 
     return (
         <div className="election-box mt-0">
@@ -119,7 +138,31 @@ function InfoVotacion({ electionData }) {
                                                     PORTAL DE<br />INFORMACIÓN
                                                 </button>
                                             </a>
-                                        </div> : <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                        </div> : isElectionOver ? 
+                                        <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                            <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
+                                                disabled>VOTAR</button>
+                                            <a href={
+                                                election.info_link
+                                            }
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                style={
+                                                    { "textDecoration": "none" }
+                                                }>
+                                                <button className={"button election-button election-button-info"}
+                                                    style={
+                                                        {
+                                                            fontSize: "0.7em",
+                                                            height: "3.5em"
+                                                        }
+                                                    }>
+                                                    PORTAL DE<br />INFORMACIÓN
+                                                </button>
+                                            </a>
+                                        </div>
+                                        :
+                                        <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                                             <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
                                                 disabled>VOTAR</button>
                                             <button className={"button election-button election-button-info"}
