@@ -6,7 +6,7 @@
       "file": "News/pages/comite_demre.md",
       "image": "News/summary/img/comite_demre.png",
       "lang": "es",
-      "route": "/news/comite_demre",
+      "route": "/news/comite-demre",
       "show": true
     },
     {
@@ -15,7 +15,7 @@
       "file": "News/pages/bits_ciencia_22.md",
       "image": "News/summary/img/bits_ciencia_22.jpeg",
       "lang": "es",
-      "route": "/news/bits_ciencia_22",
+      "route": "/news/bits-ciencia-22",
       "show": true
     },
     {
@@ -24,7 +24,7 @@
       "file": "News/pages/eleccion_decano_fcfm.md",
       "image": "News/summary/img/eleccion_decano_fcfm.png",
       "lang": "es",
-      "route": "/news/eleccion_decano_fcfm",
+      "route": "/news/eleccion-decano-fcfm",
       "show": true
     },
     {
@@ -33,7 +33,7 @@
       "file": "News/pages/eleccion_directores_departamento_fcfm.md",
       "image": "News/summary/img/eleccion_directores_departamento_fcfm.png",
       "lang": "es",
-      "route": "/news/eleccion_directores_departamento_fcfm",
+      "route": "/news/eleccion-directores-departamento-fcfm",
       "show": true
   
     },
@@ -43,7 +43,7 @@
       "file": "News/pages/charla_votacion_electronica.md",
       "image": "News/summary/img/charla_votacion_electronica.jpeg",
       "lang": "es",
-      "route": "/news/charla_votacion_electronica",
+      "route": "/news/charla-votacion-electronica",
       "show": true
   
     },
@@ -53,7 +53,7 @@
       "file": "News/pages/uchile_tv.md",
       "image": "News/summary/img/uchile_tv.png",
       "lang": "es",
-      "route": "/news/uchile_tv",
+      "route": "/news/uchile-tv",
       "show": true
     },
     {
@@ -62,7 +62,7 @@
       "file": "News/pages/senado_universitario.md",
       "image": "News/summary/img/senado_universitario.jpg",
       "lang": "es",
-      "route": "/news/senado_universitario",
+      "route": "/news/senado-universitario",
       "show": true
     },
     {
@@ -71,7 +71,7 @@
       "file": "News/pages/senado_universitario_ceremonia.md",
       "image": "News/summary/img/senado_universitario_ceremonia.png",
       "lang": "es",
-      "route": "/news/senado_universitario_ceremonia",
+      "route": "/news/senado-universitario-ceremonia",
       "show": true
     },
     {
@@ -80,7 +80,7 @@
       "file": "News/pages/centro_estudiantes.md",
       "image": "News/summary/img/centro_estudiantes.png",
       "lang": "es",
-      "route": "/news/centro_estudiantes",
+      "route": "/news/centro-estudiantes",
       "show": true
     },
     {
@@ -89,7 +89,7 @@
       "file": "News/pages/eleccion_cadcc_2023.md",
       "image": "News/summary/img/eleccion_cadcc_2023.png",
       "lang": "es",
-      "route": "/news/eleccion_cadcc_2023",
+      "route": "/news/eleccion-cadcc-2023",
       "show": true
     },
     {
@@ -98,7 +98,7 @@
       "file": "News/pages/primera_psifos.md",
       "image": "News/summary/img/logo-short-color-fondo.png",
       "lang": "es",
-      "route": "/news/primera_psifos",
+      "route": "/news/primera-psifos",
       "show": true
     },
     {
@@ -107,7 +107,7 @@
       "file": "News/pages/elecciones_jun.md",
       "image": "News/summary/img/elecciones_jun.png",
       "lang": "es",
-      "route": "/news/elecciones_jun",
+      "route": "/news/elecciones-jun",
       "show": true
     },
     {
@@ -116,7 +116,7 @@
       "file": "News/pages/charla_7jul.md",
       "image": "News/summary/img/charla_7jul.png",
       "lang": "es",
-      "route": "/news/charla_7jul",
+      "route": "/news/charla-7jul",
       "show": true
     },
     {
@@ -125,7 +125,7 @@
       "file": "News/pages/eleccion_acauch_2023.md",
       "image": "News/summary/img/eleccion_acauch_2023.png",
       "lang": "es",
-      "route": "/news/eleccion_acauch_2023",
+      "route": "/news/eleccion-acauch-2023",
       "show": true
     },
     {
@@ -134,7 +134,7 @@
       "file": "News/pages/elecciones_jul.md",
       "image": "News/summary/img/elecciones_jul.png",
       "lang": "es",
-      "route": "/news/elecciones_jul",
+      "route": "/news/elecciones-jul",
       "show": true
     },
     {
@@ -143,7 +143,7 @@
       "file": "News/pages/cphs_01.md",
       "image": "News/summary/img/cphs_01.png",
       "lang": "es",
-      "route": "/news/cphs_01",
+      "route": "/news/cphs-01",
       "show": true
     },
     {
@@ -152,7 +152,7 @@
       "file": "News/pages/cphs_02.md",
       "image": "News/summary/img/cphs_02.png",
       "lang": "es",
-      "route": "/news/cphs_02",
+      "route": "/news/cphs-02",
       "show": true
     },
     {
@@ -161,7 +161,7 @@
       "file": "News/pages/elecciones_ago.md",
       "image": "News/summary/img/elecciones_ago.png",
       "lang": "es",
-      "route": "/news/elecciones_ago",
+      "route": "/news/elecciones-ago",
       "show": true
     },
     {
@@ -170,7 +170,7 @@
       "file": "News/pages/elecciones_sep.md",
       "image": "News/summary/img/elecciones_sep.png",
       "lang": "es",
-      "route": "/news/elecciones_sep",
+      "route": "/news/elecciones-sep",
       "show": true
     },
     {
@@ -179,7 +179,7 @@
       "file": "News/pages/eleccion_prueba.md",
       "image": "News/summary/img/eleccion_prueba.png",
       "lang": "es",
-      "route": "/news/eleccion_prueba",
+      "route": "/news/eleccion-prueba",
       "show": true
     },
     {
@@ -188,7 +188,7 @@
       "file": "News/pages/eleccion_cadcc_2024.md",
       "image": "News/summary/img/carton_20231123_cadcc.jpg",
       "lang": "es",
-      "route": "/news/eleccion_cadcc_2024",
+      "route": "/news/eleccion-cadcc-2024",
       "show": true
     },
     {
@@ -197,7 +197,16 @@
       "file": "News/pages/eleccion_afuchscen_2024.md",
       "image": "News/summary/img/eleccion_afuchscen_2024.jpg",
       "lang": "es",
-      "route": "/news/eleccion_afuchscen_2024",
+      "route": "/news/eleccion-afuchscen-2024",
+      "show": true
+    },
+    {
+      "date": "2024-05-14",
+      "summaryFile": "News/summary/nuevo_diseño_home.md",
+      "file": "News/pages/nuevo_diseño_home.md",
+      "image": "News/summary/img/nuevo_diseño_home.png",
+      "lang": "es",
+      "route": "/news/nuevo-diseño-home",
       "show": true
     }
   ]

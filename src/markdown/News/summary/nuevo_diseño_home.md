@@ -1,0 +1,2 @@
+# Participa UChile lanza nueva Página Principal para potenciar la transparencia y accesibilidad del sistema
+El proyecto de investigación aplicada sobre votación electrónica, Participa UChile, ha dado un paso adelante con el lanzamiento de su nueva página principal. La nueva página permite facilitar el acceso al Portal de Información Electoral.

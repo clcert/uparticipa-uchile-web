@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/05/06 08:00",
-      "endTime": "2024/05/06 13:00",
-      "unit": "Facultad de Odontología",
-      "typeUnit": "Facultad",
-      "picture": "logos/logo-odontologia.svg",
+      "startTime": "2024/05/14 09:00",
+      "endTime": "2024/05/15 17:00",
+      "unit": "DEMRE",
+      "typeUnit": "Dirección",
+      "picture": "logos/logo-demre.png",
       "title": "",
       "open": true,
       "elections": [ 
-        {"name": "REPRESENTANTES ACADÉMICOS(AS) ANTE EL CONSEJO DE LA ESCUELA DE GRADUADOS",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-acad-graduados-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-acad-graduados-2024/public-info"}
+        {"name": "REPRESENTANTES DE FUNCIONARIOS(AS) DEL PERSONAL DE COLABORACIÓN Y ACADÉMICOS(AS) PARA COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-demre-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-demre-2024/public-info"}
       ]
     }
   ]
