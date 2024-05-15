@@ -30,6 +30,13 @@ import NewsJSON from './markdown/News/entries.json';
 export const App = () => {
 	const newsEntries = NewsJSON.entries.filter((entry) => entry.route !== undefined && entry.file !== undefined);
 
+	React.useEffect(() => {
+		var _mtm = window._mtm = window._mtm || [];
+		_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src='https://analytics.labs.clcert.cl/js/container_ZBKvC5xi.js'; s.parentNode.insertBefore(g,s);
+	}, [])
+
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
 			<div className='block main-container'>
