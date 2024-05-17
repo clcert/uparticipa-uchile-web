@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Routes,
 	Route,
 } from "react-router-dom";
@@ -47,16 +47,24 @@ export const App = () => {
 					<div className='block'>
 						<Routes>
 							<Route exact path='/' element={<Home />} />
+							
 							{ // Pages in Navbar
 								menuItems.map(({ url, component }) => (
 									<Route exact path={url} element={component} key={url} />
 								))
 							}
+							
 							{ // News publications
 								newsEntries.map((entry) => (
-									<Route exact path={entry.route} element={<EntryPage entry={entry} breadcrumb={<NewsBreadcrumb />} />} key={entry.route} />
+									<Route 
+										exact path={entry.route} 
+										element={<EntryPage entry={entry} 
+										breadcrumb={<NewsBreadcrumb />} />} 
+										key={entry.route} 
+									/>
 								))
 							}
+							
 							{/* Others */}
 							<Route exact path='/video' element={<VideoScreen />} />
 							<Route exact path='/faq' element={<FAQScreen />} />

@@ -35,8 +35,7 @@ const Entries = ({ entriesFile, title }) => {
                 'url': filteredEntries[i].route || undefined
             })
         }
-
-        return listEntries.sort((a, b) => (a.date < b.date));
+        return listEntries.reverse()
     }, [entriesFile]);
 
     useEffect(() => {
