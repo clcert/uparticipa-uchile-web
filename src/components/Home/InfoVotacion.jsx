@@ -1,3 +1,6 @@
+import React, { useEffect, useState } from 'react';
+import loadingGif from '../../assets/images/loading.svg';
+
 const getElectionDate = (startTime, endTime) => {
     const dateOptions = {
         weekday: 'long',
@@ -7,12 +10,10 @@ const getElectionDate = (startTime, endTime) => {
     const [dateInit, timeInit] = startTime.split(' ');
     const [dateEnd, timeEnd] = endTime.split(' ');
     if (dateInit === dateEnd) {
-        // return new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
         const date = new Date(dateInit + " 00:00");
         const localeDate = new Intl.DateTimeFormat('es-CL', dateOptions).format(date);
         return localeDate + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
     } else {
-        // return ('desde ' + new Date(dateInit + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeInit + ' h hasta ' + new Date(dateEnd + " 00:00").toLocaleDateString('es-ES', dateOptions) + ' ' + timeEnd + ' h')
         const date1 = new Date(dateInit + " 00:00");
         const date2 = new Date(dateEnd + " 00:00");
         const localeDate1 = new Intl.DateTimeFormat('es-CL', dateOptions).format(date1);
@@ -21,32 +22,33 @@ const getElectionDate = (startTime, endTime) => {
     }
 }
 
-const isOpen = (startTime, endTime) => {
-    const startDate = new Date(startTime);
-    const endDate = new Date(endTime);
-    const now = Date.now();
-
-    if (startDate < now && endDate > now) {
-        return true;
-    }
-    return false;
-}
-
-const isOver = (endTime) => {
-    const endDate = new Date(endTime);
-    const now = Date.now();
-
-    if (endDate < now) {
-        return true;
-    }
-    return false;
-}
-
 function InfoVotacion({ electionData }) {
 
+    const [electionStatus, setElectionStatus] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        fetchElectionStatus();
+    }, []);
+
+    const fetchElectionStatus = async () => {
+        try {
+            const response = await fetch(electionData.status_link);
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
+            }
+            const electionResponse = await response.json();
+            const electionStatus = electionResponse["status"];
+            setElectionStatus(electionStatus)
+            setLoading(false);
+          } catch (error) {
+            setError(error.message);
+            setLoading(false);
+          }
+    };
+
     const electionDate = getElectionDate(electionData.startTime, electionData.endTime);
-    const isElectionOpen = isOpen(electionData.startTime, electionData.endTime);
-    const isElectionOver = isOver(electionData.endTime)
 
     return (
         <div className="election-box mt-0">
@@ -62,7 +64,7 @@ function InfoVotacion({ electionData }) {
             <div className="election-title">
                 <p className="has-text-weight-bold is-size-5 mb-0"
                     style={
-                        { "font-size": "16px" }
+                        { "fontSize": "16px" }
                     }>
                     {
                         electionData.title
@@ -74,7 +76,7 @@ function InfoVotacion({ electionData }) {
                         { color: "#d44000" }
                     }>FECHA</b>
                 <p style={
-                    { "font-size": "18px" }
+                    { "fontSize": "18px" }
                 }>
                     {electionDate} </p>
             </div>
@@ -83,8 +85,6 @@ function InfoVotacion({ electionData }) {
                     style={
                         { color: "#d44000" }
                     }>ELECCIONES</b>
-                {/* <b className="is-size-5" style={{ color: "#d44000" }}>ELECCIONES</b> */}
-                {/* <Collapsible trigger={"ELECCIONES ▼"} triggerWhenOpen={"ELECCIONES ▲"} className='is-size-5' triggerOpenedClassName='is-size-5' triggerStyle={{ color: "#d44000", fontWeight: "bold", cursor: "pointer" }}> */}
                 <ul className="elections-list pl-0">
                     {
                         electionData.elections.map((election, index) => (
@@ -99,7 +99,7 @@ function InfoVotacion({ electionData }) {
                                     <div className='election-title'>
                                         <span style={
                                             {
-                                                "font-size": "18px",
+                                                "fontSize": "18px",
                                                 "color": "#004b93",
                                                 "fontWeight": "bold"
                                             }
@@ -109,7 +109,14 @@ function InfoVotacion({ electionData }) {
                                             } </span>
                                     </div>
                                     {
-                                        isElectionOpen ? <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                        loading ? (
+                                        <div className='container has-text-centered'>
+                                            <img src={loadingGif} alt='Cargando...' />
+                                        </div>
+                                        ) : error ? (
+                                            <></>
+                                        ) : electionStatus === "Started" ?
+                                        <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                                             <a href={
                                                 election.vote_link
                                             }
@@ -138,7 +145,7 @@ function InfoVotacion({ electionData }) {
                                                     PORTAL DE<br />INFORMACIÓN
                                                 </button>
                                             </a>
-                                        </div> : isElectionOver ? 
+                                        </div> : electionStatus !== "Setting up" ? 
                                         <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
                                             <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
                                                 disabled>VOTAR</button>
@@ -178,32 +185,11 @@ function InfoVotacion({ electionData }) {
                                         </div>
                                     } </div>
                             </li>
-                            // <li key={index} className="is-size-6 mb-1 is-flex is-justify-content-space-between is-align-items-center">
-                            // <span style={{ "font-size": "20px", "textAlign": "center", "color": "#004b93", "fontWeight": "bold"}}>
-                            //     { election.name }
-                            // </span>
-                            // {
-                            // isElectionOpen ?
-                            // <div className="is-flex is-flex-direction-column is-align-items-center">
-                            //     <a href={ election.vote_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none" }}>
-                            //       <button className={"button is-medium election-button-vote mt-2"} >VOTAR</button>
-                            //     </a>
-                            //     <a href={ election.info_link } target="_blank" rel="noreferrer" style={{ "textDecoration": "none", "margin-top": "0.5em" }}>
-                            //       <button className={"button is-small election-button-info mt-2"} >PORTAL DE INFORMACIÓN</button>
-                            //     </a>
-                            // </div>
-                            // :
-                            // <div className="is-flex is-flex-direction-column is-align-items-center">
-                            //     <button className={"button election-button election-button-vote mt-2"} disabled>VOTAR</button>
-                            //     <button className={"button election-button election-button-info mt-2"} disabled>PORTAL DE INFORMACIÓN</button>
-                            // </div>
-                            // }
-                            // </li>
                         ))
                     } </ul>
-                {/* </Collapsible> */} </div>
+                </div>
             {
-                !isElectionOpen && <div className="election-closed mt-5">
+                electionStatus !== "Started" && !error && <div className="election-closed mt-5">
                     <p className="has-text-weight-bold is-size-5 mb-0">ELECCIÓN CERRADA</p>
                 </div>
             } </div>

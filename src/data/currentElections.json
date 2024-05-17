@@ -8,6 +8,7 @@
       "picture": "logos/logo-demre.png",
       "title": "",
       "open": true,
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-demre-2024/get_status",
       "elections": [ 
         {"name": "REPRESENTANTES DE FUNCIONARIOS(AS) DEL PERSONAL DE COLABORACIÓN Y ACADÉMICOS(AS) PARA COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
          "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-demre-2024/vote",
