@@ -62,7 +62,7 @@ function InfoVotacion({ electionData }) {
                     } />
             </div>
             <div className="election-title">
-                <p className="has-text-weight-bold is-size-5 mb-0"
+                <p className="has-text-weight-bold is-size-6 mb-0 has-text-centered"
                     style={
                         { "fontSize": "16px" }
                     }>

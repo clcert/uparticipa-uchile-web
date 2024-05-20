@@ -1,18 +1,24 @@
 {
   "data": [
     {
-      "startTime": "2024/05/14 09:00",
-      "endTime": "2024/05/15 17:00",
-      "unit": "DEMRE",
-      "typeUnit": "Dirección",
-      "picture": "logos/logo-demre.png",
-      "title": "",
+      "startTime": "2024/05/23 08:00",
+      "endTime": "2024/05/23 16:00",
+      "unit": "Facultad de Medicina",
+      "typeUnit": "Facultad",
+      "picture": "logos/logo-medicina.png",
+      "title": "DIRECTORES(AS) Y CONSEJEROS(AS) DE DEPARTAMENTO",
       "open": true,
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-demre-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-anato-2024/get_status",
       "elections": [ 
-        {"name": "REPRESENTANTES DE FUNCIONARIOS(AS) DEL PERSONAL DE COLABORACIÓN Y ACADÉMICOS(AS) PARA COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-demre-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-demre-2024/public-info"}
+        {"name": "DEPARTAMENTO DE ANATOMÍA PATOLÓGICA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-anato-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-anato-2024/public-info"},
+        {"name": "DEPARTAMENTO DE PSIQUIATRÍA Y SALUD MENTAL DE LA INFANCIA Y LA ADOLESCENCIA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psmia-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psmia-2024/public-info"},
+        {"name": "DEPARTAMENTO DE ONCOLOGÍA BÁSICO - CLÍNICO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oncologia-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-oncologia-2024/public-info"}
       ]
     }
   ]
