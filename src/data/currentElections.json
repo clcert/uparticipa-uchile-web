@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "startTime": "2024/05/27 09:00",
+      "endTime": "2024/05/27 17:00",
+      "unit": "Facultad de Arquitectura y Urbanismo",
+      "typeUnit": "Facultad",
+      "picture": "logos/logo-fau.svg",
+      "title": "",
+      "open": true,
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-diseno-2024/get_status",
+      "elections": [ 
+        {"name": "DEPARTAMENTO DE DISEÑO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-diseno-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-diseno-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/05/23 08:00",
       "endTime": "2024/05/23 16:00",
       "unit": "Facultad de Medicina",

@@ -30,7 +30,7 @@ function InfoVotacion({ electionData }) {
 
     useEffect(() => {
         fetchElectionStatus();
-    }, []);
+    });
 
     const fetchElectionStatus = async () => {
         try {
