@@ -8,11 +8,11 @@
       "picture": "logos/logo-fau.svg",
       "title": "",
       "open": true,
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-diseno-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-deptodiseno-2024/get_status",
       "elections": [ 
         {"name": "DEPARTAMENTO DE DISEÑO",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-diseno-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-diseno-2024/public-info"}
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-deptodiseno-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-deptodiseno-2024/public-info"}
       ]
     },
     {
