@@ -10486,6 +10486,15 @@ code {
   padding-right: 1em;
 }
 
+.election-message {
+  text-align: center;
+  border: 2px solid #0096d6;
+}
+
+.has-text-red {
+  color: red;
+}
+
 .election-closed {
   color: red;
   text-align: center;

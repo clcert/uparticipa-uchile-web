@@ -185,9 +185,18 @@ function InfoVotacion({ electionData }) {
                                         </div>
                                     } </div>
                             </li>
-                        ))
+                        )
+                    )
                     } </ul>
                 </div>
+                {
+                electionData.message !== "" && 
+                <div className='election-message mt-3 px-3'>
+                    <p className="has-text-weight-bold is-size-5 mb-0 has-text-red">INFORMACIÓN</p>
+                    <p className="is-size-6 mb-0">{electionData.message}</p>
+                </div>
+                }
+                
             {
                 electionStatus !== "Started" && !error && <div className="election-closed mt-5">
                     <p className="has-text-weight-bold is-size-5 mb-0">ELECCIÓN CERRADA</p>

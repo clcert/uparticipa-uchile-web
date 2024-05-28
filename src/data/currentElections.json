@@ -1,14 +1,27 @@
 {
   "data": [
     {
+      "startTime": "2024/06/04 09:00",
+      "endTime": "2024/06/04 17:00",
+      "unit": "Facultad de Medicina Campus Occidente",      
+      "picture": "logos/logo-medicina.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medocc-2024/get_status",
+      "message": "Por solicitud de la Dirección de Gestión y Desarrollo de Personas (DGDP), la elección fue aplazada al día martes 04 de junio",
+      "elections": [ 
+        {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS) FACULTAD DE MEDICINA CAMPUS OCCIDENTE",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medocc-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medocc-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/05/27 09:00",
       "endTime": "2024/05/27 17:00",
       "unit": "Facultad de Arquitectura y Urbanismo",
-      "typeUnit": "Facultad",
       "picture": "logos/logo-fau.svg",
-      "title": "",
-      "open": true,
+      "title": "",      
       "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-deptodiseno-2024/get_status",
+      "message": "",
       "elections": [ 
         {"name": "DEPARTAMENTO DE DISEÑO",
          "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-deptodiseno-2024/vote",
