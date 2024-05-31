@@ -1,31 +1,24 @@
 {
   "data": [
     {
-      "startTime": "2024/05/29 09:00",
-      "endTime": "2024/05/29 17:00",
-      "unit": "Dirección de Salud Estudiantil",      
-      "picture": "logos/logo-dse.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-rrhh-semda-2024/get_status",
+      "startTime": "2024/06/03 09:00",
+      "endTime": "2024/06/03 17:00",
+      "unit": "Facultad de Comunicación e Imágen",      
+      "picture": "logos/logo-fcei.png",
+      "title": "CONSEJO DE ESCUELA DE POSTGRADO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcei-acadmag-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DIRECTIVA RR.HH. SEMDA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-semda-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-semda-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/06/04 09:00",
-      "endTime": "2024/06/04 17:00",
-      "unit": "Facultad de Medicina Campus Occidente",      
-      "picture": "logos/logo-medicina.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medocc-2024/get_status",
-      "message": "Por solicitud de la Dirección de Gestión y Desarrollo de Personas (DGDP), la elección fue aplazada al día martes 04 de junio",
-      "elections": [ 
-        {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS) FACULTAD DE MEDICINA CAMPUS OCCIDENTE",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medocc-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medocc-2024/public-info"}
+        {"name": "ACADÉMICOS(AS) DE MAGÍSTERES",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcei-acadmag-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcei-acadmag-2024/public-info"},
+        {"name": "COORDINADORES ACADÉMICOS(AS) DE DIPLOMADOS",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcei-acaddipl-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcei-acaddipl-2024/public-info"},
+        {"name": "ESTUDIANTES DE MAGÍSTERES",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcei-estud-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcei-estud-2024/public-info"}
+         
       ]
     }
   ]
