@@ -208,6 +208,15 @@
       "lang": "es",
       "route": "/news/nuevo-diseño-home",
       "show": true
+    },
+    {
+      "date": "2024-05-31",
+      "summaryFile": "News/summary/ciclo_charlas_ranking.md",
+      "file": "News/pages/ciclo_charlas_ranking.md",
+      "image": "News/summary/img/ciclo_charlas_ranking.png",
+      "lang": "es",
+      "route": "/news/ciclo-charlas-ranking",
+      "show": true
     }
   ]
 }

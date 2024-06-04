@@ -1,0 +1,2 @@
+# Participa UChile organiza un espacio de reflexión y análisis sobre las formas de votación en Chile
+Un espacio de reflexión y análisis pionero sobre votación electrónica, elecciones por ranking y el sistema electoral en Chile, fue lo que logró el ciclo de charlas "Repensando las formas de votación en Chile, una mirada científica y política"

@@ -24,9 +24,6 @@ const Home = () => {
                     style={
                         { boxShadow: "none" }
                     }>
-                    <div className='block mb-1 p-2'>
-                        <h1 className='is-size-4 title has-text-centered has-text-white'>EN CURSO</h1>
-                    </div>
                     <div className='block'>
                         {
                             elections.data.map((election, index) => (
