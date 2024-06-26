@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "startTime": "2024/06/26 09:00",
+      "endTime": "2024/06/26 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",      
+      "picture": "logos/logo-filosofia.svg",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-ffyh-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-ffyh-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-ffyh-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/06/25 09:00",
       "endTime": "2024/06/25 17:00",
       "unit": "Facultad de Ciencias Físicas y Matemáticas",      
