@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "startTime": "2024/06/27 09:00",
+      "endTime": "2024/06/28 17:00",
+      "unit": "Asociación Nacional de Académicas y Académicos de la Universidad de Chile",      
+      "picture": "logos/logo-acauch.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-acauch-facso-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "DIRECTORES(AS) DE CAPÍTULO DE FACULTAD DE CIENCIAS SOCIALES (FACSO)",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-acauch-facso-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-acauch-facso-2024/public-info"}
+      ]
+    },    
+    {
       "startTime": "2024/06/26 09:00",
       "endTime": "2024/06/26 17:00",
       "unit": "Dirección de Gestión y Desarrollo de Personas",      
@@ -12,50 +26,6 @@
         {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
          "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-ffyh-2024/vote",
          "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-ffyh-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/06/25 09:00",
-      "endTime": "2024/06/25 17:00",
-      "unit": "Facultad de Ciencias Físicas y Matemáticas",      
-      "picture": "logos/logo-fcfm.png",
-      "title": "Directores(as) de Departamento",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-das-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "DEPARTAMENTO DE ASTRONOMÍA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-das-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-das-2024/public-info"},
-        {"name": "DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dcc-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dcc-2024/public-info"},
-         {"name": "DEPARTAMENTO DE FÍSICA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dfi-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dfi-2024/public-info"},
-         {"name": "DEPARTAMENTO DE GEOFÍSICA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dgf-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dgf-2024/public-info"},
-         {"name": "DEPARTAMENTO DE GEOLOGÍA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-geologia-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-geologia-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA CIVIL",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-civil-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-civil-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA DE MINAS",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimin-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimin-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA ELÉCTRICA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-die-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-die-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA MATEMÁTICA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dim-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dim-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA MECÁNICA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimec-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimec-2024/public-info"},
-         {"name": "DEPARTAMENTO DE INGENIERÍA QUÍMICA, BIOTECNOLOGÍA Y MATERIALES",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-diqbm-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-diqbm-2024/public-info"}
       ]
     }
   ]
