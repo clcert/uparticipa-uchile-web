@@ -1,31 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/06/27 09:00",
-      "endTime": "2024/06/28 17:00",
-      "unit": "Asociación Nacional de Académicas y Académicos de la Universidad de Chile",      
-      "picture": "logos/logo-acauch.png",
+      "startTime": "2024/07/11 09:00",
+      "endTime": "2024/07/11 17:00",
+      "unit": "Senado Universitario",      
+      "picture": "logos/logo-senado.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-acauch-facso-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-gobierno-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DIRECTORES(AS) DE CAPÍTULO DE FACULTAD DE CIENCIAS SOCIALES (FACSO)",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-acauch-facso-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-acauch-facso-2024/public-info"}
-      ]
-    },    
-    {
-      "startTime": "2024/06/26 09:00",
-      "endTime": "2024/06/26 17:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-filosofia.svg",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-ffyh-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-ffyh-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-ffyh-2024/public-info"}
+        {"name": "REPRESENTANTE ACADÉMICO FACULTAD DE GOBIERNO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-gobierno-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-gobierno-2024/public-info"}
       ]
     }
   ]
