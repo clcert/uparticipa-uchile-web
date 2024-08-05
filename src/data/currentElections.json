@@ -1,17 +1,31 @@
 {
   "data": [
     {
-      "startTime": "2024/07/11 09:00",
-      "endTime": "2024/07/11 17:00",
-      "unit": "Senado Universitario",      
-      "picture": "logos/logo-senado.png",
+      "startTime": "2024/08/06 09:15",
+      "endTime": "2024/08/07 17:15",
+      "unit": "Dirección de Gestión y Desarrollo de Personas (DGDP)",      
+      "picture": "logos/logo-dgdp.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-gobierno-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dgdp-jcc-2024/get_status",
+      "message": "Para los(as) funcionarios(as) que no pertenecen a Hospital Clínico, la elección abre el día miércoles, 7 de agosto, a las 09:15 h.",
+      "elections": [ 
+        {"name": "JUNTA CALIFICADORA CENTRAL",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-jcc-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dgdp-jcc-2024/public-info"}
+      ]
+    },
+    {
+      "startTime": "2024/08/06 09:00",
+      "endTime": "2024/08/06 17:00",
+      "unit": "Instituto de Estudios Avanzados en Educación (IE)",      
+      "picture": "logos/logo-ie.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-ie-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "REPRESENTANTE ACADÉMICO FACULTAD DE GOBIERNO",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-gobierno-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-gobierno-2024/public-info"}
+        {"name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-ie-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-ie-2024/public-info"}
       ]
     }
   ]
