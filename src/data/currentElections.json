@@ -1,17 +1,35 @@
 {
   "data": [
     {
-      "startTime": "2024/09/02 09:00",
-      "endTime": "2024/09/02 17:00",
+      "startTime": "2024/09/03 09:00",
+      "endTime": "2024/09/03 17:00",
       "unit": "Facultad de Arquitectura y Urbanismo",      
-      "picture": "logos/logo-fau.svg",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-convivencia-2024/get_status",
+      "picture": "logos/logo-fau.png",
+      "title": "CONSEJEROS(AS) DE FACULTAD, DIRECTORES(AS) DE DEPARTAMENTO Y CONSEJEROS(AS) DE DEPARTAMENTO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-consejo-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "COMITÉ DE CONVIVENCIA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-convivencia-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-convivencia-2024/public-info"}
+        {"name": "CONSEJO DE FACULTAD",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-consejo-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-consejo-2024/public-info"},
+        {"name": "DEPARTAMENTO DE ARQUITECTURA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-arquitectura-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-arquitectura-2024/public-info"},
+        {"name": "DEPARTAMENTO DE URBANISMO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-urbanismo-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-urbanismo-2024/public-info"},
+        {"name": "DEPARTAMENTO DE DISEÑO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-diseno-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-diseno-2024/public-info"},
+        {"name": "DEPARTAMENTO DE GEOGRAFÍA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-geografia-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-geografia-2024/public-info"},
+        {"name": "INSTITUTO DE LA VIVIENDA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-vivienda-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-vivienda-2024/public-info"},
+        {"name": "INSTITUTO DE HISTORIA Y PATRIMONIO",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-historiapatrimonio-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-historiapatrimonio-2024/public-info"}
       ]
     }
   ]
