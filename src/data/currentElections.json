@@ -2,6 +2,23 @@
   "data": [
     {
       "startTime": "2024/09/10 09:00",
+      "endTime": "2024/09/11 17:00",
+      "unit": "Facultad de Gobierno",      
+      "picture": "logos/logo-fagob.png",
+      "title": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fagob-huerfanos-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "CPHS SEDE HUÉRFANOS",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-huerfanos-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-huerfanos-2024/public-info"},
+        {"name": "CPHS SEDE SANTA LUCÍA",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-stalucia-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-stalucia-2024/public-info"}
+      ]
+    },
+    {
+      "startTime": "2024/09/10 09:00",
       "endTime": "2024/09/10 17:00",
       "unit": "Facultad de Economía y Negocios",      
       "picture": "logos/logo-fen.png",
@@ -19,23 +36,6 @@
          "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion_fen-cgsi-2024/vote",
          "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion_fen-cgsi-2024/public-info"}
       ]
-    },
-    {
-      "startTime": "2024/09/10 09:00",
-      "endTime": "2024/09/11 17:00",
-      "unit": "Facultad de Gobierno",      
-      "picture": "logos/logo-fagob.png",
-      "title": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fagob-huerfanos-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "CPHS SEDE HUÉRFANOS",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-huerfanos-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-huerfanos-2024/public-info"},
-        {"name": "CPHS SEDE SANTA LUCÍA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-stalucia-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-stalucia-2024/public-info"}
-      ]
-    }
+    }    
   ]
 }
