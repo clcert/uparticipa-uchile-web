@@ -1,67 +1,18 @@
 {
   "data": [
     {
-      "startTime": "2024/09/12 08:00",
-      "endTime": "2024/09/12 16:00",
-      "unit": "Facultad de Ciencias Agronómicas",      
-      "picture": "logos/logo-fca.png",
-      "title": "DIRECTORES(AS) DE DEPARTAMENTO",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-agro-2024/get_status",
+      "startTime": "2024/09/13 09:00",
+      "endTime": "2024/09/13 17:00",
+      "unit": "Facultad de Filosofía y Humanidades",      
+      "picture": "logos/logo-ffyh.png",
+      "title": "CONSEJO DE LA ESCUELA DE PREGRADO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-consejo-carrprof-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DEPARTAMENTO DE AGROINDUSTRIA Y ENOLOGÍA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agro-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agro-2024/public-info"},
-        {"name": "DEPARTAMENTO DE CIENCIAS AMBIENTALES Y RECURSOS NATURALES RENOVABLES",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-csambient-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-csambient-2024/public-info"},
-        {"name": "DEPARTAMENTO DE GESTIÓN E INNOVACIÓN RURAL",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-gestion-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-gestion-2024/public-info"},
-        {"name": "DEPARTAMENTO DE INGENIERÍA Y SUELOS",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-ingsuelos-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-ingsuelos-2024/public-info"},
-        {"name": "DEPARTAMENTO DE PRODUCCIÓN AGRÍCOLA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-prodagr-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-prodagr-2024/public-info"},
-        {"name": "DEPARTAMENTO DE PRODUCCIÓN ANIMAL",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-prodanim-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-prodanim-2024/public-info"},
-        {"name": "DEPARTAMENTO DE SANIDAD VEGETAL",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-sanidad-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-sanidad-2024/public-info"}
+        {"name": "REPRESENTANTES ACADÉMICOS(AS) DE CARRERAS PROFESIONALES",
+         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-consejo-carrprof-2024/vote",
+         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-consejo-carrprof-2024/public-info"}
       ]
-    },
-    {
-      "startTime": "2024/09/12 09:00",
-      "endTime": "2024/09/12 17:00",
-      "unit": "Facultad de Ciencias Veterinarias y Pecuarias",      
-      "picture": "logos/logo-favet.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-favet-mpa-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "DEPARTAMENTO DE MEDICINA PREVENTIVA ANIMAL",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-favet-mpa-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-favet-mpa-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/09/10 09:00",
-      "endTime": "2024/09/11 17:00",
-      "unit": "Facultad de Gobierno",      
-      "picture": "logos/logo-fagob.png",
-      "title": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fagob-huerfanos-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "CPHS SEDE HUÉRFANOS",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-huerfanos-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-huerfanos-2024/public-info"},
-        {"name": "CPHS SEDE SANTA LUCÍA",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-stalucia-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-stalucia-2024/public-info"}
-      ]
-    }    
+    }
   ]
 }
