@@ -1,17 +1,46 @@
 {
   "data": [
     {
-      "startTime": "2024/09/13 09:00",
-      "endTime": "2024/09/13 17:00",
-      "unit": "Facultad de Filosofía y Humanidades",      
-      "picture": "logos/logo-ffyh.png",
-      "title": "CONSEJO DE LA ESCUELA DE PREGRADO",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-consejo-carrprof-2024/get_status",
+      "startTime": "2024/09/24 08:00",
+      "endTime": "2024/09/24 16:00",
+      "unit": "Facultad de Medicina",      
+      "picture": "logos/logo-medicina.png",
+      "title": "DIRECTORES(AS) Y CONSEJEROS(AS) DE DEPARTAMENTO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-medintocc-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "REPRESENTANTES ACADÉMICOS(AS) DE CARRERAS PROFESIONALES",
-         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-consejo-carrprof-2024/vote",
-         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-consejo-carrprof-2024/public-info"}
+        {"name": "DEPARTAMENTO DE MEDICINA INTERNA OCCIDENTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintocc-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-medintocc-2024/public-info"},
+        {"name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA OCCIDENTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstocc-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-obstocc-2024/public-info"},
+        {"name": "DEPARTAMENTO DE CIRUGÍA SUR",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirugsur-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-cirugsur-2024/public-info"},
+        {"name": "DEPARTAMENTO DE OTORRINOLARINGOLOGIA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-otorrino-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-otorrino-2024/public-info"},
+        {"name": "DEPARTAMENTO DE PROMOCIÓN DE LA SALUD DE LA MUJER Y EL RECIÉN NACIDO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psmrn-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psmrn-2024/public-info"},
+        {"name": "DEPARTAMENTO DE TERAPIA OCUPACIONAL Y CIENCIA DE LA OCUPACIÓN",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-terocup-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-terocup-2024/public-info"}
+      ]
+    },
+    {
+      "startTime": "2024/09/24 09:15",
+      "endTime": "2024/09/25 17:15",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",      
+      "picture": "logos/logo-dgdp.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cbc-2024/get_status",
+      "message": "La elección abre el día martes 24 de septiembre para los(as) funcionarios(as) de Hospital Clínico. Para el resto de la Universidad, la elección abre el día miércoles 25 de septiembre.",
+      "elections": [ 
+        {"name": "COMITÉ BIPARTITO DE CAPACITACIÓN",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cbc-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cbc-2024/public-info"}
       ]
     }
   ]
