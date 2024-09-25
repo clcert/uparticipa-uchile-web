@@ -7,7 +7,7 @@
       "picture": "logos/logo-dgdp.png",
       "title": "",
       "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cbc-2024/get_status",
-      "message": "La elección abre el día martes 24 de septiembre para los(as) funcionarios(as) de Hospital Clínico. Para el resto de la Universidad, la elección abre el día miércoles 25 de septiembre.",
+      "message": "",
       "elections": [ 
         {"name": "COMITÉ BIPARTITO DE CAPACITACIÓN",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cbc-2024/vote",
