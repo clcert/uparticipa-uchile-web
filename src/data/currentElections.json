@@ -1,6 +1,26 @@
 {
   "data": [
     {
+      "startTime": "2024/09/27 09:00",
+      "endTime": "2024/09/27 17:00",
+      "unit": "Facultad de Odontología",      
+      "picture": "logos/logo-odontologia.png",
+      "title": "DIRECTORES(AS) DE DEPARTAMENTO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-ortopedia-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "DEPARTAMENTO DEL NIÑO Y ORTOPEDIA DENTOMAXILAR",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ortopedia-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ortopedia-2024/public-info"},
+        {"name": "DEPARTAMENTO DE ODONTOLOGÍA RESTAURADORA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-restaur-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-restaur-2024/public-info"},
+        {"name": "DEPARTAMENTO DE PATOLOGÍA Y MEDICINA ORAL",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologia-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologia-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/09/26 09:00",
       "endTime": "2024/09/26 17:00",
       "unit": "Facultad de Artes",      
@@ -12,20 +32,6 @@
         {"name": "DEPARTAMENTO DE TEORÍA DE LAS ARTES",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-teoria-2024/vote",
         "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-teoria-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/09/24 09:15",
-      "endTime": "2024/09/25 17:15",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-dgdp.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cbc-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "COMITÉ BIPARTITO DE CAPACITACIÓN",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cbc-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cbc-2024/public-info"}
       ]
     }
   ]
