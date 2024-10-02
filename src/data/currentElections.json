@@ -1,37 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/09/27 09:00",
-      "endTime": "2024/09/27 17:00",
-      "unit": "Facultad de Odontología",      
-      "picture": "logos/logo-odontologia.png",
-      "title": "DIRECTORES(AS) DE DEPARTAMENTO",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-ortopedia-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "DEPARTAMENTO DEL NIÑO Y ORTOPEDIA DENTOMAXILAR",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ortopedia-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ortopedia-2024/public-info"},
-        {"name": "DEPARTAMENTO DE ODONTOLOGÍA RESTAURADORA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-restaur-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-restaur-2024/public-info"},
-        {"name": "DEPARTAMENTO DE PATOLOGÍA Y MEDICINA ORAL",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologia-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologia-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/09/26 09:00",
-      "endTime": "2024/09/26 17:00",
-      "unit": "Facultad de Artes",      
-      "picture": "logos/logo-artes.png",
+      "startTime": "2024/10/03 09:00",
+      "endTime": "2024/10/04 17:00",
+      "unit": "Centro de Alumnos del Departamento de Ciencias de la Computación",      
+      "picture": "logos/logo-cadcc.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-teoria-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-vaso-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DEPARTAMENTO DE TEORÍA DE LAS ARTES",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-teoria-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-teoria-2024/public-info"}
+        {"name": "DISEÑO VASO DCC 2024",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-vaso-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-vaso-2024/public-info"}
       ]
     }
   ]
