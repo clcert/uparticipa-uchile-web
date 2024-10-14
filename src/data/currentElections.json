@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/10/03 09:00",
-      "endTime": "2024/10/04 17:00",
-      "unit": "Centro de Alumnos del Departamento de Ciencias de la Computación",      
-      "picture": "logos/logo-cadcc.png",
+      "startTime": "2024/10/15 09:15",
+      "endTime": "2024/10/16 17:15",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",      
+      "picture": "logos/logo-dgdp.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-vaso-2024/get_status",
-      "message": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cbc-segunda-2024/get_status",
+      "message": "Esta elección abre el día martes 14 de octubre, a las 09:15 h, exclusivamente para funcionarios(as) de Hospital Clínico. Para el resto de la Universidad, la elección abre el día miércoles 16 de octubre a las 09:15 h.",
       "elections": [ 
-        {"name": "DISEÑO VASO DCC 2024",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-vaso-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-vaso-2024/public-info"}
+        {"name": "COMITÉ BIPARTITO DE CAPACITACIÓN",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cbc-segunda-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cbc-segunda-2024/public-info"}
       ]
     }
   ]
