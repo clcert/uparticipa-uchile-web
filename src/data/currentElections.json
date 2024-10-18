@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/10/15 09:15",
-      "endTime": "2024/10/16 17:15",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-dgdp.png",
+      "startTime": "2024/10/18 09:00",
+      "endTime": "2024/10/18 17:00",
+      "unit": "Facultad de Odontología",      
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cbc-segunda-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-consejo-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "COMITÉ BIPARTITO DE CAPACITACIÓN",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cbc-segunda-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cbc-segunda-2024/public-info"}
+        {"name": "CONSEJEROS(AS) DE FACULTAD",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-consejo-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-consejo-2024/public-info"}
       ]
     }
   ]
