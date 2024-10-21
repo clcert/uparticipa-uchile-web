@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/10/18 09:00",
-      "endTime": "2024/10/18 17:00",
-      "unit": "Facultad de Odontología",      
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2024/10/23 08:00",
+      "endTime": "2024/10/23 16:00",
+      "unit": "Facultad de Arquitectura y Urbanismo",      
+      "picture": "logos/logo-fau.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-consejo-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-diseno-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "CONSEJEROS(AS) DE FACULTAD",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-consejo-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-consejo-2024/public-info"}
+        {"name": "CONSEJERO DEPARTAMENTO DE DISEÑO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-diseno-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-diseno-2024/public-info"}
       ]
     }
   ]
