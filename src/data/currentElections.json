@@ -1,26 +1,20 @@
 {
   "data": [
     {
-      "startTime": "2024/10/25 09:00",
-      "endTime": "2024/10/25 17:00",
-      "unit": "Facultad de Odontología",      
-      "picture": "logos/logo-odontologia.png",
-      "title": "CONSEJEROS(AS) DE DEPARTAMENTO",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-cytbmf-2024/get_status",
+      "startTime": "2024/10/30 09:00",
+      "endTime": "2024/10/30 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",      
+      "picture": "logos/logo-fcfm.png",
+      "title": "CONSEJEROS(AS) ESTUDIANTILES A LOS CONSEJOS DE ESCUELAS",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-pregrado-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DEPARTAMENTO DE CIRUGÍA Y TRAUMATOLOGÍA BUCAL Y MÁXILO FACIAL",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-cytbmf-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-cytbmf-2024/public-info"},
-        {"name": "DEPARTAMENTO DEL NIÑO Y ORTOPEDIA DENTOMAXILAR",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ortopedia-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ortopedia-2024/public-info"},
-        {"name": "DEPARTAMENTO DE ODONTOLOGÍA RESTAURADORA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-restaur-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-restaur-2024/public-info"},
-        {"name": "DEPARTAMENTO DE PATOLOGÍA Y MEDICINA ORAL",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologia-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologia-2024/public-info"}
+        {"name": "ESCUELA DE PREGRADO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-pregrado-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-pregrado-2024/public-info"},
+        {"name": "ESCUELA DE POSTGRADO Y EDUCACIÓN CONTINUA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-postgrado-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-postgrado-2024/public-info"}
       ]
     }
   ]
