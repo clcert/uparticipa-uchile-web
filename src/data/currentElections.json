@@ -1,17 +1,38 @@
 {
   "data": [
     {
-      "startTime": "2024/11/05 09:00",
-      "endTime": "2024/11/05 17:00",
-      "unit": "Facultad de Artes",      
-      "picture": "logos/logo-artes.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-sonido-2024/get_status",
+      "startTime": "2024/11/06 08:00",
+      "endTime": "2024/11/06 16:00",
+      "unit": "Facultad de Ciencias Agronómicas",      
+      "picture": "logos/logo-fca.png",
+      "title": "Consejeros(as) de Facultad y Consejeros(as) de Departamento",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-consejo-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "DEPARTAMENTO DE SONIDO",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-sonido-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-sonido-2024/public-info"}
+        {"name": "CONSEJO DE FACULTAD",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-2024/public-info"},
+        {"name": "DEPARTAMENTO DE AGROINDUSTRIA Y ENOLOGÍA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agro-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agro-2024/public-info"},
+        {"name": "DEPARTAMENTO DE CIENCIAS AMBIENTALES Y RECURSOS NATURALES RENOVABLES",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-csambient-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-csambient-2024/public-info"},
+        {"name": "DEPARTAMENTO DE GESTIÓN E INNOVACIÓN RURAL",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-gestion-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-gestion-2024/public-info"},
+        {"name": "DEPARTAMENTO DE INGENIERÍA Y SUELOS",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-suelos-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-suelos-2024/public-info"},
+        {"name": "DEPARTAMENTO DE PRODUCCIÓN AGRÍCOLA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agricola-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agricola-2024/public-info"},
+        {"name": "DEPARTAMENTO DE PRODUCCIÓN ANIMAL",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-animal-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-animal-2024/public-info"},
+        {"name": "DEPARTAMENTO DE SANIDAD VEGETAL",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-sanidad-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-sanidad-2024/public-info"}
       ]
     }
   ]
