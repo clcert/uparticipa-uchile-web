@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "startTime": "2024/11/07 10:00",
+      "endTime": "2024/11/07 16:00",
+      "unit": "Facultad de Filosofía y Humanidades",      
+      "picture": "logos/logo-ffyh.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-asociacion-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "DIRECTIVA ASOCIACIÓN DE FUNCIONARIOS(AS)",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-asociacion-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-asociacion-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/11/06 08:00",
       "endTime": "2024/11/06 16:00",
       "unit": "Facultad de Ciencias Agronómicas",      
