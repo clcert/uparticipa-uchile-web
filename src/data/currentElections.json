@@ -1,38 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/11/18 09:00",
-      "endTime": "2024/11/18 17:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-dgdp.png",
-      "title": "COMISIONES LOCALES DE RECURSOS HUMANOS",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-rrhh-ciencias-2024/get_status",
+      "startTime": "2024/11/19 09:00",
+      "endTime": "2024/11/20 18:00",
+      "unit": "Centro de Alumnos del Departamento de Ciencias de la Computación",      
+      "picture": "logos/logo-cadcc.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cadcc-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "Facultad de Ciencias",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-ciencias-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-ciencias-2024/public-info"},  
-        {"name": "Facultad de Ciencias Agronómicas",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-fca-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-fca-2024/public-info"},
-        {"name": "Facultad de Ciencias Físicas y Matemáticas",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-fcfm-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-fcfm-2024/public-info"},
-        {"name": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-fcfcn-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-fcfcn-2024/public-info"},
-        {"name": "Facultad de Ciencias Sociales",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-facso-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-facso-2024/public-info"},
-        {"name": "Facultad de Ciencias Veterinarias y Pecuarias",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-favet-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-favet-2024/public-info"},
-        {"name": "Facultad de Comunicación e Imagen",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-fcei-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-fcei-2024/public-info"},
-        {"name": "Facultad de Filosofía y Humanidades",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-ffyh-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-ffyh-2024/public-info"}
+        {"name": "Directiva CADCC 2025",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cadcc-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cadcc-2024/public-info"}
       ]
     }
   ]
