@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "startTime": "2024/11/20 09:00",
+      "endTime": "2024/11/21 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",      
+      "picture": "logos/logo-dgdp.png",
+      "title": "Comisión Local de Recursos Humanos",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-rrhh-hcuch-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "Hospital Clínico",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-hcuch-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-hcuch-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/11/19 09:00",
       "endTime": "2024/11/20 18:00",
       "unit": "Centro de Alumnos del Departamento de Ciencias de la Computación",      
