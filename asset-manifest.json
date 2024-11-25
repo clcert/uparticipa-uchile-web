@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.71b5f766.css",
-    "main.js": "/static/js/main.0a1c941f.js",
+    "main.js": "/static/js/main.820edd1d.js",
     "static/js/453.8b736ac3.chunk.js": "/static/js/453.8b736ac3.chunk.js",
     "static/media/eleccion_decano_fcfm.png": "/static/media/eleccion_decano_fcfm.fc7538a88c6539b58683.png",
     "static/media/elecciones_ago.png": "/static/media/elecciones_ago.c4c89275e8a686975583.png",
@@ -65,11 +65,11 @@
     "static/media/sample.md": "/static/media/sample.39f4441ddd0fcf5387e7.md",
     "index.html": "/index.html",
     "main.71b5f766.css.map": "/static/css/main.71b5f766.css.map",
-    "main.0a1c941f.js.map": "/static/js/main.0a1c941f.js.map",
+    "main.820edd1d.js.map": "/static/js/main.820edd1d.js.map",
     "453.8b736ac3.chunk.js.map": "/static/js/453.8b736ac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71b5f766.css",
-    "static/js/main.0a1c941f.js"
+    "static/js/main.820edd1d.js"
   ]
 }
