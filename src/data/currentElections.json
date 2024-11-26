@@ -1,23 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/11/25 09:00",
-      "endTime": "2024/11/25 17:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-dgdp.png",
-      "title": "Comisiones Locales de Recursos Humanos", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-rrhh-fcqf-2024/get_status",
+      "startTime": "2024/11/26 09:00",
+      "endTime": "2024/11/26 17:00",
+      "unit": "Facultad de Artes",      
+      "picture": "logos/logo-artes.png",
+      "title": "", 
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-consejo-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "Facultad de Ciencias Químicas y Farmacéuticas",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-fcqf-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-fcqf-2024/public-info"},
-        {"name": "Facultad de Medicina",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-medicina-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-medicina-2024/public-info"},
-        {"name": "Facultad de Odontología",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-odonto-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-rrhh-odonto-2024/public-info"}
+        {"name": "Consejo de Facultad",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-consejo-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-consejo-2024/public-info"}
       ]
     }
   ]
