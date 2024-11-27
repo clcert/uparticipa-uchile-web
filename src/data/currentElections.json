@@ -1,17 +1,23 @@
 {
   "data": [
     {
-      "startTime": "2024/11/26 09:00",
-      "endTime": "2024/11/26 17:00",
+      "startTime": "2024/11/27 09:00",
+      "endTime": "2024/11/28 17:00",
       "unit": "Facultad de Artes",      
       "picture": "logos/logo-artes.png",
-      "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-consejo-2024/get_status",
+      "title": "Consulta Proyecto de Infraestructura Unificada", 
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-consulta-academicos-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "Consejo de Facultad",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-consejo-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-consejo-2024/public-info"}
+        {"name": "Ingreso Académicos(as)",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-consulta-academicos-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-consulta-academicos-2024/public-info"},
+        {"name": "Ingreso Personal de Colaboración",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-consulta-personal-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-consulta-personal-2024/public-info"},
+        {"name": "Ingreso Estudiantes Postgrado",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-consulta-postgrado-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-consulta-postgrado-2024/public-info"}
       ]
     }
   ]
