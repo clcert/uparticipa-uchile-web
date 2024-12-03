@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/11/29 09:00",
-      "endTime": "2024/11/29 17:00",
-      "unit": "Facultad de Arquitectura y Urbanismo",      
-      "picture": "logos/logo-fau.png",
+      "startTime": "2024/12/04 00:00",
+      "endTime": "2024/12/05 23:59",
+      "unit": "Centro de Estudiantes de Ingeniería Matemática",      
+      "picture": "logos/logo-ceimat.png",
       "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-fau-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ceimat-2024/get_status",
       "message": "",
       "elections": [ 
-        {"name": "Directiva AFUCH Filial FAU",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-fau-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-fau-2024/public-info"}
+        {"name": "Directiva CEIMAT 2025",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ceimat-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ceimat-2024/public-info"}
       ]
     }
   ]
