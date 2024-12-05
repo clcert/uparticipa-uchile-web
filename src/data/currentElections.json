@@ -1,6 +1,20 @@
 {
   "data": [
     {
+      "startTime": "2024/12/05 09:00",
+      "endTime": "2024/12/05 17:00",
+      "unit": "Facultad de Ciencias",      
+      "picture": "logos/logo-ciencias.png",
+      "title": "Representantes del Personal de Colaboración al Consejo de Facultad", 
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ciencias-personal-2024/get_status",
+      "message": "",
+      "elections": [ 
+        {"name": "PERSONAL DE COLABORACIÓN",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ciencias-personal-2024/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ciencias-personal-2024/public-info"}
+      ]
+    },
+    {
       "startTime": "2024/12/04 00:00",
       "endTime": "2024/12/05 23:59",
       "unit": "Centro de Estudiantes de Ingeniería Matemática",      
