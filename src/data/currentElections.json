@@ -7,7 +7,7 @@
       "picture": "logos/logo-dgdp.png",
       "title": "", 
       "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-rrhh-central-2024/get_status",
-      "message": "Votación abierta exclusivamente para personal de colaboración correspondiente a Hospital Clínico. El resto de la universidad podrá votar desde el día martes 10 de diciembre a las 09:00 h",
+      "message": "",
       "elections": [ 
         {"name": "COMISIÓN CENTRAL DE RECURSOS HUMANOS",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-rrhh-central-2024/vote",
