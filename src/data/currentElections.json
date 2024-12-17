@@ -1,55 +1,17 @@
 {
   "data": [
     {
-      "startTime": "2024/12/11 09:00",
-      "endTime": "2024/12/11 17:00",
+      "startTime": "2024/12/17 09:00",
+      "endTime": "2024/12/17 17:00",
       "unit": "Facultad de Filosofía y Humanidades",      
       "picture": "logos/logo-ffyh.png",
       "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-consejo-2024/get_status",
+      "status_link": "",
       "message": "",
       "elections": [ 
-        {"name": "CONSEJO DE FACULTAD",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-consejo-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-consejo-2024/public-info"},
-        {"name": "DEPARTAMENTO DE FILOSOFÍA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-filosofia-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-filosofia-2024/public-info"},
-        {"name": "DEPARTAMENTO DE CIENCIAS HISTÓRICAS",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-cshisto-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-cshisto-2024/public-info"},
-        {"name": "DEPARTAMENTO DE LITERATURA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-literatura-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-literatura-2024/public-info"},
-        {"name": "DEPARTAMENTO DE LINGÜÍSTICA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-linguistica-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-linguistica-2024/public-info"},
-        {"name": "DEPARTAMENTO DE ESTUDIOS CULTURALES REGIONALES",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-culturales-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-culturales-2024/public-info"},
-        {"name": "DEPARTAMENTO DE ESTUDIOS PEDAGÓGICOS",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-pedago-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-pedago-2024/public-info"}
-      ]
-    },
-    {
-      "startTime": "2024/12/11 09:00",
-      "endTime": "2024/12/11 17:00",
-      "unit": "Facultad de Artes",      
-      "picture": "logos/logo-artes.png",
-      "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-dav-2024/get_status",
-      "message": "",
-      "elections": [ 
-        {"name": "DEPARTAMENTO DE ARTES VISUALES",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-dav-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-dav-2024/public-info"},
-        {"name": "DEPARTAMENTO DE TEATRO",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-detuch-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-detuch-2024/public-info"},
-        {"name": "DEPARTAMENTO DE DANZA",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-dza-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-dza-2024/public-info"}
+        {"name": "",
+        "vote_link": "",
+        "info_link": ""}
       ]
     }
   ]
