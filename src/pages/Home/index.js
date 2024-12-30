@@ -6,8 +6,8 @@ const Home = () => {
     const elections = require("../../data/currentElections.json");
 
     return (
-        <div className='columns is-vcentered'>
-            <div className='column has-text-centered is-one-third is-hidden-touch'>
+        <div className='columns is-gapless'>
+            {/* <div className='column has-text-centered is-one-third is-hidden-touch'>
                 <div className='block'>
                     <p className='has-text-white is-size-3 has-text-weight-bold'>
                         "SEGURIDAD, TRANSPARENCIA Y VERIFICACIÓN"
@@ -18,8 +18,8 @@ const Home = () => {
                         width='300'
                         alt='Participa UChile Logo' />
                 </div>
-            </div>
-            <div className='column'>
+            </div> */}
+            {/* <div className='column'>
                 <div className='box mx-5'
                     style={
                         { boxShadow: "none" }
@@ -32,7 +32,20 @@ const Home = () => {
                             ))
                         } </div>
                 </div>
-            </div>
+            </div> */}
+            {elections.data.map((election, index) => (
+                <div className='column is-half'>
+                    <div className='box'
+                        style={
+                            { boxShadow: "none" }
+                        }>
+                        <div className='block'>
+                            <InfoVotacion electionData={election}
+                                          key={index} />
+                        </div>
+                    </div>
+                </div>
+            ))}
         </div>
     )
 }

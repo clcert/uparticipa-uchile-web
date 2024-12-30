@@ -77,7 +77,120 @@ function InfoVotacion({ electionData }) {
                 }>
                     {electionDate} </p>
             </div>
-            <div className="election-detail mt-4">
+            {
+                electionData.elections.map((electionsGroup, index) => 
+                    <div className="election-detail mt-4">
+                        <b className="is-size-5"
+                           style={
+                            { color: "#d44000" }
+                           }>{electionsGroup.groupName}</b>
+                        <ul className="elections-list pl-0">
+                    {
+                       electionsGroup.electionsData.map((election, index) => (
+                        <li key={index}
+                            className="is-size-6 is-background-white mb-1"
+                            style={
+                                {
+                                    borderTop: index > 0 ? "1px solid #004b93" : "none"
+                                }
+                            }>
+                            <div className="election-elements is-flex is-justify-content-space-between is-align-items-center">
+                                <div className='election-title'>
+                                    <span style={
+                                        {
+                                            "fontSize": "18px",
+                                            "color": "#004b93",
+                                            "fontWeight": "bold"
+                                        }
+                                    }>
+                                        {
+                                            election.name
+                                        } </span>
+                                </div>
+                                {
+                                    loading ? (
+                                    <div className='container has-text-centered'>
+                                        <img src={loadingGif} alt='Cargando...' />
+                                    </div>
+                                    ) : error ? (
+                                        <></>
+                                    ) : electionStatus === "Started" ?
+                                    <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                        <a href={
+                                            election.vote_link
+                                        }
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            style={
+                                                { "textDecoration": "none" }
+                                            }>
+                                            <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}>VOTAR</button>
+                                        </a>
+                                        <a href={
+                                            election.info_link
+                                        }
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            style={
+                                                { "textDecoration": "none" }
+                                            }>
+                                            <button className={"button election-button election-button-info"}
+                                                style={
+                                                    {
+                                                        fontSize: "0.7em",
+                                                        height: "3.5em"
+                                                    }
+                                                }>
+                                                PORTAL DE<br />INFORMACIÓN
+                                            </button>
+                                        </a>
+                                    </div> : electionStatus !== "Setting up" ? 
+                                    <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                        <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
+                                            disabled>VOTAR</button>
+                                        <a href={
+                                            election.info_link
+                                        }
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            style={
+                                                { "textDecoration": "none" }
+                                            }>
+                                            <button className={"button election-button election-button-info"}
+                                                style={
+                                                    {
+                                                        fontSize: "0.7em",
+                                                        height: "3.5em"
+                                                    }
+                                                }>
+                                                PORTAL DE<br />INFORMACIÓN
+                                            </button>
+                                        </a>
+                                    </div>
+                                    :
+                                    <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
+                                        <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
+                                            disabled>VOTAR</button>
+                                        <button className={"button election-button election-button-info"}
+                                            style={
+                                                {
+                                                    fontSize: "0.7em",
+                                                    height: "3.5em"
+                                                }
+                                            }
+                                            disabled>
+                                            PORTAL DE<br />INFORMACIÓN
+                                        </button>
+                                    </div>
+                                } </div>
+                        </li>
+                    )
+                )
+                } </ul>
+            </div> 
+                )
+            }
+            {/* <div className="election-detail mt-4">
                 <b className="is-size-5"
                     style={
                         { color: "#d44000" }
@@ -185,7 +298,7 @@ function InfoVotacion({ electionData }) {
                         )
                     )
                     } </ul>
-                </div>
+                </div> */}
                 {
                 electionData.message !== "" && 
                 <div className='election-message mt-3 px-3'>

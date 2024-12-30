@@ -1,17 +1,91 @@
 {
   "data": [
     {
-      "startTime": "2024/12/17 09:00",
-      "endTime": "2024/12/17 17:00",
-      "unit": "Facultad de Filosofía y Humanidades",      
-      "picture": "logos/logo-ffyh.png",
+      "startTime": "2025/01/07 08:00",
+      "endTime": "2025/01/07 16:00",
+      "unit": "Facultad de Medicina",      
+      "picture": "logos/logo-medicina.png",
+      "title": "", 
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-cineuroriente-2025/get_status",
+      "message": "",
+      "elections": [
+        {"groupName": "ACADÉMICOS(AS)", "electionsData": 
+        [ 
+        {"name": "DEPARTAMENTO DE CIENCIAS NEUROLÓGICAS ORIENTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cineuroriente-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cineuroriente-2025/public-info"},
+        {"name": "DEPARTAMENTO DE CIRUGÍA CENTRO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirucentro-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirucentro-2025/public-info"},
+        {"name": "DEPARTAMENTO DE CIRUGÍA ORIENTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ciruoriente-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ciruoriente-2025/public-info"},
+        {"name": "DEPARTAMENTO DE MEDICINA INTERNA NORTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintnorte-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintnorte-2025/public-info"},
+        {"name": "DEPARTAMENTO DE MEDICINA INTERNA SUR",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintsur-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintsur-2025/public-info"},
+        {"name": "DEPARTAMENTO DE NUTRICIÓN",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-nutricion-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-nutricion-2025/public-info"},
+        {"name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA CENTRO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstcentro-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstcentro-2025/public-info"},
+        {"name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA SUR",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstsur-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstsur-2025/public-info"},
+        {"name": "DEPARTAMENTO DE OFTALMOLOGÍA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oftal-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oftal-2025/public-info"},
+        {"name": "DEPARTAMENTO DE ORTOPEDIA Y TRAUMATOLOGÍA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ortopedia-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ortopedia-2025/public-info"},
+        {"name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL NORTE",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pedianorte-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pedianorte-2025/public-info"}
+      ]},
+      {"groupName": "ESTUDIANTES", "electionsData": 
+      [
+        {"name": "ESCUELA DE ENFERMERÍA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escenfermeria-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escenfermeria-2025/public-info"},
+        {"name": "ESCUELA DE FONOAUDIOLOGIA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escfono-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escfono-2025/public-info"},
+        {"name": "ESCUELA DE MEDICINA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escmedicina-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escmedicina-2025/public-info"},
+        {"name": "ESCUELA DE OBSTETRICIA Y PUERICULTURA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escobst-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escobst-2025/public-info"},
+        {"name": "ESCUELA DE TECNOLOGÍA MÉDICA",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctecno-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctecno-2025/public-info"},
+        {"name": "ESCUELA DE TERAPIA OCUPACIONAL",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctera-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctera-2025/public-info"},
+        {"name": "ESCUELA DE POSTGRADO",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escpostgrado-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escpostgrado-2025/public-info"}
+      ]}
+      ]
+    },
+    {
+      "startTime": "2025/01/07 09:00",
+      "endTime": "2025/01/08 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",      
+      "picture": "logos/logo-dgdp.png",
       "title": "", 
       "status_link": "",
-      "message": "",
+      "message": "La elección se abre el día martes 7 de enero exclusivamente para funcionarios(as) de Hospital Clínico. Para el resto del personal, la elección abre el día miércoles 8 de enero",
       "elections": [ 
-        {"name": "",
+        {"groupName": "ELECCIONES", "electionsData": 
+        [
+        {"name": "Comité Bipartito de Capacitación",
         "vote_link": "",
-        "info_link": ""}
+        "info_link": ""}]
+        }
       ]
     }
   ]
