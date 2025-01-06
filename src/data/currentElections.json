@@ -77,14 +77,14 @@
       "unit": "Dirección de Gestión y Desarrollo de Personas",      
       "picture": "logos/logo-dgdp.png",
       "title": "", 
-      "status_link": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dgdp-cbc-2025/get_status",
       "message": "La elección se abre el día martes 7 de enero exclusivamente para funcionarios(as) de Hospital Clínico. Para el resto del personal, la elección abre el día miércoles 8 de enero",
       "elections": [ 
         {"groupName": "ELECCIONES", "electionsData": 
         [
         {"name": "Comité Bipartito de Capacitación",
-        "vote_link": "",
-        "info_link": ""}]
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cbc-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cbc-2025/public-info"}]
         }
       ]
     }
