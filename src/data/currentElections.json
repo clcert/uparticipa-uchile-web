@@ -13,61 +13,61 @@
         [ 
         {"name": "DEPARTAMENTO DE CIENCIAS NEUROLÓGICAS ORIENTE",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cineuroriente-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cineuroriente-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-cineuroriente-2025/public-info"},
         {"name": "DEPARTAMENTO DE CIRUGÍA CENTRO",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirucentro-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirucentro-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-cirucentro-2025/public-info"},
         {"name": "DEPARTAMENTO DE CIRUGÍA ORIENTE",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ciruoriente-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ciruoriente-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-ciruoriente-2025/public-info"},
         {"name": "DEPARTAMENTO DE MEDICINA INTERNA NORTE",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintnorte-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintnorte-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-medintnorte-2025/public-info"},
         {"name": "DEPARTAMENTO DE MEDICINA INTERNA SUR",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintsur-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintsur-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-medintsur-2025/public-info"},
         {"name": "DEPARTAMENTO DE NUTRICIÓN",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-nutricion-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-nutricion-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-nutricion-2025/public-info"},
         {"name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA CENTRO",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstcentro-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstcentro-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-obstcentro-2025/public-info"},
         {"name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA SUR",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstsur-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstsur-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-obstsur-2025/public-info"},
         {"name": "DEPARTAMENTO DE OFTALMOLOGÍA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oftal-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oftal-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-oftal-2025/public-info"},
         {"name": "DEPARTAMENTO DE ORTOPEDIA Y TRAUMATOLOGÍA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ortopedia-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-ortopedia-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-ortopedia-2025/public-info"},
         {"name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL NORTE",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pedianorte-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pedianorte-2025/public-info"}
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-pedianorte-2025/public-info"}
       ]},
       {"groupName": "ESTUDIANTES", "electionsData": 
       [
         {"name": "ESCUELA DE ENFERMERÍA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escenfermeria-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escenfermeria-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escenfermeria-2025/public-info"},
         {"name": "ESCUELA DE FONOAUDIOLOGIA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escfono-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escfono-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escfono-2025/public-info"},
         {"name": "ESCUELA DE MEDICINA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escmedicina-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escmedicina-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escmedicina-2025/public-info"},
         {"name": "ESCUELA DE OBSTETRICIA Y PUERICULTURA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escobst-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escobst-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escobst-2025/public-info"},
         {"name": "ESCUELA DE TECNOLOGÍA MÉDICA",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctecno-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctecno-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-esctecno-2025/public-info"},
         {"name": "ESCUELA DE TERAPIA OCUPACIONAL",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctera-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-esctera-2025/public-info"},
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-esctera-2025/public-info"},
         {"name": "ESCUELA DE POSTGRADO",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escpostgrado-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escpostgrado-2025/public-info"}
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escpostgrado-2025/public-info"}
       ]}
       ]
     },
@@ -84,7 +84,7 @@
         [
         {"name": "Comité Bipartito de Capacitación",
         "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cbc-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cbc-2025/public-info"}]
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dgdp-cbc-2025/public-info"}]
         }
       ]
     }
