@@ -1,5 +1,5 @@
 // import logoParticipaUchile from '../../assets/images/logo-square.svg'
-import logoParticipaUchile from '../../assets/images/logolight.svg'
+import logoParticipaUchile from '../../assets/images/uparticipa-logo-uchile-white.png'
 import NavBarSocial from './NavBarSocial';
 import { menuItems } from '../../data/menuItems';
 
@@ -24,7 +24,7 @@ const NavBar = () => {
                         <Link className='navbar-item' to='/'>
                             <img src={logoParticipaUchile}
                                 alt='Participa UChile Logo'
-                                width="150" />
+                                width="140" />
                         </Link>
                         <button onClick={showMobile}
                             className='navbar-burger'
