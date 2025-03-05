@@ -27,9 +27,5 @@ export const menuItems = [
         text: 'Noticias',
         url: '/noticias',
         component: <News />
-    }, {
-        text: 'DEMO',
-        url: '/demo',
-        component: <Demo />
     }
 ]

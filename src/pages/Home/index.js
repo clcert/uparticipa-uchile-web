@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
             </div> */}
             {elections.data.map((election, index) => (
-                <div className='column is-half'>
+                <div className='column'>
                     <div className='box'
                         style={
                             { boxShadow: "none" }

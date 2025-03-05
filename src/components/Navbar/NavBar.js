@@ -50,7 +50,11 @@ const NavBar = () => {
                                             `${text}`
                                         } </NavLink>
                                 ))
-                            } </div>
+                            }
+                            <a className="navbar-item" href="https://psifos-participa.uchile.cl/psifos/api/app/eleccion-prueba-general/vote" target='_blank' rel='noreferrer'>
+                                <b>DEMO</b>
+                            </a>
+                        </div>
                     </div>
 
                 </nav>
