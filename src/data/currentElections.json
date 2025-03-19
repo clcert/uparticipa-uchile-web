@@ -1,19 +1,19 @@
 {
   "data": [
     {
-      "startTime": "2025/01/28 09:00",
-      "endTime": "2025/01/28 17:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",      
-      "picture": "logos/logo-dgdp.png",
+      "startTime": "2025/03/24 09:00",
+      "endTime": "2025/03/24 16:30",
+      "unit": "Facultad de Odontología",      
+      "picture": "logos/logo-odontologia.png",
       "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fau-2024/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-saludpublica-2025/get_status",
       "message": "",
       "elections": [ 
-        {"groupName": "ELECCIÓN CPHS", "electionsData": 
+        {"groupName": "COMITÉ ACADÉMICO", "electionsData": 
         [
-        {"name": "Facultad de Arquitectura y Urbanismo",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fau-2024/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fau-2024/public-info"}]
+        {"name": "Programa de Especialización en Salud Pública Odontológica",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-saludpublica-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-saludpublica-2025/public-info"}]
         }
       ]
     }
