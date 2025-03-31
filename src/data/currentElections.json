@@ -1,19 +1,19 @@
 {
   "data": [
     {
-      "startTime": "2025/03/26 09:00",
-      "endTime": "2025/03/27 18:00",
-      "unit": "Departamento de Ciencias de la Computación",      
-      "picture": "logos/logo-dcc.png",
+      "startTime": "2025/04/02 09:00",
+      "endTime": "2025/04/02 17:00",
+      "unit": "Facultad de Odontología",      
+      "picture": "logos/logo-odontologia.png",
       "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-estrategico-2025/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-maxilofacial-2025/get_status",
       "message": "",
       "elections": [ 
         {"groupName": "ELECCIÓN", "electionsData": 
         [
-        {"name": "Consejo Estratégico DCC",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-estrategico-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-estrategico-2025/public-info"}]
+        {"name": "Comité Académico Programa de Especialización en Cirugia Maxilofacial",
+        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-maxilofacial-2025/vote",
+        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-maxilofacial-2025/public-info"}]
         }
       ]
     }
