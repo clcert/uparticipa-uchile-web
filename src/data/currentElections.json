@@ -1,19 +1,33 @@
 {
   "data": [
     {
-      "startTime": "2025/04/02 09:00",
-      "endTime": "2025/04/02 17:00",
-      "unit": "Facultad de Odontología",      
-      "picture": "logos/logo-odontologia.png",
-      "title": "", 
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-maxilofacial-2025/get_status",
+      "startTime": "2025/04/08 09:00",
+      "endTime": "2025/04/08 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-dgdp.png",
+      "title": "COMISIONES LOCALES DE RECURSOS HUMANOS",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-comisionrrhh-fcei-2025/get_status",
       "message": "",
-      "elections": [ 
-        {"groupName": "ELECCIÓN", "electionsData": 
-        [
-        {"name": "Comité Académico Programa de Especialización en Cirugia Maxilofacial",
-        "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-maxilofacial-2025/vote",
-        "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-maxilofacial-2025/public-info"}]
+      "elections": [
+        {
+          "groupName": "ELECCIONES",
+          "electionsData": [
+            {
+              "name": "Facultad de Comunicación e Imagen",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-comisionrrhh-fcei-2025/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-comisionrrhh-fcei-2025/public-info"
+            },
+            {
+              "name": "Facultad de Gobierno",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-comisionrrhh-gobierno-2025/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-comisionrrhh-gobierno-2025/public-info"
+            },
+            {
+              "name": "Facultad de Economía y Negocios",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-comisionrrhh-fen-2025/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-comisionrrhh-fen-2025/public-info"
+            }
+          ]
         }
       ]
     }
