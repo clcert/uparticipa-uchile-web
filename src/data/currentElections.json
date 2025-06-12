@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/05/07 09:00",
-      "endTime": "2025/05/07 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
+      "startTime": "2025/06/16 09:00",
+      "endTime": "2025/06/16 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-dep/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-ttmdof/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "ELECCIONES",
+          "groupName": "ELECCIÓN",
           "electionsData": [
             {
-              "name": "Departamento de Estudios Políticos",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-dep/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-dep/public-info"
+              "name": "COMITÉ ACADÉMICO PROGRAMA TRASTORNOS TEMPOROMANDIBULARES Y DOLOR OROFACIAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ttmdof/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ttmdof/public-info"
             }
           ]
         }

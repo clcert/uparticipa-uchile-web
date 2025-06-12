@@ -10499,6 +10499,11 @@ code {
   text-align: center;
 }
 
+.election-opened {
+  color: green;
+  text-align: center;
+}
+
 .election-button-vote {
   background-color: #0096d6 !important;
   color: white !important;
