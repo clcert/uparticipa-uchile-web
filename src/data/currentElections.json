@@ -1,21 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2025/06/19 09:00",
-      "endTime": "2025/06/19 17:00",
-      "unit": "AFUCH Campus Andrés Bello",
-      "picture": "logos/logo-afuch-cab.png",
+      "startTime": "2025/06/25 09:00",
+      "endTime": "2025/06/25 17:00",
+      "unit": "Instituto de Estudios Avanzados en Educación",
+      "picture": "logos/logo-ie.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-cab/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ie-gestion/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "ELECCIÓN",
           "electionsData": [
             {
-              "name": "AFUCH Campus Andrés Bello 2025-2027",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-cab/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-cab/public-info"
+              "name": "REPRESENTANTE EQUIPO DE GESTIÓN DEL IE",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-gestion/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-gestion/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2025/06/25 09:00",
+      "endTime": "2025/06/25 17:00",
+      "unit": "Facultad de Filosofía y Humanidades",
+      "picture": "logos/logo-ffyh.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-medieval/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "ELECCIÓN",
+          "electionsData": [
+            {
+              "name": "REPRESENTANTE ANTE LA COMISIÓN DE CONCURSOS ACADÉMICOS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-medieval/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-medieval/public-info"
             }
           ]
         }
