@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/06/17 09:00",
-      "endTime": "2025/06/17 17:00",
-      "unit": "Instituto de Nutrición y Tecnología de los Alimentos",
-      "picture": "logos/logo-inta.png",
+      "startTime": "2025/06/19 09:00",
+      "endTime": "2025/06/19 17:00",
+      "unit": "AFUCH Campus Andrés Bello",
+      "picture": "logos/logo-afuch-cab.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-inta-consejo/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-cab/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "ELECCIÓN",
           "electionsData": [
             {
-              "name": "INTEGRANTES ACADÉMICOS TRANSVERSALES CONSEJO INTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-inta-consejo/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-inta-consejo/public-info"
+              "name": "AFUCH Campus Andrés Bello 2025-2027",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-cab/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-cab/public-info"
             }
           ]
         }
