@@ -1,29 +1,44 @@
 {
   "data": [
     {
-      "startTime": "2025/06/27 09:00",
-      "endTime": "2025/06/27 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
-      "title": "DIRECTORES(AS) DE INSTITUTO Y DEPARTAMENTOS",
+      "startTime": "2025/07/08 09:00",
+      "endTime": "2025/07/09 17:00",
+      "unit": "ACAUCH",
+      "picture": "logos/logo-acauch.png",
+      "title": "DIRECTIVA CENTRAL Y DIRECTIVAS CAPITULARES",
       "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-icod/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "ELECCIONES",
+          "groupName": "ELECCIÓN DIRECTIVA CENTRAL",
           "electionsData": [
             {
-              "name": "INSTITUTO DE INVESTIGACIÓN EN CIENCIAS ODONTOLÓGICAS",
+              "name": "DIRECTIVA CENTRAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-icod/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-icod/public-info"
+            }
+          ]
+        },
+        {
+          "groupName": "ELECCIONES DIRECTIVAS CAPITULARES",
+          "electionsData": [
+            {
+              "name": "FACULTAD DE ODONTOLOGÍA",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-icod/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-icod/public-info"
             },
             {
-              "name": "DEPARTAMENTO DE ODONTOLOGÍA CONSERVADORA",
+              "name": "FACULTAD DE MEDICINA",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-doc/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-doc/public-info"
             },
             {
-              "name": "DEPARTAMENTO DE REHABILITACIÓN ORAL",
+              "name": "FACULTAD DE FILOSOFÍA Y HUMANIDADES",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-dro/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-dro/public-info"
+            },
+            {
+              "name": "FACULTAD DE COMUNICACIÓN E IMAGEN",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-dro/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-dro/public-info"
             }
