@@ -1,161 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2025/07/24 08:00",
-      "endTime": "2025/07/24 16:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-medicina.png",
+      "startTime": "2025/07/30 09:00",
+      "endTime": "2025/08/01 17:00",
+      "unit": "Hospital Clínico",
+      "picture": "logos/logo-hcuch.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-daml/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-hcuch-secretarias/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "ACADÉMICOS(AS)",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "DEPARTAMENTO DE ANATOMÍA Y MEDICINA LEGAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-daml/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-daml/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ANESTESIOLOGÍA Y MEDICINA PERIOPERATORIA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-damp/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-damp/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ATENCIÓN PRIMARIA Y SALUD FAMILIAR",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-dapsf/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-dapsf/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE BIOÉTICA Y HUMANIDADES MÉDICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-dbhm/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-dbhm/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE CIRUGÍA NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirugnorte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-cirugnorte/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE DERMATOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-dermat/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-dermat/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE EDUCACIÓN EN CIENCIAS DE LA SALUD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-decs/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-decs/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ENFERMERÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-enferm/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-enferm/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE KINESIOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-kine/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-kine/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE MEDICINA INTERNA CENTRO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-medintcentro/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-medintcentro/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE NEUROLOGÍA Y NEUROCIRUGÍA NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-neuronorte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-neuronorte/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE NEUROLOGÍA Y NEUROCIRUGÍA SUR",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-neurosur/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-neurosur/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE OBSTETRICIA Y GINECOLOGÍA NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-obstnorte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-obstnorte/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ONCOLOGÍA BÁSICO - CLÍNICO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-oncologia/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-oncologia/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL CENTRO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pcicentro/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-pcicentro/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pcinorte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-pcinorte/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL OCCIDENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pcioccid/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-pcioccid/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PEDIATRÍA Y CIRUGÍA INFANTIL ORIENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-pcioriente/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-pcioriente/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PSIQUIATRÍA Y SALUD MENTAL NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psmnorte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psmnorte/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PSIQUIATRÍA Y SALUD MENTAL ORIENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psmoriente/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psmoriente/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE PSIQUIATRÍA Y SALUD MENTAL SUR",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psmsur/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psmsur/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE RADIOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-radiologia/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-radiologia/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE TECNOLOGÍA MÉDICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-dtm/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-dtm/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE TERAPIA OCUPACIONAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-dto/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-dto/public-info"
+              "name": "AGRUPACIÓN DE SECRETARIAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-hcuch-secretarias/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-hcuch-secretarias/public-info"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "startTime": "2025/07/30 09:00",
+      "endTime": "2025/07/30 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-dsp/get_status",
+      "message": "",
+      "elections": [
         {
-          "groupName": "ESTUDIANTES",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "ESCUELA DE MEDICINA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escmed/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escmed/public-info"
-            },
-            {
-              "name": "ESCUELA DE OBSTETRICIA Y PUERICULTURA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escobst/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escobst/public-info"
-            },
-            {
-              "name": "ESCUELA DE TERAPIA OCUPACIONAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escterocup/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escterocup/public-info"
-            },
-            {
-              "name": "ESCUELA DE POSTGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escpostgrado/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escpostgrado/public-info"
+              "name": "DEPARTAMENTO DE SALUD PÚBLICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-dsp/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-dsp/public-info"
             }
           ]
         }
