@@ -20,27 +20,6 @@
           ]
         }
       ]
-    },
-    {
-      "startTime": "2025/07/30 09:00",
-      "endTime": "2025/07/30 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-dsp/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "DEPARTAMENTO DE SALUD PÚBLICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-dsp/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-dsp/public-info"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
