@@ -1,47 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/08/04 09:00",
-      "endTime": "2025/08/04 17:00",
-      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-      "picture": "logos/logo-fcfcn.png",
+      "startTime": "2025/08/06 09:00",
+      "endTime": "2025/08/06 17:00",
+      "unit": "Instituto de Estudios Avanzados en Educación",
+      "picture": "logos/logo-ie.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-dgfma/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ie-personal/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DEPARTAMENTO DE GESTIÓN FORESTAL Y SU MEDIO AMBIENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-dgfma/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-dgfma/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE DESARROLLO EN PRODUCTOS FORESTALES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-ddpf/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-ddpf/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/08/04 09:00",
-      "endTime": "2025/08/04 17:00",
-      "unit": "Facultad de Comunicación e Imagen",
-      "picture": "logos/logo-fcei.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcei-dcs/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "DEPARTAMENTO DE COMUNICACIÓN SOCIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcei-dcs/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcei-dcs/public-info"
+              "name": "REPRESENTANTE DEL PERSONAL DE INVESTIGACIÓN",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-personal/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-personal/public-info"
             }
           ]
         }
