@@ -1,21 +1,36 @@
 {
   "data": [
     {
-      "startTime": "2025/08/06 09:00",
-      "endTime": "2025/08/06 17:00",
-      "unit": "Instituto de Estudios Avanzados en Educación",
-      "picture": "logos/logo-ie.png",
+      "startTime": "2025/08/11 09:00",
+      "endTime": "2025/08/11 17:00",
+      "unit": "Facultad de Gobierno",
+      "picture": "logos/logo-fagob.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ie-personal/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-dagp/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "",
+          "groupName": "ELECCIÓN DE FACULTAD",
           "electionsData": [
             {
-              "name": "REPRESENTANTE DEL PERSONAL DE INVESTIGACIÓN",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-personal/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-personal/public-info"
+              "name": "CONSEJO DE FACULTAD",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo/public-info"
+            }
+          ]
+        },
+        {
+          "groupName": "ELECCIONES DE DEPARTAMENTOS",
+          "electionsData": [
+            {
+              "name": "DEPARTAMENTO DE ADMINISTRACIÓN Y GESTIÓN PÚBLICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-dagp/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-dagp/public-info"
+            },
+            {
+              "name": "DEPARTAMENTO DE ESTUDIOS POLÍTICOS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-dep/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-dep/public-info"
             }
           ]
         }
