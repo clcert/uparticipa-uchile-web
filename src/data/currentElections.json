@@ -1,36 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2025/08/11 09:00",
-      "endTime": "2025/08/11 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
+      "startTime": "2025/08/20 09:00",
+      "endTime": "2025/08/20 17:00",
+      "unit": "AFUCH Servicios Centrales",
+      "picture": "logos/logo-afuchscen.jpg",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-dagp/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuchscen-artes/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "ELECCIÓN DE FACULTAD",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo/public-info"
+              "name": "Filial Facultad de Artes",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-artes/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-artes/public-info"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "startTime": "2025/08/20 09:00",
+      "endTime": "2025/08/20 17:00",
+      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
+      "picture": "logos/logo-fcfcn.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-funcionarios/get_status",
+      "message": "",
+      "elections": [
         {
-          "groupName": "ELECCIONES DE DEPARTAMENTOS",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "DEPARTAMENTO DE ADMINISTRACIÓN Y GESTIÓN PÚBLICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-dagp/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-dagp/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ESTUDIOS POLÍTICOS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-dep/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-dep/public-info"
+              "name": "Representantes de los Funcionarios(as)",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-funcionarios/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-funcionarios/public-info"
             }
           ]
         }
