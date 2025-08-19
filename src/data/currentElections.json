@@ -13,7 +13,7 @@
           "groupName": "",
           "electionsData": [
             {
-              "name": "Filial Facultad de Artes",
+              "name": "AFUCH Facultad de Artes",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-artes/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-artes/public-info"
             }
@@ -27,16 +27,16 @@
       "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
       "picture": "logos/logo-fcfcn.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-funcionarios/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-fcfcn/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "Representantes de los Funcionarios(as)",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-funcionarios/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-funcionarios/public-info"
+              "name": "Directiva Asociación de Funcionarios",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-fcfcn/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-fcfcn/public-info"
             }
           ]
         }

@@ -205,13 +205,13 @@ function InfoVotacion({ electionData }) {
                 </div>
             }
             {
-                electionStatus === "Setting up" &&
+                electionStatus === "Setting up" || electionStatus === "Ready for opening" &&
                 <div className="election-closed mt-5">
                     <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN AÚN NO ABIERTA ●</p>
                 </div>
             }
             {
-                electionStatus !== "Started" && electionStatus !== "Setting up" && !error &&
+                electionStatus !== "Started" && electionStatus !== "Setting up" && electionStatus !== "Ready for opening" && !error &&
                 <div className="election-closed mt-5">
                     <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN FINALIZADA ●</p>
                 </div>
