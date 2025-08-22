@@ -1,42 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/08/20 09:00",
-      "endTime": "2025/08/20 17:00",
-      "unit": "AFUCH Servicios Centrales",
-      "picture": "logos/logo-afuchscen.jpg",
+      "startTime": "2025/08/25 09:00",
+      "endTime": "2025/08/28 17:00",
+      "unit": "Facultad de Ciencias",
+      "picture": "logos/logo-ciencias.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuchscen-artes/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dgdp-cphs-ciencias/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "AFUCH Facultad de Artes",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-artes/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-artes/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/08/20 09:00",
-      "endTime": "2025/08/20 17:00",
-      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-      "picture": "logos/logo-fcfcn.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-fcfcn/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "Directiva Asociación de Funcionarios",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-fcfcn/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-fcfcn/public-info"
+              "name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cphs-ciencias/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dgdp-cphs-ciencias/public-info"
             }
           ]
         }
