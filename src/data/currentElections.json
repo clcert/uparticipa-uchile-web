@@ -1,6 +1,32 @@
 {
   "data": [
     {
+      "startTime": "2025/08/27 09:00",
+      "endTime": "2025/08/27 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-dimec/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "DEPARTAMENTO DE INGENIERÍA MECÁNICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimec/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimec/public-info"
+            },
+            {
+              "name": "DEPARTAMENTO DE INGENIERÍA INDUSTRIAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dii/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dii/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "startTime": "2025/08/25 09:00",
       "endTime": "2025/08/28 17:00",
       "unit": "Facultad de Ciencias",
