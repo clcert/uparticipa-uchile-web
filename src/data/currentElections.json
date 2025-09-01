@@ -1,47 +1,31 @@
 {
   "data": [
     {
-      "startTime": "2025/08/27 09:00",
-      "endTime": "2025/08/27 17:00",
-      "unit": "Facultad de Ciencias Físicas y Matemáticas",
-      "picture": "logos/logo-fcfm.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-dimec/get_status",
+      "startTime": "2025/09/02 09:00",
+      "endTime": "2025/09/02 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
+      "title": "CONSEJEROS(AS) DE INSTITUTO Y DEPARTAMENTOS",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-iicod/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DEPARTAMENTO DE INGENIERÍA MECÁNICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimec/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimec/public-info"
+              "name": "INSTITUTO DE INVESTIGACIÓN EN CIENCIAS ODONTOLÓGICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-iicod/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-iicod/public-info"
             },
             {
-              "name": "DEPARTAMENTO DE INGENIERÍA INDUSTRIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dii/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dii/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/08/25 09:00",
-      "endTime": "2025/08/28 17:00",
-      "unit": "Facultad de Ciencias",
-      "picture": "logos/logo-ciencias.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dgdp-cphs-ciencias/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
+              "name": "DEPARTAMENTO DE ODONTOLOGÍA CONSERVADORA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-doc/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-doc/public-info"
+            },
             {
-              "name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dgdp-cphs-ciencias/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dgdp-cphs-ciencias/public-info"
+              "name": "DEPARTAMENTO DE REHABILITACIÓN ORAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-rehoral/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-rehoral/public-info"
             }
           ]
         }
