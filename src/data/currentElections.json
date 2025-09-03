@@ -1,31 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/09/02 09:00",
-      "endTime": "2025/09/02 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
-      "title": "CONSEJEROS(AS) DE INSTITUTO Y DEPARTAMENTOS",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-iicod/get_status",
+      "startTime": "2025/09/03 09:00",
+      "endTime": "2025/09/03 18:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
+      "title": "REPRESENTANTES DEL PERSONAL DE COLABORACIÓN",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-prominterna/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "INSTITUTO DE INVESTIGACIÓN EN CIENCIAS ODONTOLÓGICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-iicod/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-iicod/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE ODONTOLOGÍA CONSERVADORA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-doc/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-doc/public-info"
-            },
-            {
-              "name": "DEPARTAMENTO DE REHABILITACIÓN ORAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-rehoral/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-rehoral/public-info"
+              "name": "COMITÉ DE SELECCIÓN DE PROMOCIÓN INTERNA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-prominterna/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-prominterna/public-info"
             }
           ]
         }
