@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/09/03 09:00",
-      "endTime": "2025/09/03 18:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-medicina.png",
-      "title": "REPRESENTANTES DEL PERSONAL DE COLABORACIÓN",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-prominterna/get_status",
+      "startTime": "2025/09/08 09:00",
+      "endTime": "2025/09/08 18:00",
+      "unit": "ACAUCH",
+      "picture": "logos/logo-acauch.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-acauch-fau/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "COMITÉ DE SELECCIÓN DE PROMOCIÓN INTERNA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-prominterna/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-prominterna/public-info"
+              "name": "DIRECTIVA CAPITULAR FACULTAD DE ARQUITECTURA Y URBANISMO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-acauch-fau/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-acauch-fau/public-info"
             }
           ]
         }
