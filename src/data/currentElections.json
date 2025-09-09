@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/09/08 09:00",
-      "endTime": "2025/09/08 18:00",
-      "unit": "ACAUCH",
-      "picture": "logos/logo-acauch.png",
+      "startTime": "2025/09/09 09:00",
+      "endTime": "2025/09/09 17:00",
+      "unit": "Facultad de Artes",
+      "picture": "logos/logo-artes.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-acauch-fau/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-teoria/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DIRECTIVA CAPITULAR FACULTAD DE ARQUITECTURA Y URBANISMO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-acauch-fau/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-acauch-fau/public-info"
+              "name": "DEPARTAMENTO DE TEORÍA DE LAS ARTES",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-teoria/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-teoria/public-info"
             }
           ]
         }
