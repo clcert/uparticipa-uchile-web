@@ -1,21 +1,31 @@
 {
   "data": [
     {
-      "startTime": "2025/09/09 09:00",
-      "endTime": "2025/09/09 17:00",
-      "unit": "Facultad de Artes",
-      "picture": "logos/logo-artes.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-teoria/get_status",
+      "startTime": "2025/09/10 09:00",
+      "endTime": "2025/09/10 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-idiem.png",
+      "title": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD (CPHS)",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-idiem-ercilla/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DEPARTAMENTO DE TEORÍA DE LAS ARTES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-teoria/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-teoria/public-info"
+              "name": "CPHS SEDE PLAZA ERCILLA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-idiem-ercilla/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-idiem-ercilla/public-info"
+            },
+            {
+              "name": "CPHS SEDE ARTURO PRAT",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-idiem-arturoprat/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-idiem-arturoprat/public-info"
+            },
+            {
+              "name": "CPHS SEDE CONCEPCIÓN",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-idiem-ccp/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-idiem-ccp/public-info"
             }
           ]
         }
