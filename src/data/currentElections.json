@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/09/23 09:00",
-      "endTime": "2025/09/23 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
+      "startTime": "2025/09/29 09:00",
+      "endTime": "2025/09/29 17:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-icbm.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuchscen-fagob/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-icbm-funcionarios/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "AFUCH FACULTAD DE GOBIERNO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-fagob/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-fagob/public-info"
+              "name": "REPRESENTANTE FUNCIONARIOS ICBM",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-icbm-funcionarios/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-icbm-funcionarios/public-info"
             }
           ]
         }
