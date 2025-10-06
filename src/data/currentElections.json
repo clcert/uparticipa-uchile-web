@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/09/29 09:00",
-      "endTime": "2025/09/29 17:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-icbm.png",
+      "startTime": "2025/10/07 09:00",
+      "endTime": "2025/10/07 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-icbm-funcionarios/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-iicod-2da/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "REPRESENTANTE FUNCIONARIOS ICBM",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-icbm-funcionarios/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-icbm-funcionarios/public-info"
+              "name": "CONSEJEROS(AS) INSTITUTO DE CIENCIAS ODONTOLÓGICAS - 2da VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-iicod-2da/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-iicod-2da/public-info"
             }
           ]
         }
