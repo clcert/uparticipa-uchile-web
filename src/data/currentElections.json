@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/10/07 09:00",
-      "endTime": "2025/10/07 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2025/10/13 09:00",
+      "endTime": "2025/10/13 17:00",
+      "unit": "Senado Universitario",
+      "picture": "logos/logo-senado.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-iicod-2da/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-fcqf/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "CONSEJEROS(AS) INSTITUTO DE CIENCIAS ODONTOLÓGICAS - 2da VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-iicod-2da/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-iicod-2da/public-info"
+              "name": "REPRESENTANTE ACADÉMICO(A) FACULTAD DE CIENCIAS QUÍMICAS Y FARMACÉUTICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-fcqf/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-fcqf/public-info"
             }
           ]
         }
