@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/10/13 09:00",
-      "endTime": "2025/10/13 17:00",
-      "unit": "Senado Universitario",
-      "picture": "logos/logo-senado.png",
+      "startTime": "2025/10/14 09:00",
+      "endTime": "2025/10/14 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-artes.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-fcqf/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-artes-all/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "REPRESENTANTE ACADÉMICO(A) FACULTAD DE CIENCIAS QUÍMICAS Y FARMACÉUTICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-fcqf/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-fcqf/public-info"
+              "name": "CPHS SEDE ALFONSO LETELIER LLONA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-artes-all/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-artes-all/public-info"
             }
           ]
         }
