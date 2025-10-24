@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/10/15 09:00",
-      "endTime": "2025/10/16 17:00",
-      "unit": "Campus Juan Gómez Millas",
-      "picture": "logos/logo-uchile.jpg",
-      "title": "CONSEJO DEL CAMPUS JUAN GÓMEZ MILLAS",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-campusjgm-estudiantes/get_status",
-      "message": "Las elecciones de Académicos(as) y Personal de Colaboración se abren el día jueves 16 de octubre a las 09:00 h",
+      "startTime": "2025/10/27 09:00",
+      "endTime": "2025/10/27 17:00",
+      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
+      "picture": "logos/logo-fcfcn.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-consejo/get_status",
+      "message": "",
       "elections": [
         {
-          "groupName": "ACCESO ESTUDIANTES",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "REPRESENTANTES ESTUDIANTILES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-campusjgm-estudiantes/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-campusjgm-estudiantes/public-info"
+              "name": "REPRESENTANTES ACADÉMICOS(AS) AL CONSEJO DE FACULTAD",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-consejo/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-consejo/public-info"
             }
           ]
         }
