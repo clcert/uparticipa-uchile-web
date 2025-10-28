@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/10/27 09:00",
-      "endTime": "2025/10/27 17:00",
-      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-      "picture": "logos/logo-fcfcn.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-consejo/get_status",
+      "startTime": "2025/10/29 09:00",
+      "endTime": "2025/10/29 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "CONSEJO DE ESCUELA DE POSTGRADO Y EDUCACIÓN CONTINUA",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-postgrado/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "REPRESENTANTES ACADÉMICOS(AS) AL CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-consejo/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-consejo/public-info"
+              "name": "REPRESENTANTES ESTUDIANTILES",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-postgrado/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-postgrado/public-info"
             }
           ]
         }
