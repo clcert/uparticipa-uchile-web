@@ -1,42 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/11/05 09:00",
-      "endTime": "2025/11/05 17:00",
-      "unit": "Facultad de Ciencias Físicas y Matemáticas",
-      "picture": "logos/logo-fcfm.png",
-      "title": "ESCUELA DE INGENIERÍA Y CIENCIAS",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-escuela-estud/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "REPRESENTANTES ESTUDIANTILES AL CONSEJO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-escuela-estud/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-escuela-estud/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/11/03 09:00",
-      "endTime": "2025/11/05 15:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",
-      "picture": "logos/logo-medicina.png",
+      "startTime": "2025/11/24 09:00",
+      "endTime": "2025/11/24 17:00",
+      "unit": "Senado Universitario",
+      "picture": "logos/logo-senado.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-norte/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-fen/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD CAMPUS NORTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-norte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-norte/public-info"
+              "name": "REPRESENTANTE ACADÉMICO LOCAL FEN",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-fen/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-fen/public-info"
             }
           ]
         }
