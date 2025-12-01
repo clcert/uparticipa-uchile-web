@@ -1,63 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/11/27 09:00",
-      "endTime": "2025/11/27 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2025/12/02 09:00",
+      "endTime": "2025/12/02 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-dcyt/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-economia/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DIRECTOR(A) DEPARTAMENTO DE CIRUGÍA Y TRAUMATOLOGÍA BUCAL Y MAXILO FACIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-dcyt/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-dcyt/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/11/27 09:00",
-      "endTime": "2025/11/27 18:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-medicina.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-esp-2025/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "CONSEJO DE LA ESCUELA DE SALUD PÚBLICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-esp-2025/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-esp-2025/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2025/11/27 09:00",
-      "endTime": "2025/11/28 18:00",
-      "unit": "Departamento de Ingeniería Matemática",
-      "picture": "logos/logo-ceimat.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ceimat-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "DIRECTIVA CEIMAT 2026",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ceimat-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ceimat-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE ECONOMÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-economia/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-economia/public-info"
             }
           ]
         }
