@@ -6,7 +6,7 @@ const Home = () => {
     const elections = require("../../data/currentElections.json");
 
     return (
-        <div className='columns is-gapless'>
+        <div className=''>
             {/* <div className='column has-text-centered is-one-third is-hidden-touch'>
                 <div className='block'>
                     <p className='has-text-white is-size-3 has-text-weight-bold'>

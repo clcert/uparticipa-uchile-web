@@ -1,21 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2025/12/02 09:00",
-      "endTime": "2025/12/02 17:00",
-      "unit": "Facultad de Economía y Negocios",
-      "picture": "logos/logo-fen.png",
+      "startTime": "2025/12/04 09:00",
+      "endTime": "2025/12/04 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-dgdp.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-economia/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-sur/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE ECONOMÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-economia/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-economia/public-info"
+              "name": "ELECCIÓN CPHS FACULTAD DE MEDICINA - CAMPUS SUR",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-sur/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-sur/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2025/12/04 09:00",
+      "endTime": "2025/12/05 17:00",
+      "unit": "Centro de Estudiantes de Geología",
+      "picture": "logos/logo-ceg.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ceg-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN DIRECTIVA CEG 2026",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ceg-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ceg-2026/public-info"
             }
           ]
         }
