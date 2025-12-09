@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/12/04 09:00",
-      "endTime": "2025/12/05 17:00",
-      "unit": "Centro de Estudiantes de Geología",
-      "picture": "logos/logo-ceg.png",
+      "startTime": "2025/12/09 09:00",
+      "endTime": "2025/12/09 17:00",
+      "unit": "Senado Universitario",
+      "picture": "logos/logo-senado.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ceg-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-fcfm/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DIRECTIVA CEG 2026",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ceg-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ceg-2026/public-info"
+              "name": "ELECCIÓN REPRESENTANTE ACADÉMICO(A) FACULTAD DE CIENCIAS FÍSICAS Y MATEMÁTICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-fcfm/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-fcfm/public-info"
             }
           ]
         }
