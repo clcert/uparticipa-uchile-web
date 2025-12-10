@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/12/09 09:00",
-      "endTime": "2025/12/09 17:00",
-      "unit": "Senado Universitario",
-      "picture": "logos/logo-senado.png",
+      "startTime": "2025/12/10 09:00",
+      "endTime": "2025/12/10 17:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-dse.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-senado-fcfm/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-dse/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN REPRESENTANTE ACADÉMICO(A) FACULTAD DE CIENCIAS FÍSICAS Y MATEMÁTICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-senado-fcfm/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-senado-fcfm/public-info"
+              "name": "ELECCIÓN CPHS DIRECCIÓN DE SALUD ESTUDIANTIL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-dse/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-dse/public-info"
             }
           ]
         }
