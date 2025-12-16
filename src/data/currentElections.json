@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2025/12/10 09:00",
-      "endTime": "2025/12/10 17:00",
+      "startTime": "2025/12/17 09:00",
+      "endTime": "2025/12/17 17:00",
       "unit": "Dirección de Gestión y Desarrollo de Personas",
-      "picture": "logos/logo-dse.png",
+      "picture": "logos/logo-derecho.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-dse/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-derecho/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS DIRECCIÓN DE SALUD ESTUDIANTIL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-dse/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-dse/public-info"
+              "name": "ELECCIÓN CPHS FACULTAD DE DERECHO PÍO NONO 01",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-derecho/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-derecho/public-info"
             }
           ]
         }
