@@ -1,21 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2025/12/17 09:00",
-      "endTime": "2025/12/17 17:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",
-      "picture": "logos/logo-derecho.png",
+      "startTime": "2026/01/06 09:00",
+      "endTime": "2026/01/06 17:00",
+      "unit": "Facultad de Arquitectura y Urbanismo",
+      "picture": "logos/logo-fau.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-derecho/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-geografia/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS FACULTAD DE DERECHO PÍO NONO 01",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-derecho/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-derecho/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE GEOGRAFÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-geografia/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-geografia/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE URBANISMO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-urbanismo/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-urbanismo/public-info"
             }
           ]
         }
