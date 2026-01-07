@@ -1,26 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2026/01/06 09:00",
-      "endTime": "2026/01/06 17:00",
-      "unit": "Facultad de Arquitectura y Urbanismo",
-      "picture": "logos/logo-fau.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-geografia/get_status",
+      "startTime": "2026/01/07 09:00",
+      "endTime": "2026/01/07 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
+      "title": "COMITÉS ACADÉMICOS PROGRAMAS DE POSTGRADO",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-magister-ciencias/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE GEOGRAFÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-geografia/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-geografia/public-info"
+              "name": "ELECCIÓN MAGÍSTER EN CIENCIAS ODONTOLÓGICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-magister-ciencias/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-magister-ciencias/public-info"
             },
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE URBANISMO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-urbanismo/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-urbanismo/public-info"
+              "name": "ELECCIÓN DOCTORADO EN CIENCIAS ODONTOLÓGICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-doctorado-ciencias/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-doctorado-ciencias/public-info"
             }
           ]
         }
