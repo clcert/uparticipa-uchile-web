@@ -1,26 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/01/07 09:00",
-      "endTime": "2026/01/07 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
-      "title": "COMITÉS ACADÉMICOS PROGRAMAS DE POSTGRADO",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-magister-ciencias/get_status",
+      "startTime": "2026/01/13 09:00",
+      "endTime": "2026/01/13 16:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-medicina2.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-norte/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN MAGÍSTER EN CIENCIAS ODONTOLÓGICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-magister-ciencias/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-magister-ciencias/public-info"
-            },
-            {
-              "name": "ELECCIÓN DOCTORADO EN CIENCIAS ODONTOLÓGICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-doctorado-ciencias/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-doctorado-ciencias/public-info"
+              "name": "ELECCIÓN CPHS FACULTAD DE MEDICINA CAMPUS CENTRO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-norte/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-norte/public-info"
             }
           ]
         }
