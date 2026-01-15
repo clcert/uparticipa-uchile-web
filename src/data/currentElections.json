@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/01/13 09:00",
-      "endTime": "2026/01/13 16:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",
-      "picture": "logos/logo-medicina2.png",
+      "startTime": "2026/01/16 09:00",
+      "endTime": "2026/01/16 17:00",
+      "unit": "Asociación de Funcionarios Servicos Centrales",
+      "picture": "logos/logo-afuchscen.jpg",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-norte/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuchscen-directorio/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS FACULTAD DE MEDICINA CAMPUS CENTRO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-norte/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-norte/public-info"
+              "name": "ELECCIÓN DIRECTORIO AFUCHSCEN 2026-2028",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-directorio/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-directorio/public-info"
             }
           ]
         }
