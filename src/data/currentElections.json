@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/01/16 09:00",
-      "endTime": "2026/01/16 17:00",
-      "unit": "Asociación de Funcionarios Servicos Centrales",
-      "picture": "logos/logo-afuchscen.jpg",
+      "startTime": "2026/01/30 10:00",
+      "endTime": "2026/01/30 13:00",
+      "unit": "Departamento de Ciencias de la Computación",
+      "picture": "logos/logo-dcc.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuchscen-directorio/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-climalaboral/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DIRECTORIO AFUCHSCEN 2026-2028",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuchscen-directorio/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuchscen-directorio/public-info"
+              "name": "ELECCIÓN COMISIÓN CLIMA LABORAL DCC 2026",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-climalaboral/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-climalaboral/public-info"
             }
           ]
         }

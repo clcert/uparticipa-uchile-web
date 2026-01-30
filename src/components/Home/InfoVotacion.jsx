@@ -34,7 +34,7 @@ function InfoVotacion({ electionData }) {
 
     const fetchElectionStatus = async () => {
         try {
-            const response = await fetch(electionData.status_link);
+            const response = await fetch(electionData.status_link, {cache: 'no-store'});
             if (!response.ok) {
                 throw new Error('Network response was not ok.');
             }
