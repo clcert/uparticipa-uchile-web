@@ -1,36 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/04/06 09:00",
-      "endTime": "2026/04/06 17:00",
-      "unit": "Instituto de Estudios Avanzados en Educación",
-      "picture": "logos/logo-ie.png",
+      "startTime": "2026/04/08 09:00",
+      "endTime": "2026/04/08 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ie-consejo-miie/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-maxilofacial/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "CONSEJO DE LA ESCUELA DE POSTGRADO",
+          "groupName": "",
           "electionsData": [
             {
-              "name": "REPRESENTANTE MAGÍSTER EN INDAGACIÓN E INNOVACIÓN EDUCACIONAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-consejo-miie/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-consejo-miie/public-info"
-            },
-            {
-              "name": "REPRESENTANTE MAGÍSTER INVESTIGACIÓN EN EDUCACIÓN",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-consejo-mie/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-consejo-mie/public-info"
-            }
-          ]
-        },
-        {
-          "groupName": "CONSEJO DEL INSTITUTO DE ESTUDIOS AVANZADOS EN EDUCACIÓN",
-          "electionsData": [
-            {
-              "name": "REPRESENTANTE ESTUDIANTIL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ie-consejo-instituto/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ie-consejo-instituto/public-info"
+              "name": "COMITÉ ACADÉMICO PROGRAMA ORTODONCIA Y ORTOPEDIA DENTO MAXILO FACIAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-maxilofacial/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-maxilofacial/public-info"
             }
           ]
         }
