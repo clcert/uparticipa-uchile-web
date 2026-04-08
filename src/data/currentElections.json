@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/04/08 09:00",
-      "endTime": "2026/04/08 17:00",
+      "startTime": "2026/04/09 08:00",
+      "endTime": "2026/04/09 18:00",
       "unit": "Facultad de Odontología",
       "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-maxilofacial/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ceo-estatutos/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "COMITÉ ACADÉMICO PROGRAMA ORTODONCIA Y ORTOPEDIA DENTO MAXILO FACIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-maxilofacial/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-maxilofacial/public-info"
+              "name": "NUEVOS ESTATUTOS CENTRO DE ESTUDIANTES DE ODONTOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ceo-estatutos/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ceo-estatutos/public-info"
             }
           ]
         }
