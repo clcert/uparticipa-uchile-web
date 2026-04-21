@@ -9,20 +9,20 @@ const FAQScreen = () => {
 					<p>1. ¿Cómo se autentican los usuarios?</p>
 				</div>
 				<div className="message-body has-background-white has-text-black">
-					Todos los votantes de Participa UChile deben contar con una cuenta UChile
-					(cuenta Pasaporte o mi.uchile) puesto que es la única manera de
+					Todos los votantes de UParticipa deben contar con una cuenta Uchile
+					(https://cuenta.uchile.cl) puesto que es la única manera de
 					autenticarse en el sistema.
 				</div>
 			</article>
 			<article className="message is-primary">
 				<div className="message-header">
 					<p>
-						2. ¿En qué elecciones se utiliza el sistema Participa UChile?
+						2. ¿En qué elecciones se utiliza el sistema UParticipa?
 					</p>
 				</div>
 				<div className="message-body has-background-white has-text-black">
 					<div className='block'>
-						Participa UChile está orientado a elecciones de
+						UParticipa está orientado a elecciones de
 						<strong> bajo perfil en
 							un contexto universitario</strong>, como por ejemplo, elecciones de
 						directores de unidades académicas, consejeros, representantes de
@@ -37,18 +37,17 @@ const FAQScreen = () => {
 						<a href="https://www.nationalacademies.org/our-work/the-future-of-voting-accessible-reliable-verifiable-technology" target="_blank" rel="noreferrer"> recomendación de la comunidad experta internacional </a>
 						para dicho
 						contexto es no utilizar votación remota pues no se conoce un sistema
-						hoy en día que garantice seguridad a un nivel adecuado. Participa
-						UChile no es la excepción.
+						hoy en día que garantice seguridad a un nivel adecuado. UParticipa no es la excepción.
 					</div>
 				</div>
 			</article>
 			<article className="message is-primary">
 				<div className="message-header">
-					<p>3. ¿Qué seguridad provee Participa UChile?</p>
+					<p>3. ¿Qué seguridad provee UParticipa?</p>
 				</div>
 				<div className="message-body has-background-white has-text-black">
 					<div className='block'>
-						Participa UChile es una adaptación del sistema
+						UParticipa es una adaptación del sistema
 						<a href="https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf" target="_blank" rel="noreferrer"> Helios Voting, propuesto por Ben Adida
 							(2008)</a>. Helios ha sido utilizado por entidades como la International
 						Association for Cryptographic Research, y la U. de Louvain-Le Neuve
@@ -56,7 +55,7 @@ const FAQScreen = () => {
 					</div>
 
 					<div className='block'>
-						Participa UChile, tal como Helios, utiliza
+						UParticipa, tal como Helios, utiliza
 						<strong> algoritmos matemáticos
 							para mejorar la seguridad del sistema</strong>. El sistema permite, por
 						ejemplo, garantizar el secreto del voto encriptando los votos con una clave
@@ -71,24 +70,24 @@ const FAQScreen = () => {
 			</article>
 			<article className="message is-primary">
 				<div className="message-header">
-					<p>4. ¿En qué se diferencia Participa UChile de un sistema de votación cerrado?</p>
+					<p>4. ¿En qué se diferencia UParticipa de un sistema de votación cerrado?</p>
 				</div>
 				<div className="message-body has-background-white has-text-black">
-					Los algoritmos criptográficos del sistema Participa UChile permiten evidenciar
+					Los algoritmos criptográficos del sistema UParticipa permiten evidenciar
 					intentos externos o internos de manipulación de votos o del total. Otros
 					sistemas cerrados son opacos y sólo entregan el resultado sin mayor
 					explicación. En ellos, tanto el secreto de un voto individual como la
 					integridad del resultado final depende exclusivamente del administrador del
 					sistema informático. Los votantes y la comunidad deben depositar su confianza
 					en el accionar correcto del administrador, sin posibilidad de confirmar si la
-					confianza es merecida o no. Si bien Participa UChile no elimina completamente
+					confianza es merecida o no. Si bien UParticipa no elimina completamente
 					dicha confianza, la minimiza significativamente, dándole herramientas al
 					votante para confirmar si es merecida o no.
 				</div>
 			</article>
 			<article className="message is-primary">
 				<div className="message-header">
-					<p>5. ¿Cómo puedo verificar que mi voto ha sido recibido por Participa UChile?</p>
+					<p>5. ¿Cómo puedo verificar que mi voto ha sido recibido por UParticipa?</p>
 				</div>
 				<div className="message-body has-background-white has-text-black">
 					Cada votante, al concluir la selección de sus preferencias y enviar la papeleta
@@ -125,7 +124,7 @@ const FAQScreen = () => {
 				</div>
 				<div className="message-body has-background-white has-text-black">
 					Ambas direcciones web son válidas para acceder a las votaciones y consultas
-					realizadas por Participa UChile.
+					realizadas por UParticipa.
 				</div>
 			</article>
 		</div>

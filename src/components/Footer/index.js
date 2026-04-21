@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer className='footer has-text-centered'>
             <p className='container mt-4'>
-                Participa UChile es un proyecto de
+                UParticipa es un proyecto de
                 <b> Prorrectoría U. de Chile</b>, desarrollado por el
                 <b> Lab. de Criptografía Aplicada y Ciberseguridad (CLCERT)</b>,y patrocinado por la
                 <b> Vicerrectoría de Tecnología de la Información</b>, la
