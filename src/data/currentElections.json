@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/04/21 09:00",
-      "endTime": "2026/04/21 17:00",
+      "startTime": "2026/04/24 09:00",
+      "endTime": "2026/04/24 15:30",
       "unit": "Facultad de Odontología",
       "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-consejo-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-periodoncia-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-consejo-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-consejo-2026/public-info"
+              "name": "ELECCIÓN COMITÉ ACADÉMICO PROGRAMA DE PERIODONCIA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-periodoncia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-periodoncia-2026/public-info"
             }
           ]
         }
