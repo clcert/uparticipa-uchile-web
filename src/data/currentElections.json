@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/04/24 09:00",
-      "endTime": "2026/04/24 15:30",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2026/04/29 09:00",
+      "endTime": "2026/04/30 17:00",
+      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
+      "picture": "logos/logo-fcfcn.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-periodoncia-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fcfcn-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN COMITÉ ACADÉMICO PROGRAMA DE PERIODONCIA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-periodoncia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-periodoncia-2026/public-info"
+              "name": "ELECCIÓN COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fcfcn-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fcfcn-2026/public-info"
             }
           ]
         }
