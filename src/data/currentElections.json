@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/04/29 09:00",
-      "endTime": "2026/04/30 17:00",
-      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-      "picture": "logos/logo-fcfcn.png",
+      "startTime": "2026/05/12 09:00",
+      "endTime": "2026/05/12 17:00",
+      "unit": "Universidad de Chile",
+      "picture": "logos/logo-uchile.jpg",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fcfcn-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-uchile-rectoria-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fcfcn-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fcfcn-2026/public-info"
+              "name": "ELECCIÓN DE RECTORA O RECTOR PERIODO 2026-2030",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-uchile-rectoria-2026/vote",
+              "info_link": "https://uchile.cl/eleccion-rectoria"
             }
           ]
         }

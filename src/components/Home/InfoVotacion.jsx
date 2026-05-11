@@ -141,7 +141,7 @@ function InfoVotacion({ electionData }) {
                                                                         height: "3.5em"
                                                                     }
                                                                 }>
-                                                                PORTAL DE<br />INFORMACIÓN
+                                                                MÁS<br />INFORMACIÓN
                                                             </button>
                                                         </a>
                                                     </div> : electionStatus !== "Setting up" ?
@@ -163,7 +163,7 @@ function InfoVotacion({ electionData }) {
                                                                             height: "3.5em"
                                                                         }
                                                                     }>
-                                                                    PORTAL DE<br />INFORMACIÓN
+                                                                    MÁS<br />INFORMACIÓN
                                                                 </button>
                                                             </a>
                                                         </div>
@@ -179,7 +179,7 @@ function InfoVotacion({ electionData }) {
                                                                     }
                                                                 }
                                                                 disabled>
-                                                                PORTAL DE<br />INFORMACIÓN
+                                                                MÁS<br />INFORMACIÓN
                                                             </button>
                                                         </div>
                                             } </div>
