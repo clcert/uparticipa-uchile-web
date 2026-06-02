@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/05/25 09:00",
-      "endTime": "2026/05/27 16:00",
-      "unit": "Hospital Clínico",
-      "picture": "logos/logo-hcuch.png",
+      "startTime": "2026/06/02 09:00",
+      "endTime": "2026/06/02 17:00",
+      "unit": "Universidad de Chile",
+      "picture": "logos/logo-uchile.jpg",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-hcuch-2026/get_status",
-      "message": "La Ceremonia de Escrutinio tuvo que ser reprogramada debido a problemas en el proceso de cálculo de los resultados finales. La Ceremonia de Escrutinio se realizará el día miércoles 28 de mayo a las 11:00 h.",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-uchile-rectoria-2davuelta-2026/get_status",
+      "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS HOSPITAL CLÍNICO DE LA UNIVERSIDAD DE CHILE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-hcuch-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-hcuch-2026/public-info"
+              "name": "ELECCIÓN RECTORA O RECTOR PERÍODO 2026-2030 - SEGUNDA VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-uchile-rectoria-2davuelta-2026/vote",
+              "info_link": "https://uchile.cl/elecciones"
             }
           ]
         }
