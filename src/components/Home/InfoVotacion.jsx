@@ -34,7 +34,7 @@ function InfoVotacion({ electionData }) {
 
     const fetchElectionStatus = async () => {
         try {
-            const response = await fetch(electionData.status_link, {cache: 'no-store'});
+            const response = await fetch(electionData.status_link, { cache: 'no-store' });
             if (!response.ok) {
                 throw new Error('Network response was not ok.');
             }
@@ -58,7 +58,7 @@ function InfoVotacion({ electionData }) {
                 }
                     alt="Logo de Unidad Académica"
                     style={
-                        { maxHeight: "250px" }
+                        { maxHeight: "125px" }
                     } />
             </div>
             <div className="election-title">
@@ -67,7 +67,7 @@ function InfoVotacion({ electionData }) {
                         electionData.title
                     }</p>
             </div>
-            <div className="mt-3">
+            <div className="mt-1">
                 <b className="is-size-5"
                     style={
                         { color: "#d44000" }
@@ -79,7 +79,7 @@ function InfoVotacion({ electionData }) {
             </div>
             {
                 electionData.elections.map((electionsGroup, index) =>
-                    <div className="election-detail mt-4">
+                    <div className="election-detail mt-1">
                         <b className="is-size-5"
                             style={
                                 { color: "#d44000" }
@@ -200,7 +200,7 @@ function InfoVotacion({ electionData }) {
 
             {
                 electionStatus === "Started" &&
-                <div className="election-opened mt-5">
+                <div className="election-opened mt-3">
                     <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN ABIERTA ●</p>
                 </div>
             }

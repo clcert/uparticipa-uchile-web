@@ -10430,7 +10430,9 @@ code {
   color: black;
   margin: 1rem auto;
   max-width: 1024px;
-  padding: 0 2rem 2rem 2rem !important;
+  padding: 0 2rem 0.5rem 2rem !important;
+  margin-bottom: 0;
+
 }
 
 @media screen and (max-width: 1023px) {
