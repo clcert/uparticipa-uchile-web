@@ -58,7 +58,7 @@ function InfoVotacion({ electionData }) {
                 }
                     alt="Logo de Unidad Académica"
                     style={
-                        { maxHeight: "125px" }
+                        { maxHeight: "275px" }
                     } />
             </div>
             <div className="election-title">

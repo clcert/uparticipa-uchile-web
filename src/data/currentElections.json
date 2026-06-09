@@ -1,97 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/06/04 09:00",
-      "endTime": "2026/06/04 17:00",
-      "unit": "Facultad de Ciencias",
-      "picture": "logos/logo-ciencias.png",
+      "startTime": "2026/06/09 08:00",
+      "endTime": "2026/06/09 16:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina2.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ciencias-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-decano-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO(A) FACULTAD DE CIENCIAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ciencias-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ciencias-decano-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/06/04 09:00",
-      "endTime": "2026/06/04 17:00",
-      "unit": "Facultad de Ciencias Físicas y Matemáticas",
-      "picture": "logos/logo-fcfm.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-decano-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "DECANO(A)",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN DECANO(A) FCFM",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-decano-2026/public-info"
-            }
-          ]
-        },
-        {
-          "groupName": "DIRECTORES(AS) DE DEPARTAMENTO",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dcc-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dcc-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE FÍSICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dfi-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dfi-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE GEOFÍSICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dgf-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dgf-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE GEOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-geologia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-geologia-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA CIVIL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dic-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dic-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA DE MINAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimin-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimin-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA ELÉCTRICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-die-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-die-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA MATEMÁTICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dim-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dim-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA MECÁNICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimec-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimec-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA QUÍMICA, BIOTECNOLOGÍA Y MATERIALES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-diqbm-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-diqbm-2026/public-info"
+              "name": "ELECCIÓN DECANO(A) FACULTAD DE MEDICINA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-decano-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-decano-2026/public-info"
             }
           ]
         }
