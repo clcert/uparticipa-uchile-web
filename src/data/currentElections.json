@@ -1,21 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2026/06/09 08:00",
-      "endTime": "2026/06/09 16:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-medicina2.png",
+      "startTime": "2026/06/10 09:00",
+      "endTime": "2026/06/10 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-decano-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO(A) FACULTAD DE MEDICINA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-decano-2026/public-info"
+              "name": "ELECCIÓN DECANO FACULTAD DE ECONOMÍA Y NEGOCIOS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-decano-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-decano-2026/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/06/10 08:30",
+      "endTime": "2026/06/10 16:30",
+      "unit": "Facultad de Ciencias Agronómicas",
+      "picture": "logos/logo-fca.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-decano-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN DECANO(A) FACULTAD DE CIENCIAS AGRONÓMICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-decano-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-decano-2026/public-info"
             }
           ]
         }
