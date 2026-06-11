@@ -1,42 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2026/06/10 09:00",
-      "endTime": "2026/06/10 17:00",
-      "unit": "Facultad de Economía y Negocios",
-      "picture": "logos/logo-fen.png",
+      "startTime": "2026/06/11 09:00",
+      "endTime": "2026/06/11 17:00",
+      "unit": "Facultad de Arquitetura y Urbanismo",
+      "picture": "logos/logo-fau.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-decano-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO FACULTAD DE ECONOMÍA Y NEGOCIOS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-decano-2026/public-info"
+              "name": "ELECCIÓN DECANO FACULTAD DE ARQUITECTURA Y URBANISMO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-decano-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-decano-2026/public-info"
             }
           ]
         }
       ]
     },
     {
-      "startTime": "2026/06/10 08:30",
-      "endTime": "2026/06/10 16:30",
-      "unit": "Facultad de Ciencias Agronómicas",
-      "picture": "logos/logo-fca.png",
+      "startTime": "2026/06/11 09:00",
+      "endTime": "2026/06/11 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-decano-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO(A) FACULTAD DE CIENCIAS AGRONÓMICAS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-decano-2026/public-info"
+              "name": "ELECCIÓN DECANO(A) FACULTAD DE ODONTOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-decano-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-decano-2026/public-info"
             }
           ]
         }
