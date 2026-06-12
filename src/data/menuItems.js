@@ -10,7 +10,7 @@ export const menuItems = [
     //     component: <VideoScreen />
     // },
     {
-        text: 'FAQ',
+        text: 'Preguntas frecuentes',
         url: '/faq',
         component: <FAQScreen />
     }, {

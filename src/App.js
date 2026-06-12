@@ -40,10 +40,8 @@ export const App = () => {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
 			<div className='block main-container'>
+				<NavBar />
 				<div className='container'>
-					<div className='block'>
-						<NavBar />
-					</div>
 					<div className='block'>
 						<Routes>
 							<Route exact path='/' element={<Home />} />
