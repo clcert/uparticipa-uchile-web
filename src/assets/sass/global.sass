@@ -7,14 +7,24 @@ $font-family_2: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospa
 $font-family_3: montserrat, helvetica neue, Arial, sans-serif, -apple-system
 $font-family_4: couture-bld
 
+html, body, #root
+	min-height: 100vh
+
+#root
+	display: flex
+	flex-direction: column
+
 body
 	font-family: $font-family_3
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
-	background-image: url(../images/background.png)
+	background-color: #ECF8FC
+	background-image: radial-gradient(circle, #93D5F5 0.7px, transparent 1.1px)
+	background-size: 18px 18px
 	background-repeat: repeat
-	background-size: auto
-	box-shadow: inset 0 0 0 1000px #0006
+
+.has-text-white
+	color: $dark-blue !important
 
 code
 	font-family: $font-family_2
@@ -31,10 +41,11 @@ code
 	padding: 0 10px
 
 .main-container
-	min-height: 75vh
+	flex: 1 0 auto
 
 .footer
-	min-height: 25vh
+	flex-shrink: 0
+	min-height: 0
 
 .breadcrumb-current
 	margin-left: 0.75em
@@ -46,6 +57,9 @@ code
 			color: #ffffff
 			background-color: $background-light
 
+
+// Backward-compat aliases (still referenced by other components / pages)
+
 .election-box
 	background-color: white !important
 	border-radius: 10px
@@ -54,55 +68,13 @@ code
 	max-width: 1024px
 	padding: 0 2rem 2rem 2rem !important
 
-@media screen and (max-width: 1023px)
-	.field.is-grouped
-		justify-content: center
-
-@media screen and (max-width: 768px)
-	.election-elements
-		flex-direction: column
-
-	.election-title
-		text-align: center !important
-		padding-right: 0 !important
-
-	.election-buttons
-		flex-direction: column !important
-
-	.election-button
-		margin-right: 0 !important
-		margin: 0.2rem
-
-	.election-box
-		padding-left: 1rem !important
-		padding-right: 1rem !important
-
-	.entry-body-img
-		width: 75vw !important
-
-.election-buttons
-	align-items: center
-
 .election-title
 	color: $dark-blue
-	text-align: left
-	text-transform: uppercase
-	padding-right: 0.5rem
 
 .unit-logo
 	display: flex
 	justify-content: center
 	align-items: center
-	padding: 0.5em
-	padding-top: 1em
-
-.elections-list li
-	padding-top: 0.5em
-	padding-bottom: 0.5em
-
-.election-message
-	text-align: center
-	border: 2px solid $medium-blue
 
 .has-text-red
 	color: red
@@ -111,22 +83,18 @@ code
 	color: red
 	text-align: center
 
+.election-message
+	text-align: center
+	border: 2px solid $medium-blue
+
 .election-button-vote
 	background-color: $medium-blue !important
 	color: white !important
 	border-color: $medium-blue
 
-.election-button-vote:hover
-	background-color: $light-blue !important
-	border-color: $medium-blue
-
 .election-button-info
 	background-color: $medium-red !important
 	color: white !important
-	border-color: $medium-red
-
-.election-button-info:hover
-	background-color: $light-red !important
 	border-color: $medium-red
 
 .is-transparent
@@ -181,3 +149,4 @@ code
 
 .navbar-item-social:hover
 	background-color: $dark-blue !important
+

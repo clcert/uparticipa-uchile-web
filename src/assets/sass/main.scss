@@ -21,11 +21,11 @@ $app-blue: $background-light;
 $app-blue-difumined: hsla(229, 53%, 53%, 0.803);
 $warning-yellow: hsl(46, 20%, 13%);
 
-$navbar-background-color: $medium-blue;
+$navbar-background-color: $dark-blue;
 $navbar-item-color: white;
 
 $box-background-color: transparent;
-$footer-background-color: $medium-blue;
+$footer-background-color: $dark-blue;
 $footer-padding: 1rem 1.5rem 1rem;
 $link-hover: #00b7ff;
 $navbar-item-hover-color: $dark-blue;
@@ -40,4 +40,6 @@ $steps-active-color: $app-blue;
 
 @import './elements/footer.sass';
 @import './elements/markdown.sass';
+@import './elements/site-header.sass';
+@import './elements/election-card.sass';
 @import './global.sass';
