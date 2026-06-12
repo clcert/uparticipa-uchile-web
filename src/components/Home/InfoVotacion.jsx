@@ -1,38 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import loadingGif from '../../assets/images/loading.svg';
 import { formatDateRange } from '../../utils/electionDate';
+import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished } from '../../utils/electionStatus';
+import useElectionStatus from '../../hooks/useElectionStatus';
 
 function InfoVotacion({ electionData }) {
-    const hasMockStatus = electionData.mockStatus !== undefined;
-    const [electionStatus, setElectionStatus] = useState(hasMockStatus ? electionData.mockStatus : null);
-    const [loading, setLoading] = useState(!hasMockStatus);
-    const [error, setError] = useState(null);
-
-    useEffect(() => {
-        if (hasMockStatus) return;
-        let cancelled = false;
-        const fetchStatus = async () => {
-            try {
-                const res = await fetch(electionData.status_link, { cache: 'no-store' });
-                if (!res.ok) throw new Error('Network error');
-                const data = await res.json();
-                if (!cancelled) setElectionStatus(data.status);
-            } catch (e) {
-                if (!cancelled) setError(e.message);
-            } finally {
-                if (!cancelled) setLoading(false);
-            }
-        };
-        fetchStatus();
-        return () => { cancelled = true; };
-    }, [electionData.status_link, hasMockStatus]);
+    const { status, loading, error } = useElectionStatus(electionData);
 
     const dateLabel = formatDateRange(electionData.startTime, electionData.endTime);
-    const isStarted = electionStatus === "Started";
-    const isPending = electionStatus === "Setting up" || electionStatus === "Ready for opening";
-    const isFinished = !loading && !error && !isStarted && !isPending;
+    const isStarted = checkStarted(status);
+    const isPending = checkPending(status);
+    const isFinished = checkFinished(status, { loading, error });
 
     const isDisabled = !loading && !error && (isFinished || isPending);
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import InfoVotacion from "../../components/Home/InfoVotacion";
 import { parseElectionDate } from "../../utils/electionDate";
+import { ACTIVE_STATUSES } from "../../utils/electionStatus";
 import realElections from "../../data/currentElections.json";
 import mockEmpty from "../../data/mocks/empty.json";
 import mockSingleActive from "../../data/mocks/single-active.json";
@@ -32,8 +33,6 @@ const getMockKey = () => {
     const mock = params.get('mock');
     return mock && MOCKS[mock] ? mock : null;
 };
-
-const ACTIVE_STATUSES = new Set(["Started", "Setting up", "Ready for opening"]);
 
 const isFinished = (election, now) => {
     if (election.mockStatus !== undefined) return !ACTIVE_STATUSES.has(election.mockStatus);
