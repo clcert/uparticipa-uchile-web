@@ -61,31 +61,6 @@
 	flex-shrink: 0
 	align-self: center
 
-.election-card-badge
-	display: inline-block
-	font-size: 0.68rem
-	font-weight: 700
-	letter-spacing: 0.07em
-	padding: 0.35rem 0.8rem
-	border-radius: 999px
-	text-transform: uppercase
-	white-space: nowrap
-	border: 1.5px solid transparent
-	line-height: 1
-
-	&.is-started
-		background-color: $medium-blue
-		border-color: $medium-blue
-		color: white
-	&.is-pending
-		background-color: transparent
-		border-color: $medium-blue
-		color: $medium-blue
-	&.is-finished
-		background-color: #e7ecf2
-		border-color: #d1d8e0
-		color: #8a99ad
-
 .election-card-toggle-icon
 	display: inline-flex
 	align-items: center
@@ -215,36 +190,6 @@
 		font-size: 1.05rem
 		font-weight: 600
 		margin: 0
-
-.mock-banner
-	background: #fff3cd
-	color: #856404
-	padding: 0.5rem 1rem
-	font-size: 0.8rem
-	display: flex
-	justify-content: space-between
-	align-items: center
-	flex-wrap: wrap
-	gap: 0.75rem
-	border-radius: 8px
-	max-width: 880px
-	margin: 0.5rem auto 0
-
-	code
-		background: rgba(133, 100, 4, 0.15)
-		padding: 0.1rem 0.4rem
-		border-radius: 4px
-		font-size: 0.78rem
-
-	.mock-links
-		display: flex
-		gap: 0.5rem
-		flex-wrap: wrap
-
-		a
-			color: $dark-blue
-			text-decoration: underline
-			font-weight: 600
 
 @media screen and (max-width: 600px)
 	.election-card

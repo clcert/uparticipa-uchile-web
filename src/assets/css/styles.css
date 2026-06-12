@@ -10284,69 +10284,30 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .footer {
   color: white;
-  font-size: 0.85rem;
+  font-size: medium;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.25rem 1.5rem 1rem !important;
-}
-.footer p.container {
-  max-width: 880px;
-  line-height: 1.5;
-  margin-bottom: 0.75rem !important;
-}
-
-.footer .columns {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 960px;
-  gap: 1rem;
-  margin: 0;
-  padding: 0.5rem 0 0;
 }
 
 .footer-logo {
-  flex: 0 1 auto;
-  width: auto;
-  min-width: 0;
-  margin: 0;
-  padding: 0.5rem 0.75rem;
+  width: 22%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-width: 240px;
   text-align: center;
   align-self: center;
 }
 
-.footer-logo-img-container {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-logo-img {
-  width: auto;
-  max-width: 180px;
-  max-height: 56px;
-  object-fit: contain;
+  width: 256px;
   padding: var(--padding) 0;
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
-    font-size: 0.8rem;
-    padding: 1rem !important;
-  }
-  .footer-logo-img {
-    max-width: 130px;
-    max-height: 42px;
-  }
-  .footer-logo {
-    padding: 0.4rem 0.5rem;
-  }
-}
 .entry-img {
   width: 200px;
   margin: auto;
@@ -10543,34 +10504,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   align-self: center;
 }
 
-.election-card-badge {
-  display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  padding: 0.35rem 0.8rem;
-  border-radius: 999px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  border: 1.5px solid transparent;
-  line-height: 1;
-}
-.election-card-badge.is-started {
-  background-color: #0096d6;
-  border-color: #0096d6;
-  color: white;
-}
-.election-card-badge.is-pending {
-  background-color: transparent;
-  border-color: #0096d6;
-  color: #0096d6;
-}
-.election-card-badge.is-finished {
-  background-color: #e7ecf2;
-  border-color: #d1d8e0;
-  color: #8a99ad;
-}
-
 .election-card-toggle-icon {
   display: inline-flex;
   align-items: center;
@@ -10714,37 +10647,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin: 0;
 }
 
-.mock-banner {
-  background: #fff3cd;
-  color: #856404;
-  padding: 0.5rem 1rem;
-  font-size: 0.8rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  border-radius: 8px;
-  max-width: 880px;
-  margin: 0.5rem auto 0;
-}
-.mock-banner code {
-  background: rgba(133, 100, 4, 0.15);
-  padding: 0.1rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.78rem;
-}
-.mock-banner .mock-links {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-.mock-banner .mock-links a {
-  color: #004b93;
-  text-decoration: underline;
-  font-weight: 600;
-}
-
 @media screen and (max-width: 600px) {
   .election-card {
     padding: 1.1rem;
@@ -10826,10 +10728,6 @@ code {
   margin-top: auto;
 }
 
-.spaced-fa-icon {
-  padding: 0 10px;
-}
-
 .main-container {
   flex: 1 0 auto;
 }
@@ -10850,53 +10748,6 @@ code {
     background-color: #d9e4ef;
   }
 }
-.election-box {
-  background-color: white !important;
-  border-radius: 10px;
-  color: black;
-  margin: 1rem auto;
-  max-width: 1024px;
-  padding: 0 2rem 0.5rem 2rem !important;
-  margin-bottom: 0;
-
-}
-
-.election-title {
-  color: #004b93;
-}
-
-.unit-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.has-text-red {
-  color: red;
-}
-
-.election-closed {
-  color: red;
-  text-align: center;
-}
-
-.election-message {
-  text-align: center;
-  border: 2px solid #0096d6;
-}
-
-.election-button-vote {
-  background-color: #0096d6 !important;
-  color: white !important;
-  border-color: #0096d6;
-}
-
-.election-button-info {
-  background-color: rgba(212, 64, 0, 0.9607843137) !important;
-  color: white !important;
-  border-color: rgba(212, 64, 0, 0.9607843137);
-}
-
 .is-transparent {
   background: none;
 }
