@@ -1,0 +1,135 @@
+{
+  "data": [
+    {
+      "startTime": "2026/05/12 09:00",
+      "endTime": "2026/05/12 17:00",
+      "unit": "Facultad de Ciencias Sociales",
+      "picture": "logos/logo-facso.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Ended",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección de Director(a) de Departamento",
+              "vote_link": "#mock-vote-facso",
+              "info_link": "#mock-info-facso"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/05/12 09:00",
+      "endTime": "2026/05/12 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Ended",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección de Consejo de Facultad",
+              "vote_link": "#mock-vote-fen-consejo",
+              "info_link": "#mock-info-fen-consejo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/05/12 09:00",
+      "endTime": "2026/05/12 17:00",
+      "unit": "Universidad de Chile",
+      "picture": "logos/logo-uchile.jpg",
+      "title": "Elecciones Generales de la Universidad",
+      "status_link": "",
+      "mockStatus": "Ended",
+      "message": "La página de votación está con alta concurrencia, por lo que los tiempos de respuesta pueden ser mayores a los habituales.",
+      "elections": [
+        {
+          "groupName": "Académicos(as)",
+          "electionsData": [
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Profesores Titulares",
+              "vote_link": "#mock-vote-rector-acad-tit",
+              "info_link": "#mock-info-rector-acad-tit"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Profesores Asociados",
+              "vote_link": "#mock-vote-rector-acad-aso",
+              "info_link": "#mock-info-rector-acad-aso"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Profesores Asistentes",
+              "vote_link": "#mock-vote-rector-acad-asi",
+              "info_link": "#mock-info-rector-acad-asi"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Instructores",
+              "vote_link": "#mock-vote-rector-acad-ins",
+              "info_link": "#mock-info-rector-acad-ins"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Adjuntos",
+              "vote_link": "#mock-vote-rector-acad-adj",
+              "info_link": "#mock-info-rector-acad-adj"
+            }
+          ]
+        },
+        {
+          "groupName": "Estudiantes",
+          "electionsData": [
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Pregrado",
+              "vote_link": "#mock-vote-rector-est-preg",
+              "info_link": "#mock-info-rector-est-preg"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Magíster",
+              "vote_link": "#mock-vote-rector-est-mag",
+              "info_link": "#mock-info-rector-est-mag"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Doctorado",
+              "vote_link": "#mock-vote-rector-est-doc",
+              "info_link": "#mock-info-rector-est-doc"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Postítulo",
+              "vote_link": "#mock-vote-rector-est-post",
+              "info_link": "#mock-info-rector-est-post"
+            }
+          ]
+        },
+        {
+          "groupName": "Funcionarios(as)",
+          "electionsData": [
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Profesionales",
+              "vote_link": "#mock-vote-rector-func-prof",
+              "info_link": "#mock-info-rector-func-prof"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Administrativos",
+              "vote_link": "#mock-vote-rector-func-adm",
+              "info_link": "#mock-info-rector-func-adm"
+            },
+            {
+              "name": "Elección de Rectora o Rector periodo 2026-2030 — Auxiliares",
+              "vote_link": "#mock-vote-rector-func-aux",
+              "info_link": "#mock-info-rector-func-aux"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

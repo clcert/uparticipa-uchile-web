@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "startTime": "2026/04/28 09:00",
+      "endTime": "2026/04/29 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Ended",
+      "message": "Resultados disponibles en el portal de información.",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección Comité Académico Programa de Periodoncia",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

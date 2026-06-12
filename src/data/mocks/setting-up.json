@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "startTime": "2026/05/05 09:00",
+      "endTime": "2026/05/06 17:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Setting up",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección de Director/a de Escuela de Medicina",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

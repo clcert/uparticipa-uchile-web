@@ -3,25 +3,7 @@ import InfoVotacion from "../../components/Home/InfoVotacion";
 import { parseElectionDate } from "../../utils/electionDate";
 import { ACTIVE_STATUSES } from "../../utils/electionStatus";
 import realElections from "../../data/currentElections.json";
-import mockEmpty from "../../data/mocks/empty.json";
-import mockSingleActive from "../../data/mocks/single-active.json";
-import mockMultiUnits from "../../data/mocks/multi-units.json";
-import mockMultiElections from "../../data/mocks/multi-elections.json";
-import mockClosedRecent from "../../data/mocks/closed-recent.json";
-import mockSettingUp from "../../data/mocks/setting-up.json";
-import mockMixed from "../../data/mocks/mixed.json";
-import mockGeneralElections from "../../data/mocks/general-elections.json";
-
-const MOCKS = {
-    "empty": mockEmpty,
-    "single-active": mockSingleActive,
-    "multi-units": mockMultiUnits,
-    "multi-elections": mockMultiElections,
-    "closed-recent": mockClosedRecent,
-    "setting-up": mockSettingUp,
-    "mixed": mockMixed,
-    "general-elections": mockGeneralElections,
-};
+import MOCKS from "../../data/mocks";
 
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
