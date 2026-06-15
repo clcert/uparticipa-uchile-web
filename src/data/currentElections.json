@@ -1,8 +1,8 @@
 {
   "data": [
     {
-      "startTime": "2026/06/15 09:00",
-      "endTime": "2026/06/15 17:00",
+      "startTime": "2026/06/16 09:00",
+      "endTime": "2026/06/16 17:00",
       "unit": "Instituto de Nutrición y Tecnología de los Alimentos",
       "picture": "logos/logo-inta.png",
       "title": "",
@@ -22,8 +22,8 @@
       ]
     },
     {
-      "startTime": "2026/06/15 09:00",
-      "endTime": "2026/06/15 17:00",
+      "startTime": "2026/06/16 09:00",
+      "endTime": "2026/06/16 17:00",
       "unit": "DEMRE",
       "picture": "logos/logo-demre.png",
       "title": "",
