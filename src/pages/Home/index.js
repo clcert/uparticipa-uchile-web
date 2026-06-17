@@ -5,7 +5,7 @@ import { ACTIVE_STATUSES } from "../../utils/electionStatus";
 import realElections from "../../data/currentElections.json";
 import MOCKS from "../../data/mocks";
 
-const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+const TWO_DAY_MS = 48 * 60 * 60 * 1000;
 
 const getMockKey = () => {
     if (process.env.NODE_ENV !== 'development') return null;
@@ -28,7 +28,7 @@ const Home = () => {
     const filtered = mockKey
         ? elections.data
         : elections.data.filter(
-              (election) => parseElectionDate(election.endTime).getTime() + ONE_DAY_MS >= now
+              (election) => parseElectionDate(election.endTime).getTime() + TWO_DAY_MS >= now
           );
     const visibleElections = [...filtered].sort(
         (a, b) => Number(isFinished(b, now)) - Number(isFinished(a, now))

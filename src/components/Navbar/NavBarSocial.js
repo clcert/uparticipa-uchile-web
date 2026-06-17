@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -12,12 +11,7 @@ const NavBarSocial = () => {
     return (
         <div className="navbar-end social-items is-transparent">
             <div className='field is-grouped'>
-                <a className='navbar-item navbar-item-social has-text-centered has-text-primary' href='https://twitter.com/participaUChile' target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon icon={faTwitter}
-                        size='xl'
-                        color="#93d5f6" />
-                </a>
-                <a className='navbar-item navbar-item-social has-text-centered has-text-primary' href='https://instagram.com/participauchile' target='_blank' rel='noreferrer'>
+                <a className='navbar-item navbar-item-social has-text-centered has-text-primary' href='https://instagram.com/uparticipachile' target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon icon={faInstagram}
                         size='xl'
                         color="#93d5f6" />

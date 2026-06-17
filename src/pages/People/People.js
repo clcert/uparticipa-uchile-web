@@ -2,7 +2,6 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export const Person = ({ member }) => {
     return (
@@ -36,13 +35,7 @@ export const Person = ({ member }) => {
                             }`
                         }><FontAwesomeIcon icon={faEnvelope} /></a>
                 }
-                {
-                    member.contact.twitter && <a className='card-footer-item' target='__blank'
-                        href={
-                            `https://twitter.com/${member.contact.twitter
-                            }`
-                        }><FontAwesomeIcon icon={faTwitter} /></a>
-                } </div>
+            </div>
         </div>
     )
 }
