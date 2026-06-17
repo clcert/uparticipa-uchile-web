@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "startTime": "2026/04/30 09:00",
+      "endTime": "2026/05/02 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "Elecciones de Director/a de Departamento",
+          "electionsData": [
+            {
+              "name": "Departamento de Ciencias de la Computación",
+              "vote_link": "#mock-vote-dcc",
+              "info_link": "#mock-info-dcc"
+            },
+            {
+              "name": "Departamento de Ingeniería Industrial",
+              "vote_link": "#mock-vote-dii",
+              "info_link": "#mock-info-dii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/04/30 09:00",
+      "endTime": "2026/05/01 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección Consejo de Facultad 2026",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/05/05 09:00",
+      "endTime": "2026/05/06 17:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Setting up",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección de Director/a de Escuela de Medicina",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/04/28 09:00",
+      "endTime": "2026/04/29 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Ended",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección Comité Académico Programa de Periodoncia",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "startTime": "2026/04/29 09:00",
+      "endTime": "2026/05/02 17:00",
+      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
+      "picture": "logos/logo-fcfcn.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección Comité Paritario de Higiene y Seguridad",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

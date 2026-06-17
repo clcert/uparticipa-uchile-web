@@ -1,0 +1,223 @@
+// === Slim election card ===
+
+.election-card
+	background-color: white
+	border-radius: 14px
+	color: $dark-blue
+	margin: 0 auto
+	max-width: 880px
+	padding: 1.5rem 1.75rem
+	box-shadow: 0 2px 16px rgba(0, 30, 70, 0.08)
+	transition: opacity 0.2s ease
+
+	&.is-card-finished
+		opacity: 0.78
+
+.election-list > .column
+	padding-top: 0.4rem
+	padding-bottom: 0.4rem
+
+.election-card-header
+	display: flex
+	align-items: center
+	gap: 1.25rem
+	padding-bottom: 0
+	margin-bottom: 0
+
+.election-card-logo
+	flex-shrink: 0
+	display: flex
+	align-items: center
+	justify-content: center
+	width: 220px
+	height: 88px
+
+	img
+		max-width: 100%
+		max-height: 100%
+		object-fit: contain
+
+.election-card-meta
+	flex: 1
+	min-width: 0
+
+.election-card-date-label
+	font-size: 0.78rem
+	letter-spacing: 0.08em
+	color: #8a99ad
+	text-transform: uppercase
+	font-weight: 700
+	margin: 0 0 0.2rem
+	line-height: 1
+
+.election-card-date
+	font-size: 1rem
+	font-weight: 600
+	color: $dark-blue
+	margin: 0
+	line-height: 1.3
+
+.election-card-status
+	flex-shrink: 0
+	align-self: center
+
+.election-card-toggle-icon
+	display: inline-flex
+	align-items: center
+	justify-content: center
+	align-self: center
+	width: 3rem
+	height: 3rem
+	padding: 0
+	background-color: transparent
+	border: none
+	border-radius: 50%
+	color: $dark-blue
+	cursor: pointer
+	transition: background-color 0.15s ease, color 0.15s ease
+
+	&:hover
+		background-color: #f3f7fc
+		color: $medium-blue
+
+.election-card-toggle-chevron
+	display: inline-block
+	font-size: 1.5rem
+	line-height: 1
+	transition: transform 0.2s ease
+
+	&.is-open
+		transform: rotate(180deg)
+
+.election-card-list
+	display: flex
+	flex-direction: column
+
+.election-group + .election-group
+	margin-top: 0.5rem
+
+.election-group-name
+	font-size: 0.7rem
+	letter-spacing: 0.08em
+	color: #8a99ad
+	text-transform: uppercase
+	font-weight: 700
+	margin: 0.85rem 0 0.25rem
+
+.election-row
+	display: flex
+	align-items: center
+	justify-content: space-between
+	gap: 1rem
+	padding: 0.7rem 0
+
+	+ .election-row
+		margin-top: 0.25rem
+
+.election-row-name
+	font-size: 1.1rem
+	font-weight: 700
+	color: $dark-blue
+	flex: 1
+	min-width: 0
+	letter-spacing: -0.005em
+
+.election-row-actions
+	display: flex
+	gap: 0.5rem
+	flex-shrink: 0
+
+.election-btn
+	font-size: 0.82rem
+	padding: 0.45rem 1rem
+	border-radius: 8px
+	border: 1px solid transparent
+	cursor: pointer
+	font-weight: 600
+	font-family: inherit
+	line-height: 1.2
+	text-decoration: none !important
+	display: inline-flex
+	align-items: center
+	justify-content: center
+	transition: all 0.15s ease
+
+	&:disabled
+		opacity: 0.4
+		cursor: not-allowed
+		pointer-events: none
+
+.election-btn-vote
+	background-color: $medium-blue
+	color: white !important
+	border-color: $medium-blue
+
+	&:not(:disabled):hover
+		background-color: $dark-blue
+		border-color: $dark-blue
+		color: white !important
+
+.election-btn-info
+	background-color: white
+	color: $dark-blue !important
+	border: 1px solid #cbd5e1
+
+	&:not(:disabled):hover
+		background-color: #f1f5f9
+		border-color: $dark-blue
+		color: $dark-blue !important
+
+.election-message-slim
+	margin-top: 1rem
+	padding: 0.7rem 0.95rem
+	background: #fff8e6
+	border-left: 3px solid #f0b800
+	border-radius: 4px
+	font-size: 0.85rem
+	color: #4a3b00
+
+.empty-state
+	background: white
+	border-radius: 14px
+	max-width: 880px
+	margin: 2rem auto
+	padding: 3rem 2rem
+	text-align: center
+	color: $dark-blue
+	box-shadow: 0 2px 16px rgba(0, 30, 70, 0.08)
+
+	p
+		font-size: 1.05rem
+		font-weight: 600
+		margin: 0
+
+@media screen and (max-width: 600px)
+	.election-card
+		padding: 1.1rem
+	.election-card-header
+		display: grid
+		grid-template-columns: 1fr auto
+		grid-template-areas: "logo logo" "meta chevron"
+		align-items: center
+		gap: 0.75rem 0.85rem
+	.election-card-logo
+		grid-area: logo
+		justify-self: stretch
+		width: 100%
+		height: auto
+		max-height: 96px
+	.election-card-logo img
+		max-height: 96px
+	.election-card-meta
+		grid-area: meta
+	.election-card-status
+		grid-area: chevron
+		align-self: center
+	.election-row
+		flex-direction: column
+		align-items: stretch
+		gap: 0.6rem
+	.election-row-actions
+		width: 100%
+		.election-btn
+			flex: 1

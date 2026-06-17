@@ -1,221 +1,62 @@
-import React, { useEffect, useState } from 'react';
-import loadingGif from '../../assets/images/loading.svg';
-
-const getElectionDate = (startTime, endTime) => {
-    const dateOptions = {
-        weekday: 'long',
-        month: 'long',
-        day: 'numeric'
-    }
-    const [dateInit, timeInit] = startTime.split(' ');
-    const [dateEnd, timeEnd] = endTime.split(' ');
-    if (dateInit === dateEnd) {
-        const date = new Date(dateInit + " 00:00");
-        const localeDate = new Intl.DateTimeFormat('es-CL', dateOptions).format(date);
-        return localeDate + ', de ' + timeInit + ' h a ' + timeEnd + ' h';
-    } else {
-        const date1 = new Date(dateInit + " 00:00");
-        const date2 = new Date(dateEnd + " 00:00");
-        const localeDate1 = new Intl.DateTimeFormat('es-CL', dateOptions).format(date1);
-        const localeDate2 = new Intl.DateTimeFormat('es-CL', dateOptions).format(date2);
-        return 'desde ' + localeDate1 + ', ' + timeInit + ' h, hasta ' + localeDate2 + ', ' + timeEnd + ' h'
-    }
-}
+import React, { useId, useState } from 'react';
+import { formatDateRange } from '../../utils/electionDate';
+import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished, isPaused as checkPaused } from '../../utils/electionStatus';
+import useElectionStatus from '../../hooks/useElectionStatus';
+import ElectionCardHeader from './ElectionCardHeader';
+import ElectionGroup from './ElectionGroup';
 
 function InfoVotacion({ electionData }) {
+    const { status, loading, error } = useElectionStatus(electionData);
+    const [expanded, setExpanded] = useState(false);
+    const listId = useId();
 
-    const [electionStatus, setElectionStatus] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const dateLabel = formatDateRange(electionData.startTime, electionData.endTime);
+    const isStarted = checkStarted(status);
+    const isPending = checkPending(status);
+    const isPaused = checkPaused(status);
+    const isFinished = checkFinished(status, { loading, error });
+    const isDisabled = !loading && !error && (isFinished || isPending);
 
-    useEffect(() => {
-        fetchElectionStatus();
-    });
-
-    const fetchElectionStatus = async () => {
-        try {
-            const response = await fetch(electionData.status_link, { cache: 'no-store' });
-            if (!response.ok) {
-                throw new Error('Network response was not ok.');
-            }
-            const electionResponse = await response.json();
-            const electionStatus = electionResponse["status"];
-            setElectionStatus(electionStatus)
-            setLoading(false);
-        } catch (error) {
-            setError(error.message);
-            setLoading(false);
-        }
-    };
-
-    const electionDate = getElectionDate(electionData.startTime, electionData.endTime);
+    const totalElections = electionData.elections.reduce(
+        (acc, g) => acc + g.electionsData.length, 0
+    );
+    const hasElections = totalElections > 0;
 
     return (
-        <div className="election-box mt-0">
-            <div className="unit-logo">
-                <img src={
-                    process.env.PUBLIC_URL + "/" + electionData.picture
-                }
-                    alt="Logo de Unidad Académica"
-                    style={
-                        { maxHeight: "150px" }
-                    } />
-            </div>
-            <div className="election-title">
-                <p className="has-text-weight-bold is-size-5 mb-0 mt-2 has-text-centered">
-                    {
-                        electionData.title
-                    }</p>
-            </div>
-            <div className="mt-1">
-                <b className="is-size-5"
-                    style={
-                        { color: "#d44000" }
-                    }>FECHA</b>
-                <p style={
-                    { "fontSize": "18px" }
-                }>
-                    {electionDate} </p>
-            </div>
-            {
-                electionData.elections.map((electionsGroup, index) =>
-                    <div className="election-detail mt-1">
-                        <b className="is-size-5"
-                            style={
-                                { color: "#d44000" }
-                            }>{electionsGroup.groupName}</b>
-                        <ul className="elections-list pl-0">
-                            {
-                                electionsGroup.electionsData.map((election, index) => (
-                                    <li key={index}
-                                        className="is-size-6 is-background-white mb-1"
-                                        style={
-                                            {
-                                                borderTop: index > 0 ? "1px solid #004b93" : "none"
-                                            }
-                                        }>
-                                        <div className="election-elements is-flex is-justify-content-space-between is-align-items-center">
-                                            <div className='election-title'>
-                                                <span style={
-                                                    {
-                                                        "fontSize": "18px",
-                                                        "color": "#004b93",
-                                                        "fontWeight": "bold"
-                                                    }
-                                                }>
-                                                    {
-                                                        election.name
-                                                    } </span>
-                                            </div>
-                                            {
-                                                loading ? (
-                                                    <div className='container has-text-centered'>
-                                                        <img src={loadingGif} alt='Cargando...' />
-                                                    </div>
-                                                ) : error ? (
-                                                    <></>
-                                                ) : electionStatus === "Started" ?
-                                                    <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
-                                                        <a href={
-                                                            election.vote_link
-                                                        }
-                                                            target="_blank"
-                                                            rel="noreferrer"
-                                                            style={
-                                                                { "textDecoration": "none" }
-                                                            }>
-                                                            <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}>VOTAR</button>
-                                                        </a>
-                                                        <a href={
-                                                            election.info_link
-                                                        }
-                                                            target="_blank"
-                                                            rel="noreferrer"
-                                                            style={
-                                                                { "textDecoration": "none" }
-                                                            }>
-                                                            <button className={"button election-button election-button-info"}
-                                                                style={
-                                                                    {
-                                                                        fontSize: "0.7em",
-                                                                        height: "3.5em"
-                                                                    }
-                                                                }>
-                                                                MÁS<br />INFORMACIÓN
-                                                            </button>
-                                                        </a>
-                                                    </div> : electionStatus !== "Setting up" ?
-                                                        <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
-                                                            <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
-                                                                disabled>VOTAR</button>
-                                                            <a href={
-                                                                election.info_link
-                                                            }
-                                                                target="_blank"
-                                                                rel="noreferrer"
-                                                                style={
-                                                                    { "textDecoration": "none" }
-                                                                }>
-                                                                <button className={"button election-button election-button-info"}
-                                                                    style={
-                                                                        {
-                                                                            fontSize: "0.7em",
-                                                                            height: "3.5em"
-                                                                        }
-                                                                    }>
-                                                                    MÁS<br />INFORMACIÓN
-                                                                </button>
-                                                            </a>
-                                                        </div>
-                                                        :
-                                                        <div className="election-buttons is-flex is-flex-direction-row is-justify-content-space-between">
-                                                            <button className={"button election-button election-button-vote mr-2 pr-6 pl-6"}
-                                                                disabled>VOTAR</button>
-                                                            <button className={"button election-button election-button-info"}
-                                                                style={
-                                                                    {
-                                                                        fontSize: "0.7em",
-                                                                        height: "3.5em"
-                                                                    }
-                                                                }
-                                                                disabled>
-                                                                MÁS<br />INFORMACIÓN
-                                                            </button>
-                                                        </div>
-                                            } </div>
-                                    </li>
-                                )
-                                )
-                            } </ul>
-                    </div>
-                )
-            }
-            {
-                electionData.message !== "" &&
-                <div className='election-message mt-3 px-3'>
-                    <p className="has-text-weight-bold is-size-5 mb-0 has-text-red">INFORMACIÓN</p>
-                    <p className="is-size-6 mb-0">{electionData.message}</p>
-                </div>
-            }
+        <div className={"election-card" + (isDisabled ? " is-card-finished" : "")}>
+            <ElectionCardHeader
+                picture={electionData.picture}
+                unit={electionData.unit}
+                dateLabel={dateLabel}
+                loading={loading}
+                hasElections={hasElections}
+                expanded={expanded}
+                onToggle={() => setExpanded((v) => !v)}
+                listId={listId}
+                isStarted={isStarted}
+                isFinished={isFinished}
+                isPaused={isPaused} />
 
-            {
-                electionStatus === "Started" &&
-                <div className="election-opened mt-3">
-                    <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN ABIERTA ●</p>
+            {expanded && (
+                <div
+                    id={listId}
+                    role="region"
+                    aria-label={"Votaciones de " + electionData.unit}
+                    className="election-card-list">
+                    {electionData.elections.map((group, gi) => (
+                        <ElectionGroup
+                            key={gi}
+                            group={group}
+                            isStarted={isStarted}
+                            isFinished={isFinished} />
+                    ))}
                 </div>
-            }
-            {
-                electionStatus === "Setting up" || electionStatus === "Ready for opening" &&
-                <div className="election-closed mt-5">
-                    <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN AÚN NO ABIERTA ●</p>
-                </div>
-            }
-            {
-                electionStatus !== "Started" && electionStatus !== "Setting up" && electionStatus !== "Ready for opening" && !error &&
-                <div className="election-closed mt-5">
-                    <p className="has-text-weight-bold is-size-5 mb-0">● ELECCIÓN FINALIZADA ●</p>
-                </div>
-            } </div>
+            )}
+
+            {electionData.message && (
+                <div className="election-message-slim">{electionData.message}</div>
+            )}
+        </div>
     );
 }
 

@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "startTime": "2026/04/30 09:00",
+      "endTime": "2026/05/01 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección de Decano/a 2026-2030",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/04/30 09:00",
+      "endTime": "2026/05/01 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "Elección Consejo de Facultad 2026",
+              "vote_link": "#mock-vote",
+              "info_link": "#mock-info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

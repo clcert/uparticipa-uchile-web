@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "startTime": "2026/04/30 09:00",
+      "endTime": "2026/05/01 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "",
+      "status_link": "",
+      "mockStatus": "Started",
+      "message": "Recuerda que solo puedes votar en las elecciones del Departamento al que perteneces.",
+      "elections": [
+        {
+          "groupName": "Elecciones de Director/a de Departamento",
+          "electionsData": [
+            {
+              "name": "Departamento de Ciencias de la Computación",
+              "vote_link": "#mock-vote-dcc",
+              "info_link": "#mock-info-dcc"
+            },
+            {
+              "name": "Departamento de Ingeniería Eléctrica",
+              "vote_link": "#mock-vote-die",
+              "info_link": "#mock-info-die"
+            },
+            {
+              "name": "Departamento de Ingeniería Industrial",
+              "vote_link": "#mock-vote-dii",
+              "info_link": "#mock-info-dii"
+            },
+            {
+              "name": "Departamento de Ingeniería Mecánica",
+              "vote_link": "#mock-vote-dim",
+              "info_link": "#mock-info-dim"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
