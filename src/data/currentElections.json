@@ -1,42 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2026/06/11 09:00",
-      "endTime": "2026/06/11 17:00",
-      "unit": "Facultad de Arquitetura y Urbanismo",
-      "picture": "logos/logo-fau.png",
+      "startTime": "2026/06/16 09:00",
+      "endTime": "2026/06/16 17:00",
+      "unit": "Instituto de Nutrición y Tecnología de los Alimentos",
+      "picture": "logos/logo-inta.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-inta-director-2davuelta-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO FACULTAD DE ARQUITECTURA Y URBANISMO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-decano-2026/public-info"
+              "name": "ELECCIÓN DIRECTOR(A) INTA - SEGUNDA VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-inta-director-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-inta-director-2davuelta-2026/public-info"
             }
           ]
         }
       ]
     },
     {
-      "startTime": "2026/06/11 09:00",
-      "endTime": "2026/06/11 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2026/06/16 09:00",
+      "endTime": "2026/06/16 16:00",
+      "unit": "DEMRE",
+      "picture": "logos/logo-demre.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-decano-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-demre-cphs-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO(A) FACULTAD DE ODONTOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-decano-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-decano-2026/public-info"
+              "name": "ELECCIÓN CPHS DEMRE SEDE ÑUÑOA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-demre-cphs-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-demre-cphs-2026/public-info"
             }
           ]
         }

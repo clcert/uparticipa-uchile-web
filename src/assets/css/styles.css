@@ -10492,7 +10492,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .election-list > .column {
   padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.8rem;
 }
 
 .election-card-header {
@@ -10580,7 +10580,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   flex-direction: column;
 }
 
-.election-group + .election-group {
+.election-group {
   margin-top: 0.5rem;
 }
 
@@ -10620,7 +10620,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .election-btn {
-  font-size: 0.82rem;
+  font-size: 1rem;
   padding: 0.45rem 1rem;
   border-radius: 8px;
   border: 1px solid transparent;

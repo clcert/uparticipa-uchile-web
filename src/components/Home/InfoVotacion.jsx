@@ -1,6 +1,6 @@
 import React, { useId, useState } from 'react';
 import { formatDateRange } from '../../utils/electionDate';
-import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished } from '../../utils/electionStatus';
+import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished, isPaused as checkPaused } from '../../utils/electionStatus';
 import useElectionStatus from '../../hooks/useElectionStatus';
 import ElectionCardHeader from './ElectionCardHeader';
 import ElectionGroup from './ElectionGroup';
@@ -13,6 +13,7 @@ function InfoVotacion({ electionData }) {
     const dateLabel = formatDateRange(electionData.startTime, electionData.endTime);
     const isStarted = checkStarted(status);
     const isPending = checkPending(status);
+    const isPaused = checkPaused(status);
     const isFinished = checkFinished(status, { loading, error });
     const isDisabled = !loading && !error && (isFinished || isPending);
 
@@ -31,7 +32,10 @@ function InfoVotacion({ electionData }) {
                 hasElections={hasElections}
                 expanded={expanded}
                 onToggle={() => setExpanded((v) => !v)}
-                listId={listId} />
+                listId={listId}
+                isStarted={isStarted}
+                isFinished={isFinished}
+                isPaused={isPaused} />
 
             {expanded && (
                 <div
