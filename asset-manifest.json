@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab8a56dc.css",
-    "main.js": "/static/js/main.38792ca7.js",
+    "main.js": "/static/js/main.7d7e17a7.js",
     "static/js/453.8b736ac3.chunk.js": "/static/js/453.8b736ac3.chunk.js",
     "static/media/fperez.png": "/static/media/fperez.09e22195645194c18254.png",
     "static/media/eleccion_decano_fcfm.png": "/static/media/eleccion_decano_fcfm.fc7538a88c6539b58683.png",
@@ -30,6 +30,7 @@
     "static/media/eleccion_cadcc_2023.png": "/static/media/eleccion_cadcc_2023.212978ea1ab1d17fa70d.png",
     "static/media/uparticipa-logo-uchile-white.png": "/static/media/uparticipa-logo-uchile-white.74cc08d8fb471b1f9202.png",
     "static/media/elecciones_jun.png": "/static/media/elecciones_jun.d4b43e40b91a5c96dfee.png",
+    "static/media/vdaie.jpeg": "/static/media/vdaie.e8154152753a7f83161d.jpeg",
     "static/media/ciclo_charlas_ranking.md": "/static/media/ciclo_charlas_ranking.11e7214d45e3fb5b6540.md",
     "static/media/couture-bld.otf": "/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
     "static/media/elecciones_ago.md": "/static/media/elecciones_ago.dcea680ff0d17dc93182.md",
@@ -61,11 +62,11 @@
     "static/media/sample.md": "/static/media/sample.39f4441ddd0fcf5387e7.md",
     "index.html": "/index.html",
     "main.ab8a56dc.css.map": "/static/css/main.ab8a56dc.css.map",
-    "main.38792ca7.js.map": "/static/js/main.38792ca7.js.map",
+    "main.7d7e17a7.js.map": "/static/js/main.7d7e17a7.js.map",
     "453.8b736ac3.chunk.js.map": "/static/js/453.8b736ac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab8a56dc.css",
-    "static/js/main.38792ca7.js"
+    "static/js/main.7d7e17a7.js"
   ]
 }
