@@ -2,6 +2,7 @@ import AHevia from '../assets/images/people/ahevia.jpg';
 import CGomez from '../assets/images/people/cgomez.jpg';
 import CJaramillo from '../assets/images/people/cjaramillo.jpg'
 import FPerez from '../assets/images/people/fperez.png'
+import VDaie from '../assets/images/people/vdaie.jpeg'
 
 export const peopleList = [
     {
@@ -35,6 +36,14 @@ export const peopleList = [
         name: 'Fernanda Pérez',
         role: 'Asistente Operativo',
         picture: FPerez,
+        active: true,
+        contact: {}
+    }
+    ,
+    {
+        name: 'Vicente Daie',
+        role: 'Ingeniero DevSecOps',
+        picture: VDaie,
         active: true,
         contact: {}
     }
