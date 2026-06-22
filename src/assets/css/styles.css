@@ -10292,7 +10292,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 1.25rem 1.5rem 1rem !important;
 }
 .footer p.container {
-  max-width: 880px;
+  max-width: 880px !important;
   line-height: 1.5;
   margin-bottom: 0.75rem !important;
 }
