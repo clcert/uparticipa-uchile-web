@@ -1,42 +1,42 @@
 {
   "data": [
     {
-      "startTime": "2026/06/16 09:00",
-      "endTime": "2026/06/16 17:00",
-      "unit": "Instituto de Nutrición y Tecnología de los Alimentos",
-      "picture": "logos/logo-inta.png",
+      "startTime": "2026/06/23 08:30",
+      "endTime": "2026/06/23 16:30",
+      "unit": "Facultad de Ciencias Agronómicas",
+      "picture": "logos/logo-fca.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-inta-director-2davuelta-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-decano-2davuelta-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DIRECTOR(A) INTA - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-inta-director-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-inta-director-2davuelta-2026/public-info"
+              "name": "ELECCIÓN DECANO FCA - SEGUNDA VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-decano-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-decano-2davuelta-2026/public-info"
             }
           ]
         }
       ]
     },
     {
-      "startTime": "2026/06/16 09:00",
-      "endTime": "2026/06/16 16:00",
-      "unit": "DEMRE",
-      "picture": "logos/logo-demre.png",
+      "startTime": "2026/06/23 09:00",
+      "endTime": "2026/06/23 17:00",
+      "unit": "Facultad de Economía y Negocios",
+      "picture": "logos/logo-fen.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-demre-cphs-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-decano-2davuelta-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS DEMRE ÑUÑOA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-demre-cphs-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-demre-cphs-2026/public-info"
+              "name": "ELECCIÓN DECANO FEN - SEGUNDA VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-decano-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-decano-2davuelta-2026/public-info"
             }
           ]
         }
