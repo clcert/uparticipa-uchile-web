@@ -46,7 +46,7 @@ const Home = () => {
             ) : (
                 visibleElections.map((election, index) => (
                     <div className='column' key={index}>
-                        <InfoVotacion electionData={election} />
+                        <InfoVotacion electionData={election} singleProcess={visibleElections.length === 1} />
                     </div>
                 ))
             )}

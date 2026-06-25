@@ -1,42 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/06/23 08:30",
-      "endTime": "2026/06/23 16:30",
-      "unit": "Facultad de Ciencias Agronómicas",
-      "picture": "logos/logo-fca.png",
+      "startTime": "2026/06/25 09:00",
+      "endTime": "2026/06/25 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-decano-2davuelta-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-decano-2davuelta-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO FCA - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-decano-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-decano-2davuelta-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/06/23 09:00",
-      "endTime": "2026/06/23 17:00",
-      "unit": "Facultad de Economía y Negocios",
-      "picture": "logos/logo-fen.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fen-decano-2davuelta-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN DECANO FEN - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fen-decano-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fen-decano-2davuelta-2026/public-info"
+              "name": "ELECCIÓN DECANO(A) FACULTAD DE ODONTOLOGÍA - SEGUNDA VUELTA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-decano-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-decano-2davuelta-2026/public-info"
             }
           ]
         }

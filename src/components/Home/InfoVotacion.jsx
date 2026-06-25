@@ -5,9 +5,9 @@ import useElectionStatus from '../../hooks/useElectionStatus';
 import ElectionCardHeader from './ElectionCardHeader';
 import ElectionGroup from './ElectionGroup';
 
-function InfoVotacion({ electionData }) {
+function InfoVotacion({ electionData, singleProcess = false }) {
     const { status, loading, error } = useElectionStatus(electionData);
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(singleProcess);
     const listId = useId();
 
     const dateLabel = formatDateRange(electionData.startTime, electionData.endTime);
