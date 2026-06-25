@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab8a56dc.css",
-    "main.js": "/static/js/main.98a085ae.js",
+    "main.js": "/static/js/main.757c813d.js",
     "static/js/453.8b736ac3.chunk.js": "/static/js/453.8b736ac3.chunk.js",
     "static/media/fperez.png": "/static/media/fperez.09e22195645194c18254.png",
     "static/media/eleccion_decano_fcfm.png": "/static/media/eleccion_decano_fcfm.fc7538a88c6539b58683.png",
@@ -62,11 +62,11 @@
     "static/media/sample.md": "/static/media/sample.39f4441ddd0fcf5387e7.md",
     "index.html": "/index.html",
     "main.ab8a56dc.css.map": "/static/css/main.ab8a56dc.css.map",
-    "main.98a085ae.js.map": "/static/js/main.98a085ae.js.map",
+    "main.757c813d.js.map": "/static/js/main.757c813d.js.map",
     "453.8b736ac3.chunk.js.map": "/static/js/453.8b736ac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab8a56dc.css",
-    "static/js/main.98a085ae.js"
+    "static/js/main.757c813d.js"
   ]
 }
