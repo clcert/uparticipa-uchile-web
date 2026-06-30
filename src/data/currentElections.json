@@ -1,21 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2026/06/25 09:00",
-      "endTime": "2026/06/25 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2026/07/01 09:00",
+      "endTime": "2026/07/02 16:00",
+      "unit": "Dirección de Gestión y Desarrollo de Personas",
+      "picture": "logos/logo-uchile.jpg",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-decano-2davuelta-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-torre15-2026/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "",
+          "groupName": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
           "electionsData": [
             {
-              "name": "ELECCIÓN DECANO(A) FACULTAD DE ODONTOLOGÍA - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-decano-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-decano-2davuelta-2026/public-info"
+              "name": "ELECCIÓN CPHS TORRE 15",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-torre15-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-torre15-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CPHS CASA CENTRAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-casacentral-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-casacentral-2026/public-info"
             }
           ]
         }
