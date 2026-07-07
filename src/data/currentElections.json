@@ -1,26 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/07/01 09:00",
-      "endTime": "2026/07/02 16:00",
-      "unit": "Dirección de Gestión y Desarrollo de Personas",
-      "picture": "logos/logo-uchile.jpg",
+      "startTime": "2026/07/08 09:00",
+      "endTime": "2026/07/08 18:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-torre15-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-promocion-2026/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD",
+          "groupName": "REPRESENTANTES DEL PERSONAL DE COLABORACIÓN",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS TORRE 15",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-torre15-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-torre15-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN CPHS CASA CENTRAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-casacentral-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-casacentral-2026/public-info"
+              "name": "ELECCIÓN COMITÉ DE SELECCIÓN DE PROMOCIÓN INTERNA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-promocion-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-promocion-2026/public-info"
             }
           ]
         }
