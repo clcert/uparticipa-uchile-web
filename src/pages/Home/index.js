@@ -31,7 +31,7 @@ const Home = () => {
               (election) => parseElectionDate(election.endTime).getTime() + TWO_DAY_MS >= now
           );
     const visibleElections = [...filtered].sort(
-        (a, b) => Number(isFinished(b, now)) - Number(isFinished(a, now))
+        (a, b) => Number(isFinished(a, now)) - Number(isFinished(b, now))
     );
 
     return (
