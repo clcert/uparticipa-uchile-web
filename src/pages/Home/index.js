@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <div className='pt-5 election-list'>
-            <h1 className='title has-text-centered has-text-white'>Votaciones</h1>
+            <h1 className='title has-text-centered has-text-white'>Elecciones</h1>
             {visibleElections.length === 0 ? (
                 <div className='column'>
                     <div className='empty-state'>
