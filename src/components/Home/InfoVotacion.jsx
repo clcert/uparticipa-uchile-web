@@ -48,7 +48,8 @@ function InfoVotacion({ electionData, singleProcess = false }) {
                             key={gi}
                             group={group}
                             isStarted={isStarted}
-                            isFinished={isFinished} />
+                            isFinished={isFinished}
+                            isPaused={isPaused} />
                     ))}
                 </div>
             )}

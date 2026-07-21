@@ -1,7 +1,7 @@
 import React from 'react';
 import ElectionRow from './ElectionRow';
 
-function ElectionGroup({ group, isStarted, isFinished }) {
+function ElectionGroup({ group, isStarted, isFinished, isPaused }) {
     return (
         <div className="election-group">
             {group.groupName && (
@@ -12,7 +12,8 @@ function ElectionGroup({ group, isStarted, isFinished }) {
                     key={ei}
                     election={election}
                     isStarted={isStarted}
-                    isFinished={isFinished} />
+                    isFinished={isFinished}
+                    isPaused={isPaused} />
             ))}
         </div>
     );

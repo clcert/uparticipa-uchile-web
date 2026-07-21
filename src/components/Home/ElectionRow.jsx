@@ -1,7 +1,7 @@
 import React from 'react';
 
-function ElectionRow({ election, isStarted, isFinished }) {
-    const showActions = isStarted || isFinished;
+function ElectionRow({ election, isStarted, isFinished, isPaused }) {
+    const showActions = isStarted || isFinished || isPaused;
     return (
         <div className="election-row">
             <span className="election-row-name">{election.name}</span>

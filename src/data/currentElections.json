@@ -1,67 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/07/09 09:00",
-      "endTime": "2026/07/09 17:00",
-      "unit": "Facultad de Filosofía y Humanidades",
-      "picture": "logos/logo-ffyh.png",
+      "startTime": "2026/07/22 09:00",
+      "endTime": "2026/07/22 16:00",
+      "unit": "Instituto de Estudios Avanzados en Educación",
+      "picture": "logos/logo-ie.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-decano-ffyh-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-ie-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "DECANO DE LA FACULTAD DE FILOSOFÍA Y HUMANIDADES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-decano-ffyh-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-decano-ffyh-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/07/09 09:00",
-      "endTime": "2026/07/10 17:00",
-      "unit": "Facultad de Ciencias Sociales",
-      "picture": "logos/logo-facso.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-facso-acad-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "REPRESENTANTES ACADÉMICOS(AS)",
-          "electionsData": [
-            {
-              "name": "REPRESENTANTES ACADÉMICOS(AS) AL CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-acad-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-acad-2026/public-info"
-            }
-          ]
-        },
-        {
-          "groupName": "REPRESENTANTES PERSONAL DE COLABORACIÓN",
-          "electionsData": [
-            {
-              "name": "REPRESENTANTES PERSONAL DE COLABORACIÓN AL CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-personal-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-personal-2026/public-info"
-            }
-          ]
-        },
-        {
-          "groupName": "REPRESENTANTES ESTUDIANTILES",
-          "electionsData": [
-            {
-              "name": "REPRESENTANTES ESTUDIANTILES DE PREGRADO AL CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-pregrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-pregrado-2026/public-info"
-            },
-            {
-              "name": "REPRESENTANTES ESTUDIANTILES DE POSTGRADO AL CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-postgrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-postgrado-2026/public-info"
+              "name": "COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD DEL IE",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-ie-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-ie-2026/public-info"
             }
           ]
         }
