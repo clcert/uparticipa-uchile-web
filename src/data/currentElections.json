@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/07/24 09:00",
-      "endTime": "2026/07/24 17:00",
-      "unit": "Facultad de Derecho",
-      "picture": "logos/logo-derecho.png",
+      "startTime": "2026/07/27 09:00",
+      "endTime": "2026/07/27 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-derecho-decano-2davuelta-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-csodontologicas-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DE DECANO(A) DE LA FACULTAD DE DERECHO - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-derecho-decano-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-derecho-decano-2davuelta-2026/public-info"
+              "name": "ELECCIÓN COMITÉ ACADÉMICO DEL PROGRAMA DE DOCTORADO EN CIENCIAS ODONTOLÓGICAS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-csodontologicas-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-csodontologicas-2026/public-info"
             }
           ]
         }
