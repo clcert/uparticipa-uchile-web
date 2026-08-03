@@ -1,21 +1,21 @@
 {
   "data": [
     {
-      "startTime": "2026/07/28 09:00",
-      "endTime": "2026/07/28 17:00",
-      "unit": "Facultad de Ciencias Sociales",
-      "picture": "logos/logo-facso.png",
+      "startTime": "2026/08/03 09:00",
+      "endTime": "2026/08/03 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-facso-decano-2davuelta-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-saludpub-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DE DECANO(A) FACULTAD DE CIENCIAS SOCIALES - SEGUNDA VUELTA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-decano-2davuelta-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-decano-2davuelta-2026/public-info"
+              "name": "ELECCIÓN DE COMITÉ ACADÉMICO ESPECIALIDAD EN SALUD PÚBLICA ODONTOLÓGICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-saludpub-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-saludpub-2026/public-info"
             }
           ]
         }
