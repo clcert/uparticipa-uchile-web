@@ -1,6 +1,27 @@
 {
   "data": [
     {
+      "startTime": "2026/08/11 08:00",
+      "endTime": "2026/08/11 17:00",
+      "unit": "Facultad de Gobierno",
+      "picture": "logos/logo-fagob.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-consulta-oficinas/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
+            {
+              "name": "CONSULTA DE MECANISMO DE ASIGNACIÓN DE OFICINAS DE ACADÉMICOS(AS) VM20",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consulta-oficinas/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consulta-oficinas/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "startTime": "2026/08/11 09:00",
       "endTime": "2026/08/11 17:00",
       "unit": "Facultad de Odontología",
@@ -16,27 +37,6 @@
               "name": "ELECCIÓN DE COMITÉ ACADÉMICO ESPECIALIDAD EN SALUD PÚBLICA ODONTOLÓGICA (SEGUNDA VUELTA)",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-saludpub-2davuelta-2026/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-saludpub-2davuelta-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/08/11 09:00",
-      "endTime": "2026/08/11 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-consulta-oficinas/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "CONSULTA DE MECANISMO DE ASIGNACIÓN DE OFICINAS DE ACADÉMICOS(AS) VM20",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consulta-oficinas/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consulta-oficinas/public-info"
             }
           ]
         }
