@@ -1,21 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2026/08/12 09:00",
-      "endTime": "2026/08/12 17:00",
-      "unit": "AFUCh Campus Medicina",
-      "picture": "logos/logo-medicina.png",
+      "startTime": "2026/08/17 09:00",
+      "endTime": "2026/08/17 17:00",
+      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
+      "picture": "logos/logo-fcfcn.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-afuch-medicina-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-consejo-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DE DIRECTORES AFUCH CAMPUS MEDICINA 2026-2028",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-afuch-medicina-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-afuch-medicina-2026/public-info"
+              "name": "ELECCIÓN DE CONSEJO DE FACULTAD",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-consejo-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-consejo-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE GESTIÓN FORESTAL Y SU MEDIO AMBIENTE",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-dgfma-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-dgfma-2026/public-info"
             }
           ]
         }
