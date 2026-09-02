@@ -38,3 +38,5 @@ export const isPending = (status) => PENDING_STATUSES.has(status);
 export const isFinished = (status) => FINISHED_STATUSES.has(status);
 
 export const isPaused = (status) => status === STATUS_PAUSED;
+
+export const isReleased = (status) => status === STATUS_RESULTS_RELEASED;

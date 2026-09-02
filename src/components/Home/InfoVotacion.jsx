@@ -1,6 +1,6 @@
 import React, { useId, useState } from 'react';
 import { formatDateRange } from '../../utils/electionDate';
-import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished, isPaused as checkPaused } from '../../utils/electionStatus';
+import { isStarted as checkStarted, isPending as checkPending, isFinished as checkFinished, isPaused as checkPaused, isReleased as checkReleased } from '../../utils/electionStatus';
 import useElectionStatus from '../../hooks/useElectionStatus';
 import ElectionCardHeader from './ElectionCardHeader';
 import ElectionGroup from './ElectionGroup';
@@ -15,6 +15,7 @@ function InfoVotacion({ electionData, singleProcess = false }) {
     const isPending = checkPending(status);
     const isPaused = checkPaused(status);
     const isFinished = checkFinished(status, { loading, error });
+    const isReleased = checkReleased(status);
     const isDisabled = !loading && !error && (isFinished || isPending);
 
     const totalElections = electionData.elections.reduce(
@@ -27,6 +28,7 @@ function InfoVotacion({ electionData, singleProcess = false }) {
             <ElectionCardHeader
                 picture={electionData.picture}
                 unit={electionData.unit}
+                title={electionData.title}
                 dateLabel={dateLabel}
                 loading={loading}
                 hasElections={hasElections}
@@ -49,7 +51,9 @@ function InfoVotacion({ electionData, singleProcess = false }) {
                             group={group}
                             isStarted={isStarted}
                             isFinished={isFinished}
-                            isPaused={isPaused} />
+                            isPaused={isPaused}
+                            isReleased={isReleased}
+                             />
                     ))}
                 </div>
             )}

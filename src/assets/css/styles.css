@@ -10532,6 +10532,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   line-height: 1;
 }
 
+.election-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #c8365e;
+  margin: 0;
+  line-height: 1.3;
+}
+
 .election-card-date {
   font-size: 1rem;
   font-weight: 600;

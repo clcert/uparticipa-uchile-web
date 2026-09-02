@@ -6,6 +6,7 @@ import loadingGif from '../../assets/images/loading.svg';
 function ElectionCardHeader({
     picture,
     unit,
+    title,
     dateLabel,
     loading,
     hasElections,
@@ -23,6 +24,11 @@ function ElectionCardHeader({
                         alt={"Logo " + unit} />
                 </div>
                 <div className="is-flex-grow-1 is-flex-shrink-1">
+                    { title && (
+                        <div className="election-card-meta mb-3">
+                            <p className="election-card-title">{title}</p>
+                        </div>
+                    )}
                     <div className="election-card-meta">
                         <p className="election-card-date-label">Fecha</p>
                         <p className="election-card-date">{dateLabel}</p>

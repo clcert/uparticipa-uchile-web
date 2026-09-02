@@ -1,7 +1,7 @@
 import React from 'react';
 
-function ElectionRow({ election, isStarted, isFinished, isPaused }) {
-    const showActions = isStarted || isFinished || isPaused;
+function ElectionRow({ election, isStarted, isFinished, isPaused, isReleased }) {
+    const showActions = isStarted || isFinished || isPaused || isReleased;
     return (
         <div className="election-row">
             <span className="election-row-name">{election.name}</span>
@@ -11,7 +11,7 @@ function ElectionRow({ election, isStarted, isFinished, isPaused }) {
                        target="_blank"
                        rel="noreferrer"
                        className="election-btn election-btn-info">
-                        Información
+                        {isReleased ? 'Resultados' : 'Información'}
                     </a>
                     {isStarted && (
                         <a href={election.vote_link}
