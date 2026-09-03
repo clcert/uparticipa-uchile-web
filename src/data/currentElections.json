@@ -1,26 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2026/08/17 09:00",
-      "endTime": "2026/08/17 17:00",
-      "unit": "Facultad de Ciencias Forestales y de la Conservación de la Naturaleza",
-      "picture": "logos/logo-fcfcn.png",
+      "startTime": "2026/09/03 08:00",
+      "endTime": "2026/09/03 16:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfcn-consejo-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-das-2davuelta-2026/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "",
+          "groupName": "Consejeros(as) de Departamento",
           "electionsData": [
             {
-              "name": "ELECCIÓN DE CONSEJO DE FACULTAD",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-consejo-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-consejo-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE ASTRONOMÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-das-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-das-2davuelta-2026/public-info"
             },
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE GESTIÓN FORESTAL Y SU MEDIO AMBIENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfcn-dgfma-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfcn-dgfma-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA MECÁNICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-dimec-2davuelta-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-dimec-2davuelta-2026/public-info"
             }
           ]
         }
