@@ -2,7 +2,7 @@ import AHevia from '../assets/images/people/ahevia.jpg';
 import CGomez from '../assets/images/people/cgomez.jpg';
 import CJaramillo from '../assets/images/people/cjaramillo.jpg'
 import FPerez from '../assets/images/people/fperez.png'
-import VDaie from '../assets/images/people/vdaie.jpeg'
+import VDaie from '../assets/images/people/vdaie.png'
 
 export const peopleList = [
     {
