@@ -1,42 +1,36 @@
 {
   "data": [
     {
-      "startTime": "2026/09/30 09:00",
-      "endTime": "2026/09/30 17:00",
-      "unit": "Facultad de Artes",
-      "picture": "logos/logo-artes.png",
+      "startTime": "2026/10/05 09:00",
+      "endTime": "2026/10/05 17:00",
+      "unit": "Facultad de Ciencias Sociales",
+      "picture": "logos/logo-facso.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-teoria-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-facso-sociologia-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE TEORÍA DE LAS ARTES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-teoria-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-teoria-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/09/28 09:00",
-      "endTime": "2026/09/30 16:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-fagob-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
+              "name": "ELECCIÓN DEPARTAMENTO DE ANTROPOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-antropologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-antropologia-2026/public-info"
+            },
             {
-              "name": "ELECCIÓN COMITÉ PARITARIO DE HIGIENE Y SEGURIDAD FACULTAD DE GOBIERNO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-fagob-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-fagob-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE EDUCACIÓN",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-educacion-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-educacion-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE PSICOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-psicologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-psicologia-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE SOCIOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-facso-sociologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-facso-sociologia-2026/public-info"
             }
           ]
         }
