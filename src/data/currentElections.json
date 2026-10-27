@@ -1,42 +1,57 @@
 {
   "data": [
     {
-      "startTime": "2026/10/21 09:00",
-      "endTime": "2026/10/21 17:00",
-      "unit": "Facultad de Filosofía y Humanidades",
-      "picture": "logos/logo-ffyh.png",
+      "startTime": "2026/10/27 09:00",
+      "endTime": "2026/10/27 17:00",
+      "unit": "Facultad de Odontología",
+      "picture": "logos/logo-odontologia.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-ffyh-filosofia-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-patologia-2026/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "",
+          "groupName": "CONSEJOS DE DEPARTAMENTOS",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE FILOSOFÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-ffyh-filosofia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-ffyh-filosofia-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE PATOLOGÍA Y MEDICINA ORAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologia-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE CIRUGÍA Y TRAUMATOLOGÍA BUCAL Y MAXILOFACIAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-cirugia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-cirugia-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE ODONTOLOGÍA RESTAURADORA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-restauradora-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-restauradora-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DEL NIÑO Y ORTOPEDIA DENTOMAXILAR",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ortopedia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ortopedia-2026/public-info"
             }
           ]
         }
       ]
     },
     {
-      "startTime": "2026/10/21 09:00",
-      "endTime": "2026/10/21 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2026/10/27 09:00",
+      "endTime": "2026/10/27 16:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-patologiabmf-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-oriente-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN COMITÉ ACADÉMICO PATOLOGÍA BUCO MÁXILO FACIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologiabmf-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologiabmf-2026/public-info"
+              "name": "ELECCIÓN CPHS FACULTAD DE MEDICINA CAMPUS ORIENTE",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-oriente-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-oriente-2026/public-info"
             }
           ]
         }
