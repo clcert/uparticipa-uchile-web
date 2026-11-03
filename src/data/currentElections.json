@@ -1,57 +1,26 @@
 {
   "data": [
     {
-      "startTime": "2026/10/27 09:00",
-      "endTime": "2026/10/27 17:00",
-      "unit": "Facultad de Odontología",
-      "picture": "logos/logo-odontologia.png",
+      "startTime": "2026/11/03 09:00",
+      "endTime": "2026/11/03 17:00",
+      "unit": "Facultad de Arquitectura y Urbanismo",
+      "picture": "logos/logo-fau.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-odonto-patologia-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "CONSEJOS DE DEPARTAMENTOS",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE PATOLOGÍA Y MEDICINA ORAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-patologia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-patologia-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE CIRUGÍA Y TRAUMATOLOGÍA BUCAL Y MAXILOFACIAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-cirugia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-cirugia-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE ODONTOLOGÍA RESTAURADORA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-restauradora-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-restauradora-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DEL NIÑO Y ORTOPEDIA DENTOMAXILAR",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-odonto-ortopedia-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-odonto-ortopedia-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/10/27 09:00",
-      "endTime": "2026/10/27 16:00",
-      "unit": "Facultad de Medicina",
-      "picture": "logos/logo-medicina.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cphs-medicina-oriente-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-arquitectura-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CPHS FACULTAD DE MEDICINA CAMPUS ORIENTE",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cphs-medicina-oriente-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cphs-medicina-oriente-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE ARQUITECTURA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-arquitectura-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-arquitectura-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN INSTITUTO DE HISTORIA Y PATRIMONIO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-ihp-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-ihp-2026/public-info"
             }
           ]
         }
