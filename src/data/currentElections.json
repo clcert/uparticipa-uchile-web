@@ -1,26 +1,97 @@
 {
   "data": [
     {
-      "startTime": "2026/11/03 09:00",
-      "endTime": "2026/11/03 17:00",
-      "unit": "Facultad de Arquitectura y Urbanismo",
-      "picture": "logos/logo-fau.png",
+      "startTime": "2026/11/04 08:00",
+      "endTime": "2026/11/05 16:00",
+      "unit": "Facultad de Ciencias Agronómicas",
+      "picture": "logos/logo-fca.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fau-arquitectura-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-consejo-acad-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "CONSEJO DE FACULTAD",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN REPRESENTANTES ACADÉMICOS(AS)",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-acad-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-acad-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE PREGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-pregrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-pregrado-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE POSTGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-postgrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-postgrado-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN REPRESENTANTES PERSONAL DE COLABORACIÓN",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-personal-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-personal-2026/public-info"
+            }
+          ]
+        },
+        {
+          "groupName": "CONSEJOS DE DEPARTAMENTOS",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE SANIDAD VEGETAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-sanidad-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-sanidad-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE PRODUCCIÓN AGRÍCOLA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agricola-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agricola-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE PRODUCCIÓN ANIMAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-animal-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-animal-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE CIENCIAS AMBIENTALES Y RECURSOS NATURALES",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-csambient-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-csambient-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE GESTIÓN E INNOVACIÓN RURAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-gestion-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-gestion-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE AGROINDUSTRIA Y ENOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agroindustria-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agroindustria-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA Y SUELOS",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-ingenieria-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-ingenieria-2026/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/11/04 09:00",
+      "endTime": "2026/11/04 17:00",
+      "unit": "Facultad de Artes",
+      "picture": "logos/logo-artes.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-sonido-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE ARQUITECTURA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-arquitectura-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-arquitectura-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN INSTITUTO DE HISTORIA Y PATRIMONIO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fau-ihp-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fau-ihp-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE SONIDO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-sonido-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-sonido-2026/public-info"
             }
           ]
         }
