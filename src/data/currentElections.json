@@ -2,6 +2,58 @@
   "data": [
     {
       "startTime": "2026/11/04 08:00",
+      "endTime": "2026/11/09 16:00",
+      "unit": "Facultad de Ciencias Agronómicas",
+      "picture": "logos/logo-fca.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-consejo-pregrado-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "CONSEJO DE FACULTAD",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE PREGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-pregrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-pregrado-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE POSTGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-postgrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-postgrado-2026/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/11/05 09:00",
+      "endTime": "2026/11/05 17:00",
+      "unit": "Facultad de Ciencias Físicas y Matemáticas",
+      "picture": "logos/logo-fcfm.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-escuela-pregrado-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "REPRESENTANTES ESTUDIANTILES A CONSEJOS DE ESCUELAS",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN ESTUDIANTES DE PREGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-escuela-pregrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-escuela-pregrado-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN ESTUDIANTES DE POSTGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-escuela-postgrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-escuela-postgrado-2026/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/11/04 08:00",
       "endTime": "2026/11/05 16:00",
       "unit": "Facultad de Ciencias Agronómicas",
       "picture": "logos/logo-fca.png",
@@ -16,16 +68,6 @@
               "name": "ELECCIÓN REPRESENTANTES ACADÉMICOS(AS)",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-acad-2026/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-acad-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE PREGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-pregrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-pregrado-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE POSTGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-postgrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-postgrado-2026/public-info"
             },
             {
               "name": "ELECCIÓN REPRESENTANTES PERSONAL DE COLABORACIÓN",
@@ -71,27 +113,6 @@
               "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA Y SUELOS",
               "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-ingenieria-2026/vote",
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-ingenieria-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/11/04 09:00",
-      "endTime": "2026/11/04 17:00",
-      "unit": "Facultad de Artes",
-      "picture": "logos/logo-artes.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-artes-sonido-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE SONIDO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-artes-sonido-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-artes-sonido-2026/public-info"
             }
           ]
         }
