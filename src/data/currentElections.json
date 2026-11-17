@@ -1,118 +1,62 @@
 {
   "data": [
     {
-      "startTime": "2026/11/04 08:00",
-      "endTime": "2026/11/09 16:00",
-      "unit": "Facultad de Ciencias Agronómicas",
-      "picture": "logos/logo-fca.png",
+      "startTime": "2026/11/17 09:00",
+      "endTime": "2026/11/18 17:00",
+      "unit": "Facultad de Gobierno",
+      "picture": "logos/logo-fagob.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-consejo-pregrado-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "CONSEJO DE FACULTAD",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE PREGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-pregrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-pregrado-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES DE POSTGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-postgrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-postgrado-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/11/05 09:00",
-      "endTime": "2026/11/05 17:00",
-      "unit": "Facultad de Ciencias Físicas y Matemáticas",
-      "picture": "logos/logo-fcfm.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fcfm-escuela-pregrado-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "REPRESENTANTES ESTUDIANTILES A CONSEJOS DE ESCUELAS",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN ESTUDIANTES DE PREGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-escuela-pregrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-escuela-pregrado-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN ESTUDIANTES DE POSTGRADO",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fcfm-escuela-postgrado-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fcfm-escuela-postgrado-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/11/04 08:00",
-      "endTime": "2026/11/05 16:00",
-      "unit": "Facultad de Ciencias Agronómicas",
-      "picture": "logos/logo-fca.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fca-consejo-acad-2026/get_status",
-      "message": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-consejo-acad-2026/get_status",
+      "message": "Elección de Representantes Estudiantiles al Consejo de Escuela de Gobierno y Gestión Pública cierra el martes 17 de noviembre a las 17:00 h.",
       "elections": [
         {
           "groupName": "CONSEJO DE FACULTAD",
           "electionsData": [
             {
               "name": "ELECCIÓN REPRESENTANTES ACADÉMICOS(AS)",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-acad-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-acad-2026/public-info"
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-acad-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-acad-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-estud-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-estud-2026/public-info"
             },
             {
               "name": "ELECCIÓN REPRESENTANTES PERSONAL DE COLABORACIÓN",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-consejo-personal-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-consejo-personal-2026/public-info"
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-personal-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-personal-2026/public-info"
             }
           ]
         },
         {
-          "groupName": "CONSEJOS DE DEPARTAMENTOS",
+          "groupName": "CONSEJO DE ESCUELA DE GOBIERNO Y GESTIÓN PÚBLICA",
           "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE SANIDAD VEGETAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-sanidad-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-sanidad-2026/public-info"
-            },
+              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES AL CONSEJO DE ESCUELA DE GOBIERNO Y GESTIÓN PÚBLICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-escuelagob-estud-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-escuelagob-estud-2026/public-info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": "2026/11/17 09:00",
+      "endTime": "2026/11/17 17:00",
+      "unit": "Departamento de Ciencias de la Computación",
+      "picture": "logos/logo-dcc.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-estrategico-2026/get_status",
+      "message": "",
+      "elections": [
+        {
+          "groupName": "",
+          "electionsData": [
             {
-              "name": "ELECCIÓN DEPARTAMENTO DE PRODUCCIÓN AGRÍCOLA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agricola-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agricola-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE PRODUCCIÓN ANIMAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-animal-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-animal-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE CIENCIAS AMBIENTALES Y RECURSOS NATURALES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-csambient-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-csambient-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE GESTIÓN E INNOVACIÓN RURAL",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-gestion-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-gestion-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE AGROINDUSTRIA Y ENOLOGÍA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-agroindustria-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-agroindustria-2026/public-info"
-            },
-            {
-              "name": "ELECCIÓN DEPARTAMENTO DE INGENIERÍA Y SUELOS",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fca-ingenieria-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fca-ingenieria-2026/public-info"
+              "name": "ELECCIÓN CONSEJO ESTRATÉGICO DCC 2026-2028",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-estrategico-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-estrategico-2026/public-info"
             }
           ]
         }
