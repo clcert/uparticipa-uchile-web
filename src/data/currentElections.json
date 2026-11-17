@@ -7,7 +7,7 @@
       "picture": "logos/logo-fagob.png",
       "title": "",
       "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-consejo-acad-2026/get_status",
-      "message": "Elección de Representantes Estudiantiles al Consejo de Escuela de Gobierno y Gestión Pública cierra el martes 17 de noviembre a las 17:00 h.",
+      "message": "",
       "elections": [
         {
           "groupName": "CONSEJO DE FACULTAD",
@@ -28,7 +28,18 @@
               "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-personal-2026/public-info"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "startTime": "2026/11/17 09:00",
+      "endTime": "2026/11/17 17:00",
+      "unit": "Facultad de Gobierno",
+      "picture": "logos/logo-fagob.png",
+      "title": "",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-escuelagob-estud-2026/get_status",
+      "message": "",
+      "elections": [
         {
           "groupName": "CONSEJO DE ESCUELA DE GOBIERNO Y GESTIÓN PÚBLICA",
           "electionsData": [
