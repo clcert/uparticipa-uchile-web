@@ -1,73 +1,92 @@
 {
   "data": [
     {
-      "startTime": "2026/11/17 09:00",
-      "endTime": "2026/11/18 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
+      "startTime": "2026/11/19 08:00",
+      "endTime": "2026/11/19 16:00",
+      "unit": "Facultad de Medicina",
+      "picture": "logos/logo-medicina.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-consejo-acad-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-medicina-cirugiaoccidente-2026/get_status",
       "message": "",
       "elections": [
         {
-          "groupName": "CONSEJO DE FACULTAD",
+          "groupName": "CONSEJOS DE DEPARTAMENTOS (REPRESENTANTES ACADÉMICOS/AS)",
           "electionsData": [
             {
-              "name": "ELECCIÓN REPRESENTANTES ACADÉMICOS(AS)",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-acad-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-acad-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE CIRUGÍA OCCIDENTE",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-cirugiaoccidente-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-cirugiaoccidente-2026/public-info"
             },
             {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-estud-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-estud-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE OTORRINOLARINGOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-otorrino-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-otorrino-2026/public-info"
             },
             {
-              "name": "ELECCIÓN REPRESENTANTES PERSONAL DE COLABORACIÓN",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-consejo-personal-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-consejo-personal-2026/public-info"
+              "name": "ELECCIÓN DEPARTAMENTO DE PSIQUIATRÍA Y SALUD MENTAL DE LA INFANCIA Y LA ADOLESCENCIA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-psiquiatria-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-psiquiatria-2026/public-info"
+            }
+          ]
+        },
+        {
+          "groupName": "CONSEJOS DE ESCUELAS (REPRESENTANTES ESTUDIANTILES)",
+          "electionsData": [
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE ENFERMERÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-enfermeria-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-enfermeria-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE FONOAUDIOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-fonoaudiologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-fonoaudiologia-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE KINESIOLOGÍA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-kinesiologia-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-kinesiologia-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE MEDICINA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-escuelamed-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-escuelamed-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE TECNOLOGÍA MÉDICA",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-tecnologiamed-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-tecnologiamed-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE TERAPIA OCUPACIONAL",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-terapiaocup-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-terapiaocup-2026/public-info"
+            },
+            {
+              "name": "ELECCIÓN CONSEJO DE ESCUELA DE POSTGRADO",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-medicina-postgrado-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-medicina-postgrado-2026/public-info"
             }
           ]
         }
       ]
     },
     {
-      "startTime": "2026/11/17 09:00",
-      "endTime": "2026/11/17 17:00",
-      "unit": "Facultad de Gobierno",
-      "picture": "logos/logo-fagob.png",
-      "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-fagob-escuelagob-estud-2026/get_status",
-      "message": "",
-      "elections": [
-        {
-          "groupName": "CONSEJO DE ESCUELA DE GOBIERNO Y GESTIÓN PÚBLICA",
-          "electionsData": [
-            {
-              "name": "ELECCIÓN REPRESENTANTES ESTUDIANTILES AL CONSEJO DE ESCUELA DE GOBIERNO Y GESTIÓN PÚBLICA",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-fagob-escuelagob-estud-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-fagob-escuelagob-estud-2026/public-info"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": "2026/11/17 09:00",
-      "endTime": "2026/11/17 17:00",
+      "startTime": "2026/11/19 00:00",
+      "endTime": "2026/11/20 17:00",
       "unit": "Departamento de Ciencias de la Computación",
-      "picture": "logos/logo-dcc.png",
+      "picture": "logos/logo-cadcc.png",
       "title": "",
-      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-dcc-estrategico-2026/get_status",
+      "status_link": "https://psifos-participa.uchile.cl/psifos/api/public/election/eleccion-cadcc-directiva-2026/get_status",
       "message": "",
       "elections": [
         {
           "groupName": "",
           "electionsData": [
             {
-              "name": "ELECCIÓN CONSEJO ESTRATÉGICO DCC 2026-2028",
-              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-dcc-estrategico-2026/vote",
-              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-dcc-estrategico-2026/public-info"
+              "name": "ELECCIÓN DIRECTIVA CADCC 2026-2027",
+              "vote_link": "https://psifos-participa.uchile.cl/psifos/api/app/eleccion-cadcc-directiva-2026/vote",
+              "info_link": "https://psifos-participa.uchile.cl/psifos/booth/eleccion-cadcc-directiva-2026/public-info"
             }
           ]
         }
